@@ -1,0 +1,8558 @@
+[
+    {
+        "foodId": 57,
+        "yieldId": 985,
+        "yieldAmount": 22,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 57,
+        "yieldId": 1391,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 66,
+        "yieldId": 985,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 67,
+        "yieldId": 985,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 112,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1346112000000
+    },
+    {
+        "foodId": 115,
+        "yieldId": 993,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 126,
+        "yieldId": 940,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 994204800000
+    },
+    {
+        "foodId": 127,
+        "yieldId": 940,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 994204800000
+    },
+    {
+        "foodId": 134,
+        "yieldId": 985,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 140,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1346112000000
+    },
+    {
+        "foodId": 153,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1346112000000
+    },
+    {
+        "foodId": 555,
+        "yieldId": 464,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 556,
+        "yieldId": 682,
+        "yieldAmount": 102,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 556,
+        "yieldId": 686,
+        "yieldAmount": 340,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 556,
+        "yieldId": 1395,
+        "yieldAmount": 1027,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 557,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 557,
+        "yieldId": 686,
+        "yieldAmount": 234,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 557,
+        "yieldId": 1395,
+        "yieldAmount": 707,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 558,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 558,
+        "yieldId": 686,
+        "yieldAmount": 226,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 558,
+        "yieldId": 1395,
+        "yieldAmount": 683,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 559,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 559,
+        "yieldId": 686,
+        "yieldAmount": 248,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 559,
+        "yieldId": 1395,
+        "yieldAmount": 750,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 560,
+        "yieldId": 686,
+        "yieldAmount": 304,
+        "yieldDateOfEntry": 1067299200000
+    },
+    {
+        "foodId": 561,
+        "yieldId": 682,
+        "yieldAmount": 102,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 561,
+        "yieldId": 686,
+        "yieldAmount": 309,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 561,
+        "yieldId": 1398,
+        "yieldAmount": 932,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 562,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 562,
+        "yieldId": 686,
+        "yieldAmount": 207,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 563,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 563,
+        "yieldId": 686,
+        "yieldAmount": 196,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 563,
+        "yieldId": 1398,
+        "yieldAmount": 598,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 564,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 564,
+        "yieldId": 686,
+        "yieldAmount": 221,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 565,
+        "yieldId": 686,
+        "yieldAmount": 217,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 565,
+        "yieldId": 1398,
+        "yieldAmount": 658,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 566,
+        "yieldId": 686,
+        "yieldAmount": 171,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 566,
+        "yieldId": 1398,
+        "yieldAmount": 516,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 566,
+        "yieldId": 1644,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 567,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 567,
+        "yieldId": 686,
+        "yieldAmount": 161,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 567,
+        "yieldId": 1398,
+        "yieldAmount": 486,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 568,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 568,
+        "yieldId": 686,
+        "yieldAmount": 173,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 568,
+        "yieldId": 1398,
+        "yieldAmount": 524,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 569,
+        "yieldId": 686,
+        "yieldAmount": 126,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 570,
+        "yieldId": 686,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 571,
+        "yieldId": 464,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 571,
+        "yieldId": 686,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 572,
+        "yieldId": 686,
+        "yieldAmount": 14,
+        "yieldDateOfEntry": 1065052800000
+    },
+    {
+        "foodId": 573,
+        "yieldId": 686,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 574,
+        "yieldId": 686,
+        "yieldAmount": 12,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 575,
+        "yieldId": 683,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 576,
+        "yieldId": 686,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 577,
+        "yieldId": 683,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 578,
+        "yieldId": 686,
+        "yieldAmount": 11,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 579,
+        "yieldId": 683,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 580,
+        "yieldId": 686,
+        "yieldAmount": 128,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 581,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 581,
+        "yieldId": 686,
+        "yieldAmount": 125,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 582,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 582,
+        "yieldId": 686,
+        "yieldAmount": 86,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 583,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 583,
+        "yieldId": 686,
+        "yieldAmount": 87,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 584,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 584,
+        "yieldId": 686,
+        "yieldAmount": 99,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 585,
+        "yieldId": 686,
+        "yieldAmount": 176,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 586,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 586,
+        "yieldId": 686,
+        "yieldAmount": 184,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 587,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 587,
+        "yieldId": 686,
+        "yieldAmount": 121,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 588,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 588,
+        "yieldId": 686,
+        "yieldAmount": 111,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 589,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 589,
+        "yieldId": 686,
+        "yieldAmount": 121,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 590,
+        "yieldId": 686,
+        "yieldAmount": 97,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 591,
+        "yieldId": 686,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 591,
+        "yieldId": 1644,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 592,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 592,
+        "yieldId": 686,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 593,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 593,
+        "yieldId": 686,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 594,
+        "yieldId": 686,
+        "yieldAmount": 120,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 595,
+        "yieldId": 686,
+        "yieldAmount": 100,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 595,
+        "yieldId": 1644,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 596,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 596,
+        "yieldId": 686,
+        "yieldAmount": 89,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 597,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 597,
+        "yieldId": 686,
+        "yieldAmount": 95,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 598,
+        "yieldId": 686,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 598,
+        "yieldId": 1642,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 599,
+        "yieldId": 686,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 599,
+        "yieldId": 1642,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 600,
+        "yieldId": 686,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 600,
+        "yieldId": 1643,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 601,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 601,
+        "yieldId": 686,
+        "yieldAmount": 93,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 602,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 602,
+        "yieldId": 686,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 603,
+        "yieldId": 686,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 603,
+        "yieldId": 1644,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 604,
+        "yieldId": 686,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 604,
+        "yieldId": 1642,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 605,
+        "yieldId": 686,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 605,
+        "yieldId": 1642,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 606,
+        "yieldId": 686,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 606,
+        "yieldId": 1642,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 607,
+        "yieldId": 686,
+        "yieldAmount": 111,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 608,
+        "yieldId": 686,
+        "yieldAmount": 105,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 608,
+        "yieldId": 1642,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 609,
+        "yieldId": 686,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 609,
+        "yieldId": 1642,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 610,
+        "yieldId": 686,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 610,
+        "yieldId": 1642,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 611,
+        "yieldId": 686,
+        "yieldAmount": 83,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 611,
+        "yieldId": 1642,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 612,
+        "yieldId": 686,
+        "yieldAmount": 86,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 613,
+        "yieldId": 686,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 613,
+        "yieldId": 1642,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 614,
+        "yieldId": 686,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 614,
+        "yieldId": 1643,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 615,
+        "yieldId": 686,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 615,
+        "yieldId": 1643,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1162425600000
+    },
+    {
+        "foodId": 616,
+        "yieldId": 686,
+        "yieldAmount": 17,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 617,
+        "yieldId": 686,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 617,
+        "yieldId": 1642,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 618,
+        "yieldId": 686,
+        "yieldAmount": 12,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 618,
+        "yieldId": 1642,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 619,
+        "yieldId": 686,
+        "yieldAmount": 12,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 619,
+        "yieldId": 1642,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 620,
+        "yieldId": 686,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 621,
+        "yieldId": 686,
+        "yieldAmount": 8,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 621,
+        "yieldId": 1643,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 622,
+        "yieldId": 686,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 622,
+        "yieldId": 1643,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 623,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 623,
+        "yieldId": 686,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 624,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 624,
+        "yieldId": 686,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 625,
+        "yieldId": 686,
+        "yieldAmount": 34,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 625,
+        "yieldId": 1644,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 626,
+        "yieldId": 686,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 627,
+        "yieldId": 686,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 627,
+        "yieldId": 1642,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 628,
+        "yieldId": 686,
+        "yieldAmount": 21,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 628,
+        "yieldId": 1642,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 629,
+        "yieldId": 686,
+        "yieldAmount": 23,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 629,
+        "yieldId": 1642,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 630,
+        "yieldId": 686,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 630,
+        "yieldId": 1642,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 631,
+        "yieldId": 686,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 632,
+        "yieldId": 686,
+        "yieldAmount": 13,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 632,
+        "yieldId": 1643,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 633,
+        "yieldId": 686,
+        "yieldAmount": 14,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 633,
+        "yieldId": 1642,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 634,
+        "yieldId": 686,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 634,
+        "yieldId": 1642,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 635,
+        "yieldId": 465,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 635,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 636,
+        "yieldId": 664,
+        "yieldAmount": 1072,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 636,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 636,
+        "yieldId": 686,
+        "yieldAmount": 259,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 637,
+        "yieldId": 686,
+        "yieldAmount": 323,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 638,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 638,
+        "yieldId": 686,
+        "yieldAmount": 231,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 639,
+        "yieldId": 686,
+        "yieldAmount": 230,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 640,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 640,
+        "yieldId": 686,
+        "yieldAmount": 188,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 641,
+        "yieldId": 465,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 641,
+        "yieldId": 686,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 642,
+        "yieldId": 686,
+        "yieldAmount": 17,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 643,
+        "yieldId": 686,
+        "yieldAmount": 106,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 644,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 644,
+        "yieldId": 686,
+        "yieldAmount": 86,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 645,
+        "yieldId": 463,
+        "yieldAmount": 9,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 646,
+        "yieldId": 666,
+        "yieldAmount": 593,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 646,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 646,
+        "yieldId": 686,
+        "yieldAmount": 223,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 647,
+        "yieldId": 686,
+        "yieldAmount": 299,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 648,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 648,
+        "yieldId": 686,
+        "yieldAmount": 196,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 649,
+        "yieldId": 686,
+        "yieldAmount": 214,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 650,
+        "yieldId": 463,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 650,
+        "yieldId": 686,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 651,
+        "yieldId": 666,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 652,
+        "yieldId": 686,
+        "yieldAmount": 98,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 653,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 653,
+        "yieldId": 686,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 654,
+        "yieldId": 686,
+        "yieldAmount": 116,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 655,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 655,
+        "yieldId": 686,
+        "yieldAmount": 80,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 657,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 657,
+        "yieldId": 686,
+        "yieldAmount": 240,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 658,
+        "yieldId": 686,
+        "yieldAmount": 327,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 659,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 659,
+        "yieldId": 686,
+        "yieldAmount": 216,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 660,
+        "yieldId": 466,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 660,
+        "yieldId": 686,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 661,
+        "yieldId": 665,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 1075680000000
+    },
+    {
+        "foodId": 662,
+        "yieldId": 686,
+        "yieldAmount": 316,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 663,
+        "yieldId": 686,
+        "yieldAmount": 191,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 663,
+        "yieldId": 1642,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 664,
+        "yieldId": 686,
+        "yieldAmount": 151,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 665,
+        "yieldId": 686,
+        "yieldAmount": 110,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 665,
+        "yieldId": 1643,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1162166400000
+    },
+    {
+        "foodId": 666,
+        "yieldId": 686,
+        "yieldAmount": 11,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 667,
+        "yieldId": 686,
+        "yieldAmount": 263,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 668,
+        "yieldId": 686,
+        "yieldAmount": 80,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 669,
+        "yieldId": 686,
+        "yieldAmount": 353,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 670,
+        "yieldId": 686,
+        "yieldAmount": 207,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 671,
+        "yieldId": 686,
+        "yieldAmount": 204,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 672,
+        "yieldId": 686,
+        "yieldAmount": 158,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 673,
+        "yieldId": 686,
+        "yieldAmount": 12,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 674,
+        "yieldId": 686,
+        "yieldAmount": 396,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 675,
+        "yieldId": 686,
+        "yieldAmount": 303,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 676,
+        "yieldId": 686,
+        "yieldAmount": 409,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 677,
+        "yieldId": 686,
+        "yieldAmount": 359,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 678,
+        "yieldId": 686,
+        "yieldAmount": 186,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 679,
+        "yieldId": 686,
+        "yieldAmount": 109,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 680,
+        "yieldId": 686,
+        "yieldAmount": 446,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 681,
+        "yieldId": 686,
+        "yieldAmount": 377,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 682,
+        "yieldId": 686,
+        "yieldAmount": 229,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 683,
+        "yieldId": 686,
+        "yieldAmount": 327,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 684,
+        "yieldId": 686,
+        "yieldAmount": 277,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 685,
+        "yieldId": 686,
+        "yieldAmount": 166,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 688,
+        "yieldId": 686,
+        "yieldAmount": 314,
+        "yieldDateOfEntry": 1268870400000
+    },
+    {
+        "foodId": 689,
+        "yieldId": 686,
+        "yieldAmount": 229,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 689,
+        "yieldId": 502455,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 690,
+        "yieldId": 686,
+        "yieldAmount": 283,
+        "yieldDateOfEntry": 1268870400000
+    },
+    {
+        "foodId": 691,
+        "yieldId": 686,
+        "yieldAmount": 208,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 691,
+        "yieldId": 1644,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 691,
+        "yieldId": 502455,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 692,
+        "yieldId": 686,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 693,
+        "yieldId": 681,
+        "yieldAmount": 100,
+        "yieldDateOfEntry": 1304985600000
+    },
+    {
+        "foodId": 693,
+        "yieldId": 686,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 694,
+        "yieldId": 470,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 694,
+        "yieldId": 686,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 695,
+        "yieldId": 686,
+        "yieldAmount": 11,
+        "yieldDateOfEntry": 901152000000
+    },
+    {
+        "foodId": 696,
+        "yieldId": 686,
+        "yieldAmount": 8,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 697,
+        "yieldId": 683,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 699,
+        "yieldId": 683,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 700,
+        "yieldId": 686,
+        "yieldAmount": 8,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 701,
+        "yieldId": 683,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 702,
+        "yieldId": 686,
+        "yieldAmount": 13,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 703,
+        "yieldId": 686,
+        "yieldAmount": 11,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 703,
+        "yieldId": 1642,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 704,
+        "yieldId": 686,
+        "yieldAmount": 192,
+        "yieldDateOfEntry": 1268870400000
+    },
+    {
+        "foodId": 705,
+        "yieldId": 686,
+        "yieldAmount": 142,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 705,
+        "yieldId": 502455,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 706,
+        "yieldId": 686,
+        "yieldAmount": 189,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 707,
+        "yieldId": 686,
+        "yieldAmount": 87,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 707,
+        "yieldId": 502455,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 708,
+        "yieldId": 686,
+        "yieldAmount": 174,
+        "yieldDateOfEntry": 1268870400000
+    },
+    {
+        "foodId": 709,
+        "yieldId": 686,
+        "yieldAmount": 129,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 709,
+        "yieldId": 1644,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 709,
+        "yieldId": 502455,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 710,
+        "yieldId": 686,
+        "yieldAmount": 106,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 711,
+        "yieldId": 686,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 711,
+        "yieldId": 1644,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 711,
+        "yieldId": 502455,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 712,
+        "yieldId": 686,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 713,
+        "yieldId": 686,
+        "yieldAmount": 14,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 713,
+        "yieldId": 502455,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 714,
+        "yieldId": 686,
+        "yieldAmount": 157,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 715,
+        "yieldId": 686,
+        "yieldAmount": 117,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 715,
+        "yieldId": 502455,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 716,
+        "yieldId": 686,
+        "yieldAmount": 107,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 717,
+        "yieldId": 686,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 717,
+        "yieldId": 502455,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 718,
+        "yieldId": 686,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 719,
+        "yieldId": 686,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 719,
+        "yieldId": 502455,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 722,
+        "yieldId": 686,
+        "yieldAmount": 325,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 723,
+        "yieldId": 686,
+        "yieldAmount": 233,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 723,
+        "yieldId": 502455,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 724,
+        "yieldId": 686,
+        "yieldAmount": 290,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 725,
+        "yieldId": 686,
+        "yieldAmount": 212,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 725,
+        "yieldId": 1644,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 725,
+        "yieldId": 502455,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 728,
+        "yieldId": 686,
+        "yieldAmount": 194,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 729,
+        "yieldId": 686,
+        "yieldAmount": 144,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 729,
+        "yieldId": 502455,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 730,
+        "yieldId": 686,
+        "yieldAmount": 131,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 731,
+        "yieldId": 686,
+        "yieldAmount": 89,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 731,
+        "yieldId": 502455,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 732,
+        "yieldId": 686,
+        "yieldAmount": 173,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 733,
+        "yieldId": 686,
+        "yieldAmount": 131,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 733,
+        "yieldId": 1644,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 733,
+        "yieldId": 502455,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 734,
+        "yieldId": 686,
+        "yieldAmount": 116,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 735,
+        "yieldId": 686,
+        "yieldAmount": 81,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 735,
+        "yieldId": 1644,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 735,
+        "yieldId": 502455,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 740,
+        "yieldId": 686,
+        "yieldAmount": 156,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 741,
+        "yieldId": 686,
+        "yieldAmount": 118,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 741,
+        "yieldId": 502455,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 742,
+        "yieldId": 686,
+        "yieldAmount": 145,
+        "yieldDateOfEntry": 1266278400000
+    },
+    {
+        "foodId": 743,
+        "yieldId": 686,
+        "yieldAmount": 110,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 743,
+        "yieldId": 1644,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 743,
+        "yieldId": 502455,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 744,
+        "yieldId": 686,
+        "yieldAmount": 111,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 745,
+        "yieldId": 686,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 745,
+        "yieldId": 1642,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 746,
+        "yieldId": 686,
+        "yieldAmount": 101,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 747,
+        "yieldId": 686,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 747,
+        "yieldId": 1644,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 747,
+        "yieldId": 502455,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 748,
+        "yieldId": 686,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 749,
+        "yieldId": 686,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 749,
+        "yieldId": 1642,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 750,
+        "yieldId": 686,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 751,
+        "yieldId": 686,
+        "yieldAmount": 21,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 751,
+        "yieldId": 1644,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 751,
+        "yieldId": 502455,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 754,
+        "yieldId": 686,
+        "yieldAmount": 328,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 755,
+        "yieldId": 686,
+        "yieldAmount": 225,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 755,
+        "yieldId": 502455,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 756,
+        "yieldId": 686,
+        "yieldAmount": 294,
+        "yieldDateOfEntry": 1265155200000
+    },
+    {
+        "foodId": 757,
+        "yieldId": 686,
+        "yieldAmount": 207,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 757,
+        "yieldId": 1643,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 757,
+        "yieldId": 502455,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 760,
+        "yieldId": 686,
+        "yieldAmount": 202,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 761,
+        "yieldId": 686,
+        "yieldAmount": 138,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 761,
+        "yieldId": 502455,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 762,
+        "yieldId": 686,
+        "yieldAmount": 117,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 763,
+        "yieldId": 686,
+        "yieldAmount": 87,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 763,
+        "yieldId": 502455,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 764,
+        "yieldId": 686,
+        "yieldAmount": 183,
+        "yieldDateOfEntry": 1265155200000
+    },
+    {
+        "foodId": 765,
+        "yieldId": 686,
+        "yieldAmount": 128,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 765,
+        "yieldId": 1643,
+        "yieldAmount": 70,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 765,
+        "yieldId": 502455,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 766,
+        "yieldId": 686,
+        "yieldAmount": 103,
+        "yieldDateOfEntry": 1265155200000
+    },
+    {
+        "foodId": 767,
+        "yieldId": 686,
+        "yieldAmount": 80,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 767,
+        "yieldId": 1643,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 767,
+        "yieldId": 502455,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 770,
+        "yieldId": 686,
+        "yieldAmount": 167,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 771,
+        "yieldId": 686,
+        "yieldAmount": 115,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 771,
+        "yieldId": 502455,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 772,
+        "yieldId": 686,
+        "yieldAmount": 108,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 773,
+        "yieldId": 686,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 773,
+        "yieldId": 1642,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 774,
+        "yieldId": 686,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 775,
+        "yieldId": 686,
+        "yieldAmount": 23,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 775,
+        "yieldId": 1642,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 778,
+        "yieldId": 686,
+        "yieldAmount": 298,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 779,
+        "yieldId": 686,
+        "yieldAmount": 234,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 779,
+        "yieldId": 1642,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 780,
+        "yieldId": 686,
+        "yieldAmount": 273,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 781,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 781,
+        "yieldId": 686,
+        "yieldAmount": 212,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 781,
+        "yieldId": 1642,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 781,
+        "yieldId": 1644,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 784,
+        "yieldId": 686,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 785,
+        "yieldId": 683,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 785,
+        "yieldId": 686,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 786,
+        "yieldId": 686,
+        "yieldAmount": 112,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 787,
+        "yieldId": 683,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 787,
+        "yieldId": 686,
+        "yieldAmount": 88,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 788,
+        "yieldId": 686,
+        "yieldAmount": 170,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 789,
+        "yieldId": 686,
+        "yieldAmount": 132,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 789,
+        "yieldId": 922,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 789,
+        "yieldId": 1644,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 790,
+        "yieldId": 686,
+        "yieldAmount": 103,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 791,
+        "yieldId": 686,
+        "yieldAmount": 80,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 791,
+        "yieldId": 922,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 791,
+        "yieldId": 1644,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 794,
+        "yieldId": 686,
+        "yieldAmount": 153,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 795,
+        "yieldId": 681,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 795,
+        "yieldId": 686,
+        "yieldAmount": 121,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 796,
+        "yieldId": 686,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 797,
+        "yieldId": 683,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 797,
+        "yieldId": 686,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 798,
+        "yieldId": 686,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 799,
+        "yieldId": 683,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 799,
+        "yieldId": 686,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 990144000000
+    },
+    {
+        "foodId": 816,
+        "yieldId": 683,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 1203379200000
+    },
+    {
+        "foodId": 817,
+        "yieldId": 686,
+        "yieldAmount": 270,
+        "yieldDateOfEntry": 1071446400000
+    },
+    {
+        "foodId": 818,
+        "yieldId": 686,
+        "yieldAmount": 209,
+        "yieldDateOfEntry": 902188800000
+    },
+    {
+        "foodId": 818,
+        "yieldId": 1642,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 819,
+        "yieldId": 686,
+        "yieldAmount": 220,
+        "yieldDateOfEntry": 902188800000
+    },
+    {
+        "foodId": 820,
+        "yieldId": 686,
+        "yieldAmount": 99,
+        "yieldDateOfEntry": 902188800000
+    },
+    {
+        "foodId": 820,
+        "yieldId": 1644,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 821,
+        "yieldId": 686,
+        "yieldAmount": 151,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 821,
+        "yieldId": 1644,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 822,
+        "yieldId": 686,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 1071446400000
+    },
+    {
+        "foodId": 823,
+        "yieldId": 686,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1071446400000
+    },
+    {
+        "foodId": 824,
+        "yieldId": 686,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1071446400000
+    },
+    {
+        "foodId": 832,
+        "yieldId": 686,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 1411603200000
+    },
+    {
+        "foodId": 833,
+        "yieldId": 686,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1411603200000
+    },
+    {
+        "foodId": 833,
+        "yieldId": 1642,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 834,
+        "yieldId": 686,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1411603200000
+    },
+    {
+        "foodId": 834,
+        "yieldId": 1642,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 835,
+        "yieldId": 686,
+        "yieldAmount": 34,
+        "yieldDateOfEntry": 1411689600000
+    },
+    {
+        "foodId": 836,
+        "yieldId": 686,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1411689600000
+    },
+    {
+        "foodId": 836,
+        "yieldId": 1643,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 837,
+        "yieldId": 686,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1411689600000
+    },
+    {
+        "foodId": 837,
+        "yieldId": 1643,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 838,
+        "yieldId": 686,
+        "yieldAmount": 96,
+        "yieldDateOfEntry": 1411344000000
+    },
+    {
+        "foodId": 839,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 839,
+        "yieldId": 686,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 1411344000000
+    },
+    {
+        "foodId": 840,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 840,
+        "yieldId": 686,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 1411516800000
+    },
+    {
+        "foodId": 842,
+        "yieldId": 686,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 1411344000000
+    },
+    {
+        "foodId": 842,
+        "yieldId": 1644,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 843,
+        "yieldId": 686,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 1411344000000
+    },
+    {
+        "foodId": 843,
+        "yieldId": 1644,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 845,
+        "yieldId": 686,
+        "yieldAmount": 116,
+        "yieldDateOfEntry": 1411430400000
+    },
+    {
+        "foodId": 845,
+        "yieldId": 1642,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 846,
+        "yieldId": 686,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1411430400000
+    },
+    {
+        "foodId": 846,
+        "yieldId": 1642,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 848,
+        "yieldId": 1643,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 849,
+        "yieldId": 686,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 849,
+        "yieldId": 1643,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 851,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1162252800000
+    },
+    {
+        "foodId": 852,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 852,
+        "yieldId": 686,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 1411516800000
+    },
+    {
+        "foodId": 854,
+        "yieldId": 1644,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 855,
+        "yieldId": 686,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1411516800000
+    },
+    {
+        "foodId": 855,
+        "yieldId": 1644,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 923,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 924,
+        "yieldId": 985,
+        "yieldAmount": 138,
+        "yieldDateOfEntry": 1426550400000
+    },
+    {
+        "foodId": 928,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 929,
+        "yieldId": 985,
+        "yieldAmount": 130,
+        "yieldDateOfEntry": 1417392000000
+    },
+    {
+        "foodId": 930,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1426809600000
+    },
+    {
+        "foodId": 931,
+        "yieldId": 985,
+        "yieldAmount": 134,
+        "yieldDateOfEntry": 1417392000000
+    },
+    {
+        "foodId": 933,
+        "yieldId": 985,
+        "yieldAmount": 136,
+        "yieldDateOfEntry": 1426809600000
+    },
+    {
+        "foodId": 934,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 936,
+        "yieldId": 985,
+        "yieldAmount": 134,
+        "yieldDateOfEntry": 1426809600000
+    },
+    {
+        "foodId": 938,
+        "yieldId": 985,
+        "yieldAmount": 136,
+        "yieldDateOfEntry": 1417478400000
+    },
+    {
+        "foodId": 940,
+        "yieldId": 985,
+        "yieldAmount": 130,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 944,
+        "yieldId": 985,
+        "yieldAmount": 132,
+        "yieldDateOfEntry": 1417392000000
+    },
+    {
+        "foodId": 947,
+        "yieldId": 985,
+        "yieldAmount": 130,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 948,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 949,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 950,
+        "yieldId": 985,
+        "yieldAmount": 130,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 951,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 953,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 954,
+        "yieldId": 985,
+        "yieldAmount": 130,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 957,
+        "yieldId": 985,
+        "yieldAmount": 136,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 964,
+        "yieldId": 985,
+        "yieldAmount": 136,
+        "yieldDateOfEntry": 1417478400000
+    },
+    {
+        "foodId": 965,
+        "yieldId": 455,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 965,
+        "yieldId": 985,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 966,
+        "yieldId": 455,
+        "yieldAmount": 12,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 966,
+        "yieldId": 985,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 967,
+        "yieldId": 985,
+        "yieldAmount": 8,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 968,
+        "yieldId": 455,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 968,
+        "yieldId": 985,
+        "yieldAmount": 5,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 969,
+        "yieldId": 455,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 969,
+        "yieldId": 985,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 970,
+        "yieldId": 455,
+        "yieldAmount": 8,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 970,
+        "yieldId": 985,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 971,
+        "yieldId": 455,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 971,
+        "yieldId": 985,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 972,
+        "yieldId": 455,
+        "yieldAmount": 3,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 972,
+        "yieldId": 985,
+        "yieldAmount": 8,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 973,
+        "yieldId": 455,
+        "yieldAmount": 3,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 973,
+        "yieldId": 985,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 974,
+        "yieldId": 455,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 974,
+        "yieldId": 985,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 975,
+        "yieldId": 455,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 975,
+        "yieldId": 985,
+        "yieldAmount": 17,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 976,
+        "yieldId": 455,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 976,
+        "yieldId": 985,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 979,
+        "yieldId": 455,
+        "yieldAmount": 5,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 979,
+        "yieldId": 985,
+        "yieldAmount": 14,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 980,
+        "yieldId": 455,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 980,
+        "yieldId": 985,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 981,
+        "yieldId": 455,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 981,
+        "yieldId": 985,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 982,
+        "yieldId": 985,
+        "yieldAmount": 17,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 983,
+        "yieldId": 455,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 983,
+        "yieldId": 985,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 984,
+        "yieldId": 985,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 985,
+        "yieldId": 455,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 985,
+        "yieldId": 985,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 986,
+        "yieldId": 455,
+        "yieldAmount": 8,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 986,
+        "yieldId": 985,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 987,
+        "yieldId": 455,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 987,
+        "yieldId": 985,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 988,
+        "yieldId": 455,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 988,
+        "yieldId": 985,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 994,
+        "yieldId": 455,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 994,
+        "yieldId": 921,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 994,
+        "yieldId": 985,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1000,
+        "yieldId": 455,
+        "yieldAmount": 4,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1000,
+        "yieldId": 1390,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1002,
+        "yieldId": 455,
+        "yieldAmount": 9,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1002,
+        "yieldId": 1390,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1004,
+        "yieldId": 455,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1004,
+        "yieldId": 1390,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1006,
+        "yieldId": 455,
+        "yieldAmount": 9,
+        "yieldDateOfEntry": 1205107200000
+    },
+    {
+        "foodId": 1006,
+        "yieldId": 1390,
+        "yieldAmount": 5,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1007,
+        "yieldId": 455,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1007,
+        "yieldId": 1390,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1008,
+        "yieldId": 455,
+        "yieldAmount": 9,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1008,
+        "yieldId": 1390,
+        "yieldAmount": 5,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1010,
+        "yieldId": 455,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1010,
+        "yieldId": 1390,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1011,
+        "yieldId": 455,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1011,
+        "yieldId": 1390,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1012,
+        "yieldId": 985,
+        "yieldAmount": 16,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1116,
+        "yieldId": 985,
+        "yieldAmount": 139,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1118,
+        "yieldId": 985,
+        "yieldAmount": 142,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1119,
+        "yieldId": 985,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1120,
+        "yieldId": 455,
+        "yieldAmount": 4,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1120,
+        "yieldId": 985,
+        "yieldAmount": 10,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1121,
+        "yieldId": 985,
+        "yieldAmount": 139,
+        "yieldDateOfEntry": 1417478400000
+    },
+    {
+        "foodId": 1175,
+        "yieldId": 681,
+        "yieldAmount": 84,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 1182,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 1199,
+        "yieldId": 683,
+        "yieldAmount": 86,
+        "yieldDateOfEntry": 1405987200000
+    },
+    {
+        "foodId": 1224,
+        "yieldId": 1582,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1228,
+        "yieldId": 1582,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1092182400000
+    },
+    {
+        "foodId": 1397,
+        "yieldId": 1582,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1399,
+        "yieldId": 1582,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1401,
+        "yieldId": 1582,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1403,
+        "yieldId": 1582,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1413,
+        "yieldId": 1582,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1415,
+        "yieldId": 1582,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1419,
+        "yieldId": 1582,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1421,
+        "yieldId": 1582,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1423,
+        "yieldId": 1582,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1431,
+        "yieldId": 1582,
+        "yieldAmount": 23,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1435,
+        "yieldId": 1582,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1437,
+        "yieldId": 1582,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1439,
+        "yieldId": 1582,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1443,
+        "yieldId": 1582,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1462,
+        "yieldId": 1582,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1464,
+        "yieldId": 1582,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 1466,
+        "yieldId": 1582,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1190937600000
+    },
+    {
+        "foodId": 1470,
+        "yieldId": 1582,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1190937600000
+    },
+    {
+        "foodId": 1496,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1496,
+        "yieldId": 985,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1571,
+        "yieldId": 921,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1571,
+        "yieldId": 985,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1572,
+        "yieldId": 460,
+        "yieldAmount": 196,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1589,
+        "yieldId": 1044,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 1051574400000
+    },
+    {
+        "foodId": 1589,
+        "yieldId": 1045,
+        "yieldAmount": 6,
+        "yieldDateOfEntry": 1051574400000
+    },
+    {
+        "foodId": 1594,
+        "yieldId": 1044,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1051574400000
+    },
+    {
+        "foodId": 1594,
+        "yieldId": 1045,
+        "yieldAmount": 5,
+        "yieldDateOfEntry": 1051574400000
+    },
+    {
+        "foodId": 1619,
+        "yieldId": 461,
+        "yieldAmount": 86,
+        "yieldDateOfEntry": 1387497600000
+    },
+    {
+        "foodId": 1658,
+        "yieldId": 921,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1658,
+        "yieldId": 985,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1691,
+        "yieldId": 1045,
+        "yieldAmount": 128,
+        "yieldDateOfEntry": 1437350400000
+    },
+    {
+        "foodId": 1719,
+        "yieldId": 921,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1719,
+        "yieldId": 985,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1724,
+        "yieldId": 921,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1724,
+        "yieldId": 985,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1753,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1753,
+        "yieldId": 985,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 1762,
+        "yieldId": 683,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1071532800000
+    },
+    {
+        "foodId": 1764,
+        "yieldId": 683,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1766,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1768,
+        "yieldId": 683,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1770,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1772,
+        "yieldId": 683,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1774,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1775,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1776,
+        "yieldId": 683,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1778,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1779,
+        "yieldId": 683,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1780,
+        "yieldId": 683,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1782,
+        "yieldId": 683,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1783,
+        "yieldId": 683,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1784,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1786,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1787,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1788,
+        "yieldId": 683,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1790,
+        "yieldId": 683,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1791,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1792,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1794,
+        "yieldId": 683,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1795,
+        "yieldId": 683,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1796,
+        "yieldId": 683,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1798,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1799,
+        "yieldId": 683,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1800,
+        "yieldId": 683,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1802,
+        "yieldId": 683,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1803,
+        "yieldId": 683,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1804,
+        "yieldId": 683,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1808,
+        "yieldId": 683,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1812,
+        "yieldId": 683,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1814,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1816,
+        "yieldId": 683,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1818,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1819,
+        "yieldId": 683,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1821,
+        "yieldId": 683,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1822,
+        "yieldId": 683,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1823,
+        "yieldId": 683,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1824,
+        "yieldId": 683,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1825,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1826,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 1053043200000
+    },
+    {
+        "foodId": 1827,
+        "yieldId": 683,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1828,
+        "yieldId": 683,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1829,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1830,
+        "yieldId": 683,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1833,
+        "yieldId": 683,
+        "yieldAmount": 84,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1835,
+        "yieldId": 683,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1837,
+        "yieldId": 683,
+        "yieldAmount": 93,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1842,
+        "yieldId": 683,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1845,
+        "yieldId": 683,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1847,
+        "yieldId": 683,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1850,
+        "yieldId": 683,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1852,
+        "yieldId": 683,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1855,
+        "yieldId": 683,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1861,
+        "yieldId": 681,
+        "yieldAmount": 85,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1865,
+        "yieldId": 681,
+        "yieldAmount": 83,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1869,
+        "yieldId": 675,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1869,
+        "yieldId": 683,
+        "yieldAmount": 91,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1876,
+        "yieldId": 681,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1877,
+        "yieldId": 681,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1878,
+        "yieldId": 681,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1881,
+        "yieldId": 683,
+        "yieldAmount": 61,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1882,
+        "yieldId": 683,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1883,
+        "yieldId": 683,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1884,
+        "yieldId": 683,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1885,
+        "yieldId": 683,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1888,
+        "yieldId": 681,
+        "yieldAmount": 86,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1894,
+        "yieldId": 683,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1156809600000
+    },
+    {
+        "foodId": 1896,
+        "yieldId": 683,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1897,
+        "yieldId": 683,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1898,
+        "yieldId": 683,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1899,
+        "yieldId": 683,
+        "yieldAmount": 70,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1901,
+        "yieldId": 683,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1902,
+        "yieldId": 683,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1903,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1904,
+        "yieldId": 683,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1906,
+        "yieldId": 683,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1907,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1909,
+        "yieldId": 683,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1910,
+        "yieldId": 683,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1912,
+        "yieldId": 683,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1913,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1914,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1916,
+        "yieldId": 683,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1917,
+        "yieldId": 683,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1918,
+        "yieldId": 683,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1932,
+        "yieldId": 683,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 1153440000000
+    },
+    {
+        "foodId": 1934,
+        "yieldId": 683,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 1156809600000
+    },
+    {
+        "foodId": 1938,
+        "yieldId": 683,
+        "yieldAmount": 89,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1941,
+        "yieldId": 681,
+        "yieldAmount": 93,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1944,
+        "yieldId": 683,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 1153440000000
+    },
+    {
+        "foodId": 1961,
+        "yieldId": 683,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1962,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1964,
+        "yieldId": 683,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 1151452800000
+    },
+    {
+        "foodId": 1966,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1151452800000
+    },
+    {
+        "foodId": 1968,
+        "yieldId": 683,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1151539200000
+    },
+    {
+        "foodId": 1970,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1151625600000
+    },
+    {
+        "foodId": 1971,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 1972,
+        "yieldId": 683,
+        "yieldAmount": 87,
+        "yieldDateOfEntry": 1156723200000
+    },
+    {
+        "foodId": 1974,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1156723200000
+    },
+    {
+        "foodId": 2068,
+        "yieldId": 458,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1054598400000
+    },
+    {
+        "foodId": 2071,
+        "yieldId": 458,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1054598400000
+    },
+    {
+        "foodId": 2173,
+        "yieldId": 921,
+        "yieldAmount": 12,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2173,
+        "yieldId": 1584,
+        "yieldAmount": 13,
+        "yieldDateOfEntry": 1281916800000
+    },
+    {
+        "foodId": 2175,
+        "yieldId": 921,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2175,
+        "yieldId": 1584,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1281916800000
+    },
+    {
+        "foodId": 2177,
+        "yieldId": 921,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2177,
+        "yieldId": 1584,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1281916800000
+    },
+    {
+        "foodId": 2393,
+        "yieldId": 458,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1057622400000
+    },
+    {
+        "foodId": 2426,
+        "yieldId": 921,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092355200000
+    },
+    {
+        "foodId": 2426,
+        "yieldId": 1584,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092355200000
+    },
+    {
+        "foodId": 2428,
+        "yieldId": 921,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1092355200000
+    },
+    {
+        "foodId": 2428,
+        "yieldId": 1584,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1092355200000
+    },
+    {
+        "foodId": 2429,
+        "yieldId": 645,
+        "yieldAmount": 822,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2429,
+        "yieldId": 921,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1281916800000
+    },
+    {
+        "foodId": 2566,
+        "yieldId": 457,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2590,
+        "yieldId": 1327,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1060214400000
+    },
+    {
+        "foodId": 2651,
+        "yieldId": 683,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2652,
+        "yieldId": 683,
+        "yieldAmount": 87,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2654,
+        "yieldId": 683,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2655,
+        "yieldId": 683,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2656,
+        "yieldId": 683,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2657,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2659,
+        "yieldId": 683,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2662,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2664,
+        "yieldId": 683,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2667,
+        "yieldId": 683,
+        "yieldAmount": 84,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2669,
+        "yieldId": 683,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2685,
+        "yieldId": 683,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2687,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 984960000000
+    },
+    {
+        "foodId": 2689,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2692,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2694,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 984960000000
+    },
+    {
+        "foodId": 2696,
+        "yieldId": 683,
+        "yieldAmount": 61,
+        "yieldDateOfEntry": 983404800000
+    },
+    {
+        "foodId": 2698,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2700,
+        "yieldId": 683,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 984960000000
+    },
+    {
+        "foodId": 2702,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 984960000000
+    },
+    {
+        "foodId": 2704,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2712,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2713,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2790,
+        "yieldId": 681,
+        "yieldAmount": 70,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2828,
+        "yieldId": 683,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1032393600000
+    },
+    {
+        "foodId": 2841,
+        "yieldId": 1588,
+        "yieldAmount": 17,
+        "yieldDateOfEntry": 1092700800000
+    },
+    {
+        "foodId": 2866,
+        "yieldId": 1591,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1092700800000
+    },
+    {
+        "foodId": 2869,
+        "yieldId": 1591,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092700800000
+    },
+    {
+        "foodId": 2874,
+        "yieldId": 1591,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 1092700800000
+    },
+    {
+        "foodId": 2876,
+        "yieldId": 1591,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 1092700800000
+    },
+    {
+        "foodId": 2878,
+        "yieldId": 1591,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 1092700800000
+    },
+    {
+        "foodId": 2880,
+        "yieldId": 1591,
+        "yieldAmount": 13,
+        "yieldDateOfEntry": 1214265600000
+    },
+    {
+        "foodId": 2881,
+        "yieldId": 1591,
+        "yieldAmount": 13,
+        "yieldDateOfEntry": 1214265600000
+    },
+    {
+        "foodId": 2882,
+        "yieldId": 1591,
+        "yieldAmount": 13,
+        "yieldDateOfEntry": 1214265600000
+    },
+    {
+        "foodId": 2883,
+        "yieldId": 1591,
+        "yieldAmount": 3,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2888,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2888,
+        "yieldId": 985,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2892,
+        "yieldId": 921,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2892,
+        "yieldId": 985,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2894,
+        "yieldId": 985,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2896,
+        "yieldId": 985,
+        "yieldAmount": 22,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 2898,
+        "yieldId": 985,
+        "yieldAmount": 22,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2900,
+        "yieldId": 985,
+        "yieldAmount": 22,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 2902,
+        "yieldId": 985,
+        "yieldAmount": 22,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2907,
+        "yieldId": 985,
+        "yieldAmount": 34,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2910,
+        "yieldId": 1591,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2912,
+        "yieldId": 1591,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2914,
+        "yieldId": 1591,
+        "yieldAmount": 17,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2921,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2921,
+        "yieldId": 985,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2939,
+        "yieldId": 921,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2939,
+        "yieldId": 985,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2953,
+        "yieldId": 1591,
+        "yieldAmount": 14,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2957,
+        "yieldId": 985,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2962,
+        "yieldId": 985,
+        "yieldAmount": 2,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2964,
+        "yieldId": 985,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2973,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2973,
+        "yieldId": 985,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2975,
+        "yieldId": 921,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 2975,
+        "yieldId": 985,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2980,
+        "yieldId": 985,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2982,
+        "yieldId": 985,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 2992,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 2994,
+        "yieldId": 684,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1028592000000
+    },
+    {
+        "foodId": 3001,
+        "yieldId": 684,
+        "yieldAmount": 91,
+        "yieldDateOfEntry": 1028592000000
+    },
+    {
+        "foodId": 3005,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3007,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3010,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3012,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3015,
+        "yieldId": 684,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3022,
+        "yieldId": 684,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3027,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3030,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3032,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3035,
+        "yieldId": 684,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3037,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3040,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3042,
+        "yieldId": 684,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3044,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3053,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3057,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3063,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3067,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3076,
+        "yieldId": 683,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3078,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3090,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3094,
+        "yieldId": 671,
+        "yieldAmount": 134,
+        "yieldDateOfEntry": 1073865600000
+    },
+    {
+        "foodId": 3103,
+        "yieldId": 642,
+        "yieldAmount": 3,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3109,
+        "yieldId": 502522,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1391990400000
+    },
+    {
+        "foodId": 3120,
+        "yieldId": 683,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3134,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3135,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3136,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3137,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3138,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3139,
+        "yieldId": 684,
+        "yieldAmount": 93,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3140,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3141,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3142,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3143,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3144,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3145,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3146,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3147,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3148,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3151,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3152,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3153,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3155,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3156,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3157,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3158,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3159,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3160,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3161,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3162,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3163,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3164,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3165,
+        "yieldId": 684,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3166,
+        "yieldId": 684,
+        "yieldAmount": 113,
+        "yieldDateOfEntry": 1028592000000
+    },
+    {
+        "foodId": 3168,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3169,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3170,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3171,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1028592000000
+    },
+    {
+        "foodId": 3172,
+        "yieldId": 670,
+        "yieldAmount": 131,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3179,
+        "yieldId": 684,
+        "yieldAmount": 90,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3181,
+        "yieldId": 684,
+        "yieldAmount": 90,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3183,
+        "yieldId": 684,
+        "yieldAmount": 90,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3185,
+        "yieldId": 684,
+        "yieldAmount": 90,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3187,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3193,
+        "yieldId": 684,
+        "yieldAmount": 90,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3195,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3199,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3206,
+        "yieldId": 684,
+        "yieldAmount": 90,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3215,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3220,
+        "yieldId": 684,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3227,
+        "yieldId": 684,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3228,
+        "yieldId": 684,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3243,
+        "yieldId": 921,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3243,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3252,
+        "yieldId": 921,
+        "yieldAmount": 34,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3252,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3255,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3255,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3257,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3257,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3259,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3259,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3267,
+        "yieldId": 921,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3267,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3269,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3269,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3272,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3272,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3274,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3274,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3280,
+        "yieldId": 921,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3280,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3282,
+        "yieldId": 921,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3282,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3286,
+        "yieldId": 921,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3286,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3288,
+        "yieldId": 921,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3288,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3291,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3291,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3293,
+        "yieldId": 921,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3293,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3295,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3295,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3297,
+        "yieldId": 921,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3297,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3300,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3300,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3303,
+        "yieldId": 1327,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1272412800000
+    },
+    {
+        "foodId": 3305,
+        "yieldId": 1327,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1272412800000
+    },
+    {
+        "foodId": 3307,
+        "yieldId": 1327,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1272412800000
+    },
+    {
+        "foodId": 3312,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3312,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3334,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3334,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3336,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3336,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3376,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3376,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3380,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3380,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3381,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3381,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3383,
+        "yieldId": 921,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3383,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3385,
+        "yieldId": 921,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3385,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3387,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3387,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3389,
+        "yieldId": 921,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3389,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3392,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1265932800000
+    },
+    {
+        "foodId": 3392,
+        "yieldId": 1591,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 1265932800000
+    },
+    {
+        "foodId": 3394,
+        "yieldId": 921,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3394,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3396,
+        "yieldId": 1327,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1272412800000
+    },
+    {
+        "foodId": 3400,
+        "yieldId": 921,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3400,
+        "yieldId": 1591,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1196726400000
+    },
+    {
+        "foodId": 3423,
+        "yieldId": 683,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3425,
+        "yieldId": 683,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3429,
+        "yieldId": 683,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3433,
+        "yieldId": 683,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3445,
+        "yieldId": 683,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3446,
+        "yieldId": 683,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3452,
+        "yieldId": 683,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3460,
+        "yieldId": 683,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3479,
+        "yieldId": 683,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3480,
+        "yieldId": 683,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3482,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3484,
+        "yieldId": 683,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3486,
+        "yieldId": 683,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3488,
+        "yieldId": 683,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3490,
+        "yieldId": 683,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3492,
+        "yieldId": 683,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3494,
+        "yieldId": 683,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3495,
+        "yieldId": 683,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3496,
+        "yieldId": 683,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3497,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3498,
+        "yieldId": 683,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3500,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3502,
+        "yieldId": 683,
+        "yieldAmount": 34,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3504,
+        "yieldId": 683,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3506,
+        "yieldId": 683,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1066348800000
+    },
+    {
+        "foodId": 3508,
+        "yieldId": 683,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3510,
+        "yieldId": 683,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3512,
+        "yieldId": 683,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3514,
+        "yieldId": 683,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3515,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3516,
+        "yieldId": 683,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3517,
+        "yieldId": 683,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3519,
+        "yieldId": 683,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3520,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3521,
+        "yieldId": 683,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3522,
+        "yieldId": 683,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3523,
+        "yieldId": 683,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3524,
+        "yieldId": 683,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3525,
+        "yieldId": 683,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3526,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 1066694400000
+    },
+    {
+        "foodId": 3527,
+        "yieldId": 683,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1066694400000
+    },
+    {
+        "foodId": 3528,
+        "yieldId": 683,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3530,
+        "yieldId": 683,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3531,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3533,
+        "yieldId": 683,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3534,
+        "yieldId": 683,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3536,
+        "yieldId": 683,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3537,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 3539,
+        "yieldId": 683,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3540,
+        "yieldId": 683,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 3541,
+        "yieldId": 683,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3542,
+        "yieldId": 683,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3543,
+        "yieldId": 683,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3544,
+        "yieldId": 683,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3545,
+        "yieldId": 683,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3546,
+        "yieldId": 683,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3548,
+        "yieldId": 683,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3549,
+        "yieldId": 683,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3551,
+        "yieldId": 683,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3552,
+        "yieldId": 683,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3554,
+        "yieldId": 683,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3555,
+        "yieldId": 683,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3557,
+        "yieldId": 683,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3558,
+        "yieldId": 683,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3560,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3562,
+        "yieldId": 683,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3564,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3566,
+        "yieldId": 682,
+        "yieldAmount": 61,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3568,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3570,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3572,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3574,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3576,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3578,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3580,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3582,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3584,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3586,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3588,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3590,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3591,
+        "yieldId": 682,
+        "yieldAmount": 88,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 3593,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3594,
+        "yieldId": 682,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3596,
+        "yieldId": 682,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3597,
+        "yieldId": 682,
+        "yieldAmount": 88,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3599,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3601,
+        "yieldId": 683,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3602,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3604,
+        "yieldId": 683,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3605,
+        "yieldId": 683,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3607,
+        "yieldId": 683,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3609,
+        "yieldId": 683,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3611,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3613,
+        "yieldId": 683,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3615,
+        "yieldId": 683,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3616,
+        "yieldId": 683,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3618,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 3619,
+        "yieldId": 683,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 3621,
+        "yieldId": 683,
+        "yieldAmount": 84,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3623,
+        "yieldId": 683,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3626,
+        "yieldId": 683,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3628,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3630,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3632,
+        "yieldId": 683,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3636,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3638,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3640,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3650,
+        "yieldId": 683,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3651,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 3653,
+        "yieldId": 683,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3655,
+        "yieldId": 683,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3657,
+        "yieldId": 683,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 3659,
+        "yieldId": 683,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1433462400000
+    },
+    {
+        "foodId": 3661,
+        "yieldId": 683,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 992217600000
+    },
+    {
+        "foodId": 3663,
+        "yieldId": 683,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 3665,
+        "yieldId": 683,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3667,
+        "yieldId": 683,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 3679,
+        "yieldId": 1365,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3679,
+        "yieldId": 1502,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3681,
+        "yieldId": 1371,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3681,
+        "yieldId": 1372,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 1116374400000
+    },
+    {
+        "foodId": 3683,
+        "yieldId": 1371,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3683,
+        "yieldId": 1372,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3683,
+        "yieldId": 1502,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3686,
+        "yieldId": 1365,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3686,
+        "yieldId": 1502,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3691,
+        "yieldId": 1502,
+        "yieldAmount": 23,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3691,
+        "yieldId": 1506,
+        "yieldAmount": 12,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3742,
+        "yieldId": 921,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3742,
+        "yieldId": 1504,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3745,
+        "yieldId": 1502,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3745,
+        "yieldId": 1513,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1137024000000
+    },
+    {
+        "foodId": 3750,
+        "yieldId": 1512,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3750,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3755,
+        "yieldId": 1512,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3755,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3757,
+        "yieldId": 1512,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3757,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3764,
+        "yieldId": 1502,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3764,
+        "yieldId": 1516,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3769,
+        "yieldId": 1512,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3769,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3771,
+        "yieldId": 1512,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3771,
+        "yieldId": 1514,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3774,
+        "yieldId": 1512,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3774,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3788,
+        "yieldId": 1512,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3788,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3790,
+        "yieldId": 1512,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3790,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3795,
+        "yieldId": 1512,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3795,
+        "yieldId": 1513,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3797,
+        "yieldId": 1512,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3797,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3805,
+        "yieldId": 1519,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3805,
+        "yieldId": 1520,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3814,
+        "yieldId": 1523,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3814,
+        "yieldId": 1524,
+        "yieldAmount": 18,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3816,
+        "yieldId": 1523,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3816,
+        "yieldId": 1524,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3833,
+        "yieldId": 1523,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3833,
+        "yieldId": 1524,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3835,
+        "yieldId": 1523,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3835,
+        "yieldId": 1524,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3840,
+        "yieldId": 1523,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3840,
+        "yieldId": 1524,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3850,
+        "yieldId": 1523,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3850,
+        "yieldId": 1524,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3917,
+        "yieldId": 1548,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3917,
+        "yieldId": 1549,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3926,
+        "yieldId": 1548,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3926,
+        "yieldId": 1549,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3931,
+        "yieldId": 1365,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3931,
+        "yieldId": 1551,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3933,
+        "yieldId": 1365,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3933,
+        "yieldId": 1551,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3937,
+        "yieldId": 1365,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3937,
+        "yieldId": 1551,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3939,
+        "yieldId": 1365,
+        "yieldAmount": 17,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3939,
+        "yieldId": 1551,
+        "yieldAmount": 17,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3968,
+        "yieldId": 1553,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 3975,
+        "yieldId": 1554,
+        "yieldAmount": 13,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4070,
+        "yieldId": 921,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4070,
+        "yieldId": 1504,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4187,
+        "yieldId": 654,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4189,
+        "yieldId": 654,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4227,
+        "yieldId": 921,
+        "yieldAmount": 22,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4228,
+        "yieldId": 650,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 4229,
+        "yieldId": 921,
+        "yieldAmount": 22,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4230,
+        "yieldId": 649,
+        "yieldAmount": 135,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 4232,
+        "yieldId": 921,
+        "yieldAmount": 3,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4233,
+        "yieldId": 646,
+        "yieldAmount": 117,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4238,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4241,
+        "yieldId": 921,
+        "yieldAmount": 22,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4242,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4243,
+        "yieldId": 653,
+        "yieldAmount": 142,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4244,
+        "yieldId": 653,
+        "yieldAmount": 142,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4245,
+        "yieldId": 654,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 4249,
+        "yieldId": 656,
+        "yieldAmount": 144,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 4252,
+        "yieldId": 652,
+        "yieldAmount": 141,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4257,
+        "yieldId": 654,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4258,
+        "yieldId": 651,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4259,
+        "yieldId": 921,
+        "yieldAmount": 23,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4260,
+        "yieldId": 651,
+        "yieldAmount": 140,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4261,
+        "yieldId": 656,
+        "yieldAmount": 144,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4262,
+        "yieldId": 652,
+        "yieldAmount": 141,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4264,
+        "yieldId": 654,
+        "yieldAmount": 142,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4265,
+        "yieldId": 651,
+        "yieldAmount": 140,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4266,
+        "yieldId": 659,
+        "yieldAmount": 544,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4267,
+        "yieldId": 644,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4272,
+        "yieldId": 651,
+        "yieldAmount": 140,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4273,
+        "yieldId": 921,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4274,
+        "yieldId": 659,
+        "yieldAmount": 544,
+        "yieldDateOfEntry": 1075680000000
+    },
+    {
+        "foodId": 4275,
+        "yieldId": 921,
+        "yieldAmount": 11,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4276,
+        "yieldId": 644,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4279,
+        "yieldId": 650,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4280,
+        "yieldId": 650,
+        "yieldAmount": 133,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4305,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4306,
+        "yieldId": 654,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4307,
+        "yieldId": 921,
+        "yieldAmount": 23,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4308,
+        "yieldId": 651,
+        "yieldAmount": 140,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4309,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4310,
+        "yieldId": 654,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4311,
+        "yieldId": 921,
+        "yieldAmount": 0,
+        "yieldDateOfEntry": 988156800000
+    },
+    {
+        "foodId": 4312,
+        "yieldId": 651,
+        "yieldAmount": 140,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4313,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1179705600000
+    },
+    {
+        "foodId": 4314,
+        "yieldId": 654,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 1069718400000
+    },
+    {
+        "foodId": 4411,
+        "yieldId": 680,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1078963200000
+    },
+    {
+        "foodId": 4411,
+        "yieldId": 921,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4412,
+        "yieldId": 921,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4413,
+        "yieldId": 680,
+        "yieldAmount": 201,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 4414,
+        "yieldId": 921,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4420,
+        "yieldId": 921,
+        "yieldAmount": 34,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4422,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4424,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4426,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4449,
+        "yieldId": 921,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4452,
+        "yieldId": 921,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4456,
+        "yieldId": 921,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4460,
+        "yieldId": 921,
+        "yieldAmount": 23,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4462,
+        "yieldId": 921,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4467,
+        "yieldId": 921,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4471,
+        "yieldId": 921,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4472,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4474,
+        "yieldId": 921,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4476,
+        "yieldId": 921,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4481,
+        "yieldId": 921,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4486,
+        "yieldId": 680,
+        "yieldAmount": 295,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 4489,
+        "yieldId": 680,
+        "yieldAmount": 290,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 4490,
+        "yieldId": 680,
+        "yieldAmount": 223,
+        "yieldDateOfEntry": 1061510400000
+    },
+    {
+        "foodId": 4491,
+        "yieldId": 921,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4492,
+        "yieldId": 680,
+        "yieldAmount": 213,
+        "yieldDateOfEntry": 862444800000
+    },
+    {
+        "foodId": 4493,
+        "yieldId": 921,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4496,
+        "yieldId": 921,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4502,
+        "yieldId": 921,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4504,
+        "yieldId": 921,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4506,
+        "yieldId": 1342,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4508,
+        "yieldId": 921,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1232496000000
+    },
+    {
+        "foodId": 4510,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4512,
+        "yieldId": 921,
+        "yieldAmount": 20,
+        "yieldDateOfEntry": 1245888000000
+    },
+    {
+        "foodId": 4513,
+        "yieldId": 921,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4515,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4516,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4518,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4521,
+        "yieldId": 921,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4522,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4524,
+        "yieldId": 1342,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4526,
+        "yieldId": 921,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4733,
+        "yieldId": 1390,
+        "yieldAmount": 12,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4746,
+        "yieldId": 683,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 997833600000
+    },
+    {
+        "foodId": 4758,
+        "yieldId": 683,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 997833600000
+    },
+    {
+        "foodId": 4776,
+        "yieldId": 1591,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 4777,
+        "yieldId": 1591,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 4778,
+        "yieldId": 1591,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 4782,
+        "yieldId": 683,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 976665600000
+    },
+    {
+        "foodId": 4784,
+        "yieldId": 683,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 976665600000
+    },
+    {
+        "foodId": 4786,
+        "yieldId": 683,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 976665600000
+    },
+    {
+        "foodId": 4791,
+        "yieldId": 683,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 976665600000
+    },
+    {
+        "foodId": 4792,
+        "yieldId": 683,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 976665600000
+    },
+    {
+        "foodId": 4795,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4800,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4810,
+        "yieldId": 683,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4812,
+        "yieldId": 683,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4814,
+        "yieldId": 683,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4815,
+        "yieldId": 683,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4816,
+        "yieldId": 683,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4818,
+        "yieldId": 683,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4820,
+        "yieldId": 683,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 1066608000000
+    },
+    {
+        "foodId": 4823,
+        "yieldId": 1512,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4823,
+        "yieldId": 1513,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4839,
+        "yieldId": 686,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 977270400000
+    },
+    {
+        "foodId": 4839,
+        "yieldId": 1642,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 4840,
+        "yieldId": 686,
+        "yieldAmount": 49,
+        "yieldDateOfEntry": 977270400000
+    },
+    {
+        "foodId": 4840,
+        "yieldId": 1643,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 4841,
+        "yieldId": 686,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1071532800000
+    },
+    {
+        "foodId": 4841,
+        "yieldId": 1643,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 4869,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1265932800000
+    },
+    {
+        "foodId": 4869,
+        "yieldId": 1591,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 1265932800000
+    },
+    {
+        "foodId": 4875,
+        "yieldId": 686,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 977270400000
+    },
+    {
+        "foodId": 4875,
+        "yieldId": 1642,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 4903,
+        "yieldId": 921,
+        "yieldAmount": 21,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 4903,
+        "yieldId": 985,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4904,
+        "yieldId": 921,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 4904,
+        "yieldId": 985,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4905,
+        "yieldId": 921,
+        "yieldAmount": 11,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4983,
+        "yieldId": 1591,
+        "yieldAmount": 7,
+        "yieldDateOfEntry": 1092787200000
+    },
+    {
+        "foodId": 4988,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 4989,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 4991,
+        "yieldId": 1548,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4991,
+        "yieldId": 1549,
+        "yieldAmount": 33,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 4993,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 4995,
+        "yieldId": 683,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 983318400000
+    },
+    {
+        "foodId": 4997,
+        "yieldId": 683,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 983923200000
+    },
+    {
+        "foodId": 4998,
+        "yieldId": 683,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 983923200000
+    },
+    {
+        "foodId": 5009,
+        "yieldId": 683,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 984960000000
+    },
+    {
+        "foodId": 5010,
+        "yieldId": 683,
+        "yieldAmount": 59,
+        "yieldDateOfEntry": 984960000000
+    },
+    {
+        "foodId": 5011,
+        "yieldId": 683,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 985046400000
+    },
+    {
+        "foodId": 5081,
+        "yieldId": 1582,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 5082,
+        "yieldId": 1582,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 5084,
+        "yieldId": 1582,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 5088,
+        "yieldId": 1582,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 5143,
+        "yieldId": 1582,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1190937600000
+    },
+    {
+        "foodId": 5173,
+        "yieldId": 686,
+        "yieldAmount": 144,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5175,
+        "yieldId": 686,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5176,
+        "yieldId": 686,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5178,
+        "yieldId": 686,
+        "yieldAmount": 96,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5179,
+        "yieldId": 686,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5180,
+        "yieldId": 686,
+        "yieldAmount": 113,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 5180,
+        "yieldId": 922,
+        "yieldAmount": 52,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 5180,
+        "yieldId": 1644,
+        "yieldAmount": 79,
+        "yieldDateOfEntry": 1268611200000
+    },
+    {
+        "foodId": 5181,
+        "yieldId": 686,
+        "yieldAmount": 24,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5181,
+        "yieldId": 922,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5181,
+        "yieldId": 1644,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5182,
+        "yieldId": 686,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5182,
+        "yieldId": 922,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5182,
+        "yieldId": 1644,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5184,
+        "yieldId": 686,
+        "yieldAmount": 66,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5184,
+        "yieldId": 922,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5184,
+        "yieldId": 1644,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5185,
+        "yieldId": 686,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5185,
+        "yieldId": 922,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5185,
+        "yieldId": 1644,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5186,
+        "yieldId": 686,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5186,
+        "yieldId": 922,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5187,
+        "yieldId": 686,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5188,
+        "yieldId": 686,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5189,
+        "yieldId": 686,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5189,
+        "yieldId": 922,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 5204,
+        "yieldId": 683,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 992304000000
+    },
+    {
+        "foodId": 5205,
+        "yieldId": 683,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 5207,
+        "yieldId": 683,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 5209,
+        "yieldId": 686,
+        "yieldAmount": 335,
+        "yieldDateOfEntry": 992995200000
+    },
+    {
+        "foodId": 5211,
+        "yieldId": 683,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 5216,
+        "yieldId": 683,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 5222,
+        "yieldId": 683,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 993686400000
+    },
+    {
+        "foodId": 5231,
+        "yieldId": 1582,
+        "yieldAmount": 35,
+        "yieldDateOfEntry": 1190937600000
+    },
+    {
+        "foodId": 5335,
+        "yieldId": 686,
+        "yieldAmount": 313,
+        "yieldDateOfEntry": 1084320000000
+    },
+    {
+        "foodId": 5339,
+        "yieldId": 985,
+        "yieldAmount": 132,
+        "yieldDateOfEntry": 1417478400000
+    },
+    {
+        "foodId": 5347,
+        "yieldId": 921,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 5347,
+        "yieldId": 985,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1401667200000
+    },
+    {
+        "foodId": 5348,
+        "yieldId": 985,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1426809600000
+    },
+    {
+        "foodId": 5350,
+        "yieldId": 985,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1426723200000
+    },
+    {
+        "foodId": 5384,
+        "yieldId": 683,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1405987200000
+    },
+    {
+        "foodId": 5567,
+        "yieldId": 1642,
+        "yieldAmount": 63,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 5568,
+        "yieldId": 1642,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 5570,
+        "yieldId": 1642,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1162339200000
+    },
+    {
+        "foodId": 5714,
+        "yieldId": 985,
+        "yieldAmount": 3,
+        "yieldDateOfEntry": 1092268800000
+    },
+    {
+        "foodId": 5715,
+        "yieldId": 682,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5716,
+        "yieldId": 681,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5717,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5717,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1086739200000
+    },
+    {
+        "foodId": 5718,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5718,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1086739200000
+    },
+    {
+        "foodId": 5719,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5720,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5720,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1086739200000
+    },
+    {
+        "foodId": 5721,
+        "yieldId": 682,
+        "yieldAmount": 78,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5724,
+        "yieldId": 683,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5725,
+        "yieldId": 683,
+        "yieldAmount": 77,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5726,
+        "yieldId": 683,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5727,
+        "yieldId": 683,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5732,
+        "yieldId": 683,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5733,
+        "yieldId": 683,
+        "yieldAmount": 76,
+        "yieldDateOfEntry": 1144886400000
+    },
+    {
+        "foodId": 5855,
+        "yieldId": 921,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 5855,
+        "yieldId": 985,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 5856,
+        "yieldId": 921,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 5856,
+        "yieldId": 985,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1304553600000
+    },
+    {
+        "foodId": 5948,
+        "yieldId": 682,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5949,
+        "yieldId": 682,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5955,
+        "yieldId": 681,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5982,
+        "yieldId": 682,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5983,
+        "yieldId": 682,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5984,
+        "yieldId": 681,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5989,
+        "yieldId": 682,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5990,
+        "yieldId": 682,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5994,
+        "yieldId": 682,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 5996,
+        "yieldId": 682,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6000,
+        "yieldId": 682,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6002,
+        "yieldId": 682,
+        "yieldAmount": 57,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6023,
+        "yieldId": 682,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6025,
+        "yieldId": 682,
+        "yieldAmount": 60,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6029,
+        "yieldId": 682,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6031,
+        "yieldId": 682,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6035,
+        "yieldId": 682,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6036,
+        "yieldId": 682,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6037,
+        "yieldId": 682,
+        "yieldAmount": 55,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6042,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6043,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6044,
+        "yieldId": 682,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6048,
+        "yieldId": 682,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6049,
+        "yieldId": 682,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6050,
+        "yieldId": 682,
+        "yieldAmount": 56,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6064,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6065,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6069,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6071,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6081,
+        "yieldId": 681,
+        "yieldAmount": 70,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6082,
+        "yieldId": 681,
+        "yieldAmount": 70,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6092,
+        "yieldId": 682,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6093,
+        "yieldId": 682,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6094,
+        "yieldId": 682,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6098,
+        "yieldId": 682,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6105,
+        "yieldId": 682,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6110,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6111,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6112,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6117,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6118,
+        "yieldId": 682,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1150934400000
+    },
+    {
+        "foodId": 6120,
+        "yieldId": 683,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 1150848000000
+    },
+    {
+        "foodId": 6122,
+        "yieldId": 683,
+        "yieldAmount": 70,
+        "yieldDateOfEntry": 1150848000000
+    },
+    {
+        "foodId": 6126,
+        "yieldId": 682,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6128,
+        "yieldId": 682,
+        "yieldAmount": 68,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6132,
+        "yieldId": 682,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6134,
+        "yieldId": 682,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6140,
+        "yieldId": 682,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6144,
+        "yieldId": 682,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6145,
+        "yieldId": 682,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6146,
+        "yieldId": 682,
+        "yieldAmount": 72,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6150,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6152,
+        "yieldId": 682,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6156,
+        "yieldId": 682,
+        "yieldAmount": 62,
+        "yieldDateOfEntry": 1151020800000
+    },
+    {
+        "foodId": 6160,
+        "yieldId": 683,
+        "yieldAmount": 82,
+        "yieldDateOfEntry": 1152662400000
+    },
+    {
+        "foodId": 6162,
+        "yieldId": 683,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1152662400000
+    },
+    {
+        "foodId": 6276,
+        "yieldId": 1582,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1190937600000
+    },
+    {
+        "foodId": 501585,
+        "yieldId": 921,
+        "yieldAmount": 32,
+        "yieldDateOfEntry": 1238025600000
+    },
+    {
+        "foodId": 501585,
+        "yieldId": 1582,
+        "yieldAmount": 40,
+        "yieldDateOfEntry": 1238025600000
+    },
+    {
+        "foodId": 501624,
+        "yieldId": 458,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1238112000000
+    },
+    {
+        "foodId": 501625,
+        "yieldId": 458,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1238112000000
+    },
+    {
+        "foodId": 501654,
+        "yieldId": 921,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1238371200000
+    },
+    {
+        "foodId": 501654,
+        "yieldId": 985,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1238371200000
+    },
+    {
+        "foodId": 501658,
+        "yieldId": 1044,
+        "yieldAmount": 196,
+        "yieldDateOfEntry": 1239148800000
+    },
+    {
+        "foodId": 501914,
+        "yieldId": 1582,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 501916,
+        "yieldId": 1591,
+        "yieldAmount": 31,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 501918,
+        "yieldId": 1582,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 501923,
+        "yieldId": 1582,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1242950400000
+    },
+    {
+        "foodId": 502025,
+        "yieldId": 681,
+        "yieldAmount": 100,
+        "yieldDateOfEntry": 1285804800000
+    },
+    {
+        "foodId": 502069,
+        "yieldId": 686,
+        "yieldAmount": 109,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502069,
+        "yieldId": 1643,
+        "yieldAmount": 70,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502069,
+        "yieldId": 502455,
+        "yieldAmount": 50,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502070,
+        "yieldId": 686,
+        "yieldAmount": 26,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502070,
+        "yieldId": 1643,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502070,
+        "yieldId": 502455,
+        "yieldAmount": 39,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502071,
+        "yieldId": 686,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502071,
+        "yieldId": 1643,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502071,
+        "yieldId": 502455,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502072,
+        "yieldId": 686,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502072,
+        "yieldId": 1643,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502072,
+        "yieldId": 502455,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502073,
+        "yieldId": 686,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502073,
+        "yieldId": 1643,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502073,
+        "yieldId": 502455,
+        "yieldAmount": 30,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502074,
+        "yieldId": 686,
+        "yieldAmount": 156,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 502075,
+        "yieldId": 686,
+        "yieldAmount": 37,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 502076,
+        "yieldId": 686,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 502077,
+        "yieldId": 686,
+        "yieldAmount": 95,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 502078,
+        "yieldId": 686,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1267660800000
+    },
+    {
+        "foodId": 502079,
+        "yieldId": 686,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502080,
+        "yieldId": 686,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502081,
+        "yieldId": 686,
+        "yieldAmount": 147,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502082,
+        "yieldId": 686,
+        "yieldAmount": 96,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502083,
+        "yieldId": 686,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502084,
+        "yieldId": 686,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502085,
+        "yieldId": 686,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 502085,
+        "yieldId": 502455,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 1269302400000
+    },
+    {
+        "foodId": 502086,
+        "yieldId": 686,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502086,
+        "yieldId": 502455,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502087,
+        "yieldId": 686,
+        "yieldAmount": 110,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502087,
+        "yieldId": 1644,
+        "yieldAmount": 74,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502087,
+        "yieldId": 502455,
+        "yieldAmount": 51,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502088,
+        "yieldId": 686,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502088,
+        "yieldId": 1644,
+        "yieldAmount": 69,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502088,
+        "yieldId": 502455,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502089,
+        "yieldId": 686,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502089,
+        "yieldId": 1644,
+        "yieldAmount": 65,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502089,
+        "yieldId": 502455,
+        "yieldAmount": 36,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502090,
+        "yieldId": 686,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502090,
+        "yieldId": 1644,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502090,
+        "yieldId": 502455,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502091,
+        "yieldId": 686,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502092,
+        "yieldId": 686,
+        "yieldAmount": 19,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502092,
+        "yieldId": 1644,
+        "yieldAmount": 71,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502092,
+        "yieldId": 502455,
+        "yieldAmount": 29,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502093,
+        "yieldId": 686,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1268784000000
+    },
+    {
+        "foodId": 502093,
+        "yieldId": 502455,
+        "yieldAmount": 44,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 502094,
+        "yieldId": 686,
+        "yieldAmount": 45,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 502094,
+        "yieldId": 502455,
+        "yieldAmount": 54,
+        "yieldDateOfEntry": 1268956800000
+    },
+    {
+        "foodId": 502098,
+        "yieldId": 686,
+        "yieldAmount": 41,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502099,
+        "yieldId": 686,
+        "yieldAmount": 67,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502100,
+        "yieldId": 686,
+        "yieldAmount": 47,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502101,
+        "yieldId": 686,
+        "yieldAmount": 28,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502101,
+        "yieldId": 502455,
+        "yieldAmount": 38,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502102,
+        "yieldId": 686,
+        "yieldAmount": 43,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502103,
+        "yieldId": 686,
+        "yieldAmount": 25,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502103,
+        "yieldId": 1644,
+        "yieldAmount": 34,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502103,
+        "yieldId": 502455,
+        "yieldAmount": 34,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502104,
+        "yieldId": 686,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502105,
+        "yieldId": 686,
+        "yieldAmount": 46,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502105,
+        "yieldId": 502455,
+        "yieldAmount": 53,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502106,
+        "yieldId": 686,
+        "yieldAmount": 58,
+        "yieldDateOfEntry": 1267747200000
+    },
+    {
+        "foodId": 502107,
+        "yieldId": 686,
+        "yieldAmount": 42,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502107,
+        "yieldId": 1644,
+        "yieldAmount": 73,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502107,
+        "yieldId": 502455,
+        "yieldAmount": 48,
+        "yieldDateOfEntry": 1268697600000
+    },
+    {
+        "foodId": 502108,
+        "yieldId": 686,
+        "yieldAmount": 13,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502108,
+        "yieldId": 1644,
+        "yieldAmount": 85,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502108,
+        "yieldId": 502455,
+        "yieldAmount": 21,
+        "yieldDateOfEntry": 1269388800000
+    },
+    {
+        "foodId": 502109,
+        "yieldId": 686,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1269216000000
+    },
+    {
+        "foodId": 502546,
+        "yieldId": 683,
+        "yieldAmount": 92,
+        "yieldDateOfEntry": 1405987200000
+    },
+    {
+        "foodId": 502547,
+        "yieldId": 683,
+        "yieldAmount": 85,
+        "yieldDateOfEntry": 1405987200000
+    },
+    {
+        "foodId": 502552,
+        "yieldId": 683,
+        "yieldAmount": 87,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502554,
+        "yieldId": 681,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1404259200000
+    },
+    {
+        "foodId": 502559,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502565,
+        "yieldId": 681,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502567,
+        "yieldId": 683,
+        "yieldAmount": 81,
+        "yieldDateOfEntry": 1406246400000
+    },
+    {
+        "foodId": 502569,
+        "yieldId": 681,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502571,
+        "yieldId": 683,
+        "yieldAmount": 90,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502572,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502574,
+        "yieldId": 683,
+        "yieldAmount": 88,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502575,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502582,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502584,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502587,
+        "yieldId": 681,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502589,
+        "yieldId": 683,
+        "yieldAmount": 94,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502593,
+        "yieldId": 683,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502596,
+        "yieldId": 683,
+        "yieldAmount": 64,
+        "yieldDateOfEntry": 1414972800000
+    },
+    {
+        "foodId": 502652,
+        "yieldId": 985,
+        "yieldAmount": 135,
+        "yieldDateOfEntry": 1426809600000
+    },
+    {
+        "foodId": 502659,
+        "yieldId": 985,
+        "yieldAmount": 131,
+        "yieldDateOfEntry": 1426809600000
+    },
+    {
+        "foodId": 502662,
+        "yieldId": 985,
+        "yieldAmount": 132,
+        "yieldDateOfEntry": 1426809600000
+    },
+    {
+        "foodId": 502665,
+        "yieldId": 985,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1417392000000
+    },
+    {
+        "foodId": 502667,
+        "yieldId": 985,
+        "yieldAmount": 1,
+        "yieldDateOfEntry": 1417392000000
+    },
+    {
+        "foodId": 502673,
+        "yieldId": 985,
+        "yieldAmount": 132,
+        "yieldDateOfEntry": 1417478400000
+    },
+    {
+        "foodId": 502693,
+        "yieldId": 1582,
+        "yieldAmount": 27,
+        "yieldDateOfEntry": 1410480000000
+    },
+    {
+        "foodId": 502700,
+        "yieldId": 985,
+        "yieldAmount": 75,
+        "yieldDateOfEntry": 1413763200000
+    },
+    {
+        "foodId": 502724,
+        "yieldId": 985,
+        "yieldAmount": 132,
+        "yieldDateOfEntry": 1426550400000
+    },
+    {
+        "foodId": 502742,
+        "yieldId": 985,
+        "yieldAmount": 15,
+        "yieldDateOfEntry": 1422489600000
+    }
+]

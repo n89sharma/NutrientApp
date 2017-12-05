@@ -1,0 +1,98 @@
+[
+    {
+        "foodSourceId": 0,
+        "foodSourceCode": 0,
+        "foodSourceDescription": "FOODS BASED ON DATA FROM USDA: NO CHANGES",
+        "foodSourceDescriptionF": "ALIMENTS BAS�S SUR LE USDA: AUCUNE MODIFICATION APPORT�E"
+    },
+    {
+        "foodSourceId": 1,
+        "foodSourceCode": 1,
+        "foodSourceDescription": "FOOD BASED ON DATA FROM USDA: SOME NUTRIENTS CHANGED TO MEET CANADIAN REGULATIONS",
+        "foodSourceDescriptionF": "ALIMENT BAS� SUR LE USDA: CERTAINS �L�MENTS NUTRITIFS ONT �T� MODIFI�S POUR SE CONFORMER � LA R�GLEMENTATION CANADIENNE"
+    },
+    {
+        "foodSourceId": 3,
+        "foodSourceCode": 3,
+        "foodSourceDescription": "FOOD BASED ON DATA FROM USDA: SOME NUTRIENTS ANALYZED IN THE CANADIAN PRODUCT",
+        "foodSourceDescriptionF": "ALIMENT BAS� SUR LE USDA: CERTAINS �L�MENTS NUTRITIFS ONT �T� ANALYS�S DANS LE PRODUIT CANADIEN"
+    },
+    {
+        "foodSourceId": 4,
+        "foodSourceCode": 4,
+        "foodSourceDescription": "FOOD BASED ON DATA FROM USDA: SOME NUTRIENTS CALCULATED IN THE CANADIAN PRODUCT",
+        "foodSourceDescriptionF": "ALIMENT BAS� SUR LE USDA: CERTAINS �L�MENTS NUTRITIFS ONT �T� CALCUL�S DANS LE PRODUIT CANADIEN"
+    },
+    {
+        "foodSourceId": 6,
+        "foodSourceCode": 6,
+        "foodSourceDescription": "FOOD BASED ON DATA FROM USDA: SOME VALUES SUPPLIED BY MANUFACTURERS OF THE CANADIAN PRODUCT",
+        "foodSourceDescriptionF": "ALIMENT BAS� SUR LE USDA: CERTAINES VALEURS ONT �T� FOURNIES PAR LE MANUFACTURIER DU PRODUIT CANADIEN"
+    },
+    {
+        "foodSourceId": 9,
+        "foodSourceCode": 9,
+        "foodSourceDescription": "DATA SUPPLIED BY AN INTERNATIONAL DATABASE OTHER THAN USDA",
+        "foodSourceDescriptionF": "DONN�ES PROVENANT D'UNE BASE DE DONN�ES AUTRE QUE LE USDA"
+    },
+    {
+        "foodSourceId": 20,
+        "foodSourceCode": 20,
+        "foodSourceDescription": "FOOD AVAILABLE IN THE CANADIAN FOOD SUPPLY, BUT NOT FOUND IN THE USDA: NO CHANGES FROM NUTRITION CANADA SURVEY (1970-1972)",
+        "foodSourceDescriptionF": "ALIMENT DISPONIBLE SUR LE MARCH� CANADIEN, MAIS NON RETROUV� DANS LE USDA: AUCUNE MODIFICATION � LA BASE DE DONN�ES DE L'ENQU�TE NATIONALE DE NUTRITION CANADA (1970-1972)"
+    },
+    {
+        "foodSourceId": 23,
+        "foodSourceCode": 23,
+        "foodSourceDescription": "FOOD AVAILABLE IN THE CANADIAN FOOD SUPPLY, MAJOR NUTRIENTS ANALYZED IN THE CANADIAN PRODUCT",
+        "foodSourceDescriptionF": "ALIMENT DISPONIBLE SUR LE MARCH� CANADIEN, LA VALEUR DES PRICIPAUX �L�MENTS NUTRITIFS  A �T� ANALYS�E DANS LE PRODUIT CANADIEN"
+    },
+    {
+        "foodSourceId": 24,
+        "foodSourceCode": 24,
+        "foodSourceDescription": "MAJOR NUTRIENTS CALCULATED IN THE CANADIAN PRODUCT;  NOT A SNAP-CAN FOOD",
+        "foodSourceDescriptionF": "�L�MENTS NUTRITIFS PRINCIPAUX CALCUL�S DANS LE PRODUIT CANADIEN; N'EST PAS UN ALIMENT DE P�AN-CAN"
+    },
+    {
+        "foodSourceId": 26,
+        "foodSourceCode": 26,
+        "foodSourceDescription": "FOOD AVAILABLE IN THE CANADIAN FOOD SUPPLY, BUT NOT FOUND IN USDA: NUTRIENT VALUES SUPPLIED BY MANUFACTURERS OF THE CANADIAN PRODUCT",
+        "foodSourceDescriptionF": "ALIMENT DISPONIBLE SUR LE MARCH� CANADIEN, MAIS NON RETROUV� DANS LE USDA: LA VALEUR DES �L�MENTS NUTRITIFS A �T� FOURNIE PAR LES MANUFACTURIERS DU PRODUIT"
+    },
+    {
+        "foodSourceId": 28,
+        "foodSourceCode": 28,
+        "foodSourceDescription": "TRADITIONAL FOOD",
+        "foodSourceDescriptionF": "ALIMENT TRADITIONNEL"
+    },
+    {
+        "foodSourceId": 29,
+        "foodSourceCode": 10,
+        "foodSourceDescription": "FOOD BASED ON DATA FROM USDA: SOME NUTRIENT ANALYZED IN THE CANADIAN PRODUCT.  FOOD HAS BEEN DELETED FROM USDA",
+        "foodSourceDescriptionF": "ALIMENT BAS� SUR LE USDA: LA VALEUR DE CERTAINS �L�MENTS NUTRITIFS A �T� ANALYS�E DANS LE PRODUIT CANADIEN.  ALIMENT RETIR� DE L'USDA."
+    },
+    {
+        "foodSourceId": 30,
+        "foodSourceCode": 11,
+        "foodSourceDescription": "FOOD BASED ON DATA FROM USDA.  FOOD HAS BEEN DELETED FROM USDA",
+        "foodSourceDescriptionF": "ALIMENT BAS� SUR LE USDA.  ALIMENT RETIR� DE L'USDA"
+    },
+    {
+        "foodSourceId": 35,
+        "foodSourceCode": 12,
+        "foodSourceDescription": "FOOD BASED ON DATA FROM USDA: INFORMATION FROM USDA SURVEY FILES",
+        "foodSourceDescriptionF": "ALIMENT BAS� SUR LE USDA: INFORMATION PROVIENT DES FICHIERS DES ENQU�TES"
+    },
+    {
+        "foodSourceId": 36,
+        "foodSourceCode": 35,
+        "foodSourceDescription": "CNF RECIPE COMPILATION",
+        "foodSourceDescriptionF": "COMPILATION DE RECETTES FCEN"
+    },
+    {
+        "foodSourceId": 38,
+        "foodSourceCode": 37,
+        "foodSourceDescription": "CNF Sampling and Analysis Program (SNAP-CAN)",
+        "foodSourceDescriptionF": "Programme d'�chantillonage et d'analyse du FC�N (P�A�N-CAN)"
+    }
+]

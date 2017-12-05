@@ -1,0 +1,397 @@
+[
+  {
+    "yieldId": 455,
+    "yieldDescription": "amount to make 100ml",
+    "yieldDescriptionF": "quantit� requise pour pr�parer  100ml"
+  },
+  {
+    "yieldId": 457,
+    "yieldDescription": "yield from 1 coconut",
+    "yieldDescriptionF": "rendement d'une noix de coco"
+  },
+  {
+    "yieldId": 458,
+    "yieldDescription": "yield from 1 ear",
+    "yieldDescriptionF": "rendement d'un �pi"
+  },
+  {
+    "yieldId": 460,
+    "yieldDescription": "yield from 1 fruit",
+    "yieldDescriptionF": "rendement d'un fruit"
+  },
+  {
+    "yieldId": 461,
+    "yieldDescription": "yield from 1 fruit (6.7cm dia)",
+    "yieldDescriptionF": "rendement d'un fruit (6.7cm dia)"
+  },
+  {
+    "yieldId": 463,
+    "yieldDescription": "yield from 1331g bird",
+    "yieldDescriptionF": "rendement d'une volaille de 1331g"
+  },
+  {
+    "yieldId": 464,
+    "yieldDescription": "yield from 1512g bird",
+    "yieldDescriptionF": "rendement d'une volaille de 1512g"
+  },
+  {
+    "yieldId": 465,
+    "yieldDescription": "yield from 2068g bird",
+    "yieldDescriptionF": "rendement d'une volaille de 2068g"
+  },
+  {
+    "yieldId": 466,
+    "yieldDescription": "yield from 2949g bird",
+    "yieldDescriptionF": "rendement d'une volaille de 2949g"
+  },
+  {
+    "yieldId": 470,
+    "yieldDescription": "yield from 7015g bird",
+    "yieldDescriptionF": "rendement d'une volaille de 7015g"
+  },
+  {
+    "yieldId": 642,
+    "yieldDescription": "1 crayfish with shell (30g)",
+    "yieldDescriptionF": "1 �crevisse avec coquille (30g)"
+  },
+  {
+    "yieldId": 644,
+    "yieldDescription": "1 package, dry (10.8g)",
+    "yieldDescriptionF": "1 paquet, sec (10.8g)"
+  },
+  {
+    "yieldId": 645,
+    "yieldDescription": "1 package, dry (156g)",
+    "yieldDescriptionF": "1 paquet, sec (156g)"
+  },
+  {
+    "yieldId": 646,
+    "yieldDescription": "1 package, dry (2.5g)",
+    "yieldDescriptionF": "1 paquet, sec (2.5g)"
+  },
+  {
+    "yieldId": 649,
+    "yieldDescription": "1 package, dry (21.3g)",
+    "yieldDescriptionF": "1 paquet, sec (21.3g)"
+  },
+  {
+    "yieldId": 650,
+    "yieldDescription": "1 package, dry (21g)",
+    "yieldDescriptionF": "1 paquet, sec (21g)"
+  },
+  {
+    "yieldId": 651,
+    "yieldDescription": "1 package, dry (22g)",
+    "yieldDescriptionF": "1 paquet, sec (22g)"
+  },
+  {
+    "yieldId": 652,
+    "yieldDescription": "1 package, dry (23g)",
+    "yieldDescriptionF": "1 paquet, sec (23g)"
+  },
+  {
+    "yieldId": 653,
+    "yieldDescription": "1 package, dry (24.8g)",
+    "yieldDescriptionF": "1 paquet, sec (24.8)"
+  },
+  {
+    "yieldId": 654,
+    "yieldDescription": "1 package, dry (25g)",
+    "yieldDescriptionF": "1 paquet, sec (25g)"
+  },
+  {
+    "yieldId": 656,
+    "yieldDescription": "1 package, dry (27g)",
+    "yieldDescriptionF": "1 paquet, sec (27g)"
+  },
+  {
+    "yieldId": 659,
+    "yieldDescription": "1 package, dry (57g)",
+    "yieldDescriptionF": "1 paquet, sec (57g)"
+  },
+  {
+    "yieldId": 664,
+    "yieldDescription": "1 raw chicken (1511g)",
+    "yieldDescriptionF": "1 poulet cru (1511g)"
+  },
+  {
+    "yieldId": 665,
+    "yieldDescription": "1 raw chicken (1977g)",
+    "yieldDescriptionF": "1 poulet cru (1977g)"
+  },
+  {
+    "yieldId": 666,
+    "yieldDescription": "1 raw chicken (864g)",
+    "yieldDescriptionF": "1 poulet cru (864g)"
+  },
+  {
+    "yieldId": 670,
+    "yieldDescription": "1 raw crab",
+    "yieldDescriptionF": "1 crabe cru"
+  },
+  {
+    "yieldId": 671,
+    "yieldDescription": "1 raw leg",
+    "yieldDescriptionF": "1 cuisse crue"
+  },
+  {
+    "yieldId": 675,
+    "yieldDescription": "1 raw patty (65g)",
+    "yieldDescriptionF": "1 boulette crue (65g)"
+  },
+  {
+    "yieldId": 680,
+    "yieldDescription": "100ml dry",
+    "yieldDescriptionF": "100ml sec"
+  },
+  {
+    "yieldId": 681,
+    "yieldDescription": "100g as purchased",
+    "yieldDescriptionF": "100g tel qu'achet�"
+  },
+  {
+    "yieldId": 682,
+    "yieldDescription": "100g raw boneless",
+    "yieldDescriptionF": "100g cru, d�soss�"
+  },
+  {
+    "yieldId": 683,
+    "yieldDescription": "100g raw as purchased",
+    "yieldDescriptionF": "100g  achet�, cru"
+  },
+  {
+    "yieldId": 684,
+    "yieldDescription": "100g raw fillet",
+    "yieldDescriptionF": "100g filet cru"
+  },
+  {
+    "yieldId": 686,
+    "yieldDescription": "500g of raw whole bird, as purchased (including bones)",
+    "yieldDescriptionF": "500g cru, volaille enti�re, � l'achat (avec os)"
+  },
+  {
+    "yieldId": 921,
+    "yieldDescription": "amount to make 125ml",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 125ml"
+  },
+  {
+    "yieldId": 922,
+    "yieldDescription": "100g raw part, as purchased (including bones)",
+    "yieldDescriptionF": "100g cru, tel qu'achet� (incluant os)"
+  },
+  {
+    "yieldId": 940,
+    "yieldDescription": "100g whole egg liquid yields",
+    "yieldDescriptionF": "100g - oeuf entier liquide"
+  },
+  {
+    "yieldId": 985,
+    "yieldDescription": "amount to make 250ml",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 250ml"
+  },
+  {
+    "yieldId": 993,
+    "yieldDescription": "amount to make 250ml of reconstituted milk",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 250ml de lait reconstitu�"
+  },
+  {
+    "yieldId": 1044,
+    "yieldDescription": "1 fruit yields",
+    "yieldDescriptionF": "1 fruit, rendement"
+  },
+  {
+    "yieldId": 1045,
+    "yieldDescription": "1 wedge yields",
+    "yieldDescriptionF": "1 quartier donne"
+  },
+  {
+    "yieldId": 1327,
+    "yieldDescription": "250ml with shell, yields",
+    "yieldDescriptionF": "250ml avec �cales - rendement"
+  },
+  {
+    "yieldId": 1342,
+    "yieldDescription": "amount to make 125ml elbows",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 125ml coudes"
+  },
+  {
+    "yieldId": 1365,
+    "yieldDescription": "amount to make 1 medium",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1 moyenne"
+  },
+  {
+    "yieldId": 1371,
+    "yieldDescription": "amount to make 1 small",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1 petit"
+  },
+  {
+    "yieldId": 1372,
+    "yieldDescription": "amount to make 2 small",
+    "yieldDescriptionF": "quantit� pour pr�parer 2 petits"
+  },
+  {
+    "yieldId": 1390,
+    "yieldDescription": "amount to make 60ml",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 60ml"
+  },
+  {
+    "yieldId": 1391,
+    "yieldDescription": "amount to make 15ml",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 15ml"
+  },
+  {
+    "yieldId": 1395,
+    "yieldDescription": "1 raw chicken (1512g)",
+    "yieldDescriptionF": "1 poulet cru (1512g)"
+  },
+  {
+    "yieldId": 1398,
+    "yieldDescription": "1 raw chicken (1358g)",
+    "yieldDescriptionF": "1 poulet cru (1358g)"
+  },
+  {
+    "yieldId": 1502,
+    "yieldDescription": "amount to make 55g",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 55g"
+  },
+  {
+    "yieldId": 1504,
+    "yieldDescription": "amount to make 100g prepared",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 100g"
+  },
+  {
+    "yieldId": 1506,
+    "yieldDescription": "amount to make 1/2 slice",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1/2 tranche"
+  },
+  {
+    "yieldId": 1512,
+    "yieldDescription": "amount to make 80g",
+    "yieldDescriptionF": "quantit� requise  pour pr�parer 80g"
+  },
+  {
+    "yieldId": 1513,
+    "yieldDescription": "amount to make 1/12 cake",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1/12 g�teau"
+  },
+  {
+    "yieldId": 1514,
+    "yieldDescription": "amount to make 1/9 cake",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1/9 g�teau"
+  },
+  {
+    "yieldId": 1516,
+    "yieldDescription": "amount to make 1/8 cake",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1/8 g�teau"
+  },
+  {
+    "yieldId": 1519,
+    "yieldDescription": "amount to make 1 cookie",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1 biscuit"
+  },
+  {
+    "yieldId": 1520,
+    "yieldDescription": "amount to make 40g",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 40g"
+  },
+  {
+    "yieldId": 1523,
+    "yieldDescription": "amount to make 2 cookies",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 2 biscuits"
+  },
+  {
+    "yieldId": 1524,
+    "yieldDescription": "amount to make 30g",
+    "yieldDescriptionF": "quantit� pour pr�parer 30g"
+  },
+  {
+    "yieldId": 1548,
+    "yieldDescription": "amount to make 1/2 medium muffin",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1/2 muffin moyen"
+  },
+  {
+    "yieldId": 1549,
+    "yieldDescription": "amount to make 55g muffin",
+    "yieldDescriptionF": "quantit� requise pour pr�parer muffin de 55g"
+  },
+  {
+    "yieldId": 1551,
+    "yieldDescription": "amount to make 75g pancake",
+    "yieldDescriptionF": "quantit� requise pour pr�parer cr�pe de 75g"
+  },
+  {
+    "yieldId": 1553,
+    "yieldDescription": "amount to make 1/6 crust (20cm dia)",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1/6 cro�te (20cm dia)"
+  },
+  {
+    "yieldId": 1554,
+    "yieldDescription": "amount to make 1 popover",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 1 popover"
+  },
+  {
+    "yieldId": 1582,
+    "yieldDescription": "amount to make 175ml cooked",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 175ml cuit"
+  },
+  {
+    "yieldId": 1584,
+    "yieldDescription": "amount to make 140g",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 140g"
+  },
+  {
+    "yieldId": 1588,
+    "yieldDescription": "amount to make 105ml",
+    "yieldDescriptionF": "quantit� requise pour pr�parer  105ml"
+  },
+  {
+    "yieldId": 1591,
+    "yieldDescription": "amount to make 175ml",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 175ml"
+  },
+  {
+    "yieldId": 1598,
+    "yieldDescription": "amount to make 35ml",
+    "yieldDescriptionF": "quantit� pour pr�parer 35ml"
+  },
+  {
+    "yieldId": 1642,
+    "yieldDescription": "100g raw with bones (yield after cooking bone removed)",
+    "yieldDescriptionF": "100g cru avec os (rendement apr�s cuisson, d�soss�)"
+  },
+  {
+    "yieldId": 1643,
+    "yieldDescription": "100g raw skinless with bones (yield after cooking bone removed)",
+    "yieldDescriptionF": "100g cru, sans peau, avec os (rendement apr�s cuisson, d�soss�)"
+  },
+  {
+    "yieldId": 1644,
+    "yieldDescription": "100g raw skinless boneless (yield after cooking)",
+    "yieldDescriptionF": "100g cru, sans peau, d�soss� (rendement apr�s cuisson)"
+  },
+  {
+    "yieldId": 502455,
+    "yieldDescription": "100g raw as purchased, with skin, (including bone)",
+    "yieldDescriptionF": "100g cru, � l'achat, avec peau (incluant os)"
+  },
+  {
+    "yieldId": 502460,
+    "yieldDescription": "amount to make 500ml",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 500ml"
+  },
+  {
+    "yieldId": 502461,
+    "yieldDescription": "amount to make 50g",
+    "yieldDescriptionF": "quantit� requise pour pr�parer 50g"
+  },
+  {
+    "yieldId": 502466,
+    "yieldDescription": "amount to make 2 eggs",
+    "yieldDescriptionF": "quantit� pour pr�parer 2 oeufs"
+  },
+  {
+    "yieldId": 502522,
+    "yieldDescription": "454g (with shell), yield after shell removed",
+    "yieldDescriptionF": "454g (avec coquille), rendement apr�s retrait de la coquille"
+  }
+]

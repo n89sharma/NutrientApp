@@ -1,0 +1,1522 @@
+[
+    {
+        "nutrientNameId": 203,
+        "nutrientCode": 203,
+        "nutrientSymbol": "PROT",
+        "nutrientUnit": "g",
+        "nutrientName": "PROTEIN",
+        "nutrientNameF": "PROT�INES",
+        "tagName": "PROCNT",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 204,
+        "nutrientCode": 204,
+        "nutrientSymbol": "FAT",
+        "nutrientUnit": "g",
+        "nutrientName": "FAT (TOTAL LIPIDS)",
+        "nutrientNameF": "LIPIDES TOTAUX",
+        "tagName": "FAT",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 205,
+        "nutrientCode": 205,
+        "nutrientSymbol": "CARB",
+        "nutrientUnit": "g",
+        "nutrientName": "CARBOHYDRATE, TOTAL (BY DIFFERENCE)",
+        "nutrientNameF": "GLUCIDES TOTAUX (PAR DIFF�RENCE)",
+        "tagName": "CHOCDF",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 207,
+        "nutrientCode": 207,
+        "nutrientSymbol": "ASH",
+        "nutrientUnit": "g",
+        "nutrientName": "ASH, TOTAL",
+        "nutrientNameF": "CENDRES, TOTALES",
+        "tagName": "ASH",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 208,
+        "nutrientCode": 208,
+        "nutrientSymbol": "KCAL",
+        "nutrientUnit": "kCal",
+        "nutrientName": "ENERGY (KILOCALORIES)",
+        "nutrientNameF": "�NERGIE (KILOCALORIES)",
+        "tagName": "ENERC_KCAL",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 810,
+        "nutrientCode": 209,
+        "nutrientSymbol": "STAR",
+        "nutrientUnit": "g",
+        "nutrientName": "STARCH",
+        "nutrientNameF": "AMIDON",
+        "tagName": "STARCH",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 210,
+        "nutrientCode": 210,
+        "nutrientSymbol": "SUCR",
+        "nutrientUnit": "g",
+        "nutrientName": "SUCROSE",
+        "nutrientNameF": "SUCROSE",
+        "tagName": "SUCS",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 211,
+        "nutrientCode": 211,
+        "nutrientSymbol": "GLUC",
+        "nutrientUnit": "g",
+        "nutrientName": "GLUCOSE",
+        "nutrientNameF": "GLUCOSE",
+        "tagName": "GLUS",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 212,
+        "nutrientCode": 212,
+        "nutrientSymbol": "FRUC",
+        "nutrientUnit": "g",
+        "nutrientName": "FRUCTOSE",
+        "nutrientNameF": "FRUCTOSE",
+        "tagName": "FRUS",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 213,
+        "nutrientCode": 213,
+        "nutrientSymbol": "LACT",
+        "nutrientUnit": "g",
+        "nutrientName": "LACTOSE",
+        "nutrientNameF": "LACTOSE",
+        "tagName": "LACS",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 214,
+        "nutrientCode": 214,
+        "nutrientSymbol": "MALT",
+        "nutrientUnit": "g",
+        "nutrientName": "MALTOSE",
+        "nutrientNameF": "MALTOSE",
+        "tagName": "MALS",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 221,
+        "nutrientCode": 221,
+        "nutrientSymbol": "ALCO",
+        "nutrientUnit": "g",
+        "nutrientName": "ALCOHOL",
+        "nutrientNameF": "ALCOOL",
+        "tagName": "ALC",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 245,
+        "nutrientCode": 245,
+        "nutrientSymbol": "OXAL",
+        "nutrientUnit": "mg",
+        "nutrientName": "OXALIC ACID",
+        "nutrientNameF": "ACIDE OXALIQUE",
+        "tagName": "OXALAC",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 255,
+        "nutrientCode": 255,
+        "nutrientSymbol": "H2O",
+        "nutrientUnit": "g",
+        "nutrientName": "MOISTURE",
+        "nutrientNameF": "EAU",
+        "tagName": "WATER",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 260,
+        "nutrientCode": 260,
+        "nutrientSymbol": "MANN",
+        "nutrientUnit": "g",
+        "nutrientName": "MANNITOL",
+        "nutrientNameF": "MANNITOL",
+        "tagName": "MANTL",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 261,
+        "nutrientCode": 261,
+        "nutrientSymbol": "SORB",
+        "nutrientUnit": "g",
+        "nutrientName": "SORBITOL",
+        "nutrientNameF": "SORBITOL",
+        "tagName": "SORTL",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 262,
+        "nutrientCode": 262,
+        "nutrientSymbol": "CAFF",
+        "nutrientUnit": "mg",
+        "nutrientName": "CAFFEINE",
+        "nutrientNameF": "CAF�INE",
+        "tagName": "CAFFN",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 263,
+        "nutrientCode": 263,
+        "nutrientSymbol": "THBR",
+        "nutrientUnit": "mg",
+        "nutrientName": "THEOBROMINE",
+        "nutrientNameF": "TH�OBROMINE",
+        "tagName": "THEBRN",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 268,
+        "nutrientCode": 268,
+        "nutrientSymbol": "KJ",
+        "nutrientUnit": "kJ",
+        "nutrientName": "ENERGY (KILOJOULES)",
+        "nutrientNameF": "�NERGIE (KILOJOULES)",
+        "tagName": "ENERC_KJ",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 269,
+        "nutrientCode": 269,
+        "nutrientSymbol": "TSUG",
+        "nutrientUnit": "g",
+        "nutrientName": "SUGARS, TOTAL",
+        "nutrientNameF": "SUCRES TOTAUX",
+        "tagName": "SUGAR",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 287,
+        "nutrientCode": 287,
+        "nutrientSymbol": "GAL",
+        "nutrientUnit": "g",
+        "nutrientName": "GALACTOSE",
+        "nutrientNameF": "GALACTOSE",
+        "tagName": "GALS",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 291,
+        "nutrientCode": 291,
+        "nutrientSymbol": "TDF",
+        "nutrientUnit": "g",
+        "nutrientName": "FIBRE, TOTAL DIETARY",
+        "nutrientNameF": "FIBRES ALIMENTAIRES TOTALES",
+        "tagName": "FIBTG",
+        "nutrientDecimals": 1
+    },
+    {
+        "nutrientNameId": 301,
+        "nutrientCode": 301,
+        "nutrientSymbol": "CA",
+        "nutrientUnit": "mg",
+        "nutrientName": "CALCIUM",
+        "nutrientNameF": "CALCIUM",
+        "tagName": "CA",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 303,
+        "nutrientCode": 303,
+        "nutrientSymbol": "FE",
+        "nutrientUnit": "mg",
+        "nutrientName": "IRON",
+        "nutrientNameF": "FER",
+        "tagName": "FE",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 304,
+        "nutrientCode": 304,
+        "nutrientSymbol": "MG",
+        "nutrientUnit": "mg",
+        "nutrientName": "MAGNESIUM",
+        "nutrientNameF": "MAGN�SIUM",
+        "tagName": "MG",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 305,
+        "nutrientCode": 305,
+        "nutrientSymbol": "P",
+        "nutrientUnit": "mg",
+        "nutrientName": "PHOSPHORUS",
+        "nutrientNameF": "PHOSPHORE",
+        "tagName": "P",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 306,
+        "nutrientCode": 306,
+        "nutrientSymbol": "K",
+        "nutrientUnit": "mg",
+        "nutrientName": "POTASSIUM",
+        "nutrientNameF": "POTASSIUM",
+        "tagName": "K",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 307,
+        "nutrientCode": 307,
+        "nutrientSymbol": "NA",
+        "nutrientUnit": "mg",
+        "nutrientName": "SODIUM",
+        "nutrientNameF": "SODIUM",
+        "tagName": "NA",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 309,
+        "nutrientCode": 309,
+        "nutrientSymbol": "ZN",
+        "nutrientUnit": "mg",
+        "nutrientName": "ZINC",
+        "nutrientNameF": "ZINC",
+        "tagName": "ZN",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 312,
+        "nutrientCode": 312,
+        "nutrientSymbol": "CU",
+        "nutrientUnit": "mg",
+        "nutrientName": "COPPER",
+        "nutrientNameF": "CUIVRE",
+        "tagName": "CU",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 315,
+        "nutrientCode": 315,
+        "nutrientSymbol": "MN",
+        "nutrientUnit": "mg",
+        "nutrientName": "MANGANESE",
+        "nutrientNameF": "MANGAN�SE",
+        "tagName": "MN",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 317,
+        "nutrientCode": 317,
+        "nutrientSymbol": "SE",
+        "nutrientUnit": "�g",
+        "nutrientName": "SELENIUM",
+        "nutrientNameF": "S�L�NIUM",
+        "tagName": "SE",
+        "nutrientDecimals": 1
+    },
+    {
+        "nutrientNameId": 319,
+        "nutrientCode": 319,
+        "nutrientSymbol": "RT-�G",
+        "nutrientUnit": "�g",
+        "nutrientName": "RETINOL",
+        "nutrientNameF": "R�TINOL",
+        "tagName": "RETOL",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 814,
+        "nutrientCode": 320,
+        "nutrientSymbol": "RAE",
+        "nutrientUnit": "�g",
+        "nutrientName": "RETINOL ACTIVITY EQUIVALENTS",
+        "nutrientNameF": "�QUIVALENTS D'ACTIVIT� DU R�TINOL",
+        "tagName": "VITA_RAE",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 321,
+        "nutrientCode": 321,
+        "nutrientSymbol": "BC-�G",
+        "nutrientUnit": "�g",
+        "nutrientName": "BETA CAROTENE",
+        "nutrientNameF": "B�TA CAROT�NE",
+        "tagName": "CARTB",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 834,
+        "nutrientCode": 322,
+        "nutrientSymbol": "AC-�G",
+        "nutrientUnit": "�g",
+        "nutrientName": "ALPHA CAROTENE",
+        "nutrientNameF": "ALPHA-CAROT�NE",
+        "tagName": "CARTA",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 323,
+        "nutrientCode": 323,
+        "nutrientSymbol": "ATMG",
+        "nutrientUnit": "mg",
+        "nutrientName": "ALPHA-TOCOPHEROL",
+        "nutrientNameF": "ALPHA-TOCOPH�ROL",
+        "tagName": "TOCPHA",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 324,
+        "nutrientCode": 324,
+        "nutrientSymbol": "D-IU",
+        "nutrientUnit": "IU",
+        "nutrientName": "VITAMIN D (INTERNATIONAL UNITS)",
+        "nutrientNameF": "VITAMINE D (UNITES INTERNATIONALES)",
+        "tagName": "VITD_IU",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 876,
+        "nutrientCode": 325,
+        "nutrientSymbol": "D2-�G",
+        "nutrientUnit": "�g",
+        "nutrientName": "VITAMIN D2, ERGOCALCIFEROL",
+        "nutrientNameF": "VITAMINE D2, (ERGOCALCIF�ROL)",
+        "tagName": "ERGCAL",
+        "nutrientDecimals": 1
+    },
+    {
+        "nutrientNameId": 339,
+        "nutrientCode": 328,
+        "nutrientSymbol": "D3+D2-�G",
+        "nutrientUnit": "�g",
+        "nutrientName": "VITAMIN D (D2 + D3)",
+        "nutrientNameF": "VITAMINE D (D2 + D3)",
+        "tagName": "VITD_ �G",
+        "nutrientDecimals": 1
+    },
+    {
+        "nutrientNameId": 835,
+        "nutrientCode": 334,
+        "nutrientSymbol": "CRYPX",
+        "nutrientUnit": "�g",
+        "nutrientName": "BETA CRYPTOXANTHIN",
+        "nutrientNameF": "B�TA-CRYPTOZANTHINE",
+        "tagName": "CRYPX",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 836,
+        "nutrientCode": 337,
+        "nutrientSymbol": "LYCPN",
+        "nutrientUnit": "�g",
+        "nutrientName": "LYCOPENE",
+        "nutrientNameF": "LYCOP�NE",
+        "tagName": "LYCPN",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 837,
+        "nutrientCode": 338,
+        "nutrientSymbol": "LUT+ZEA",
+        "nutrientUnit": "�g",
+        "nutrientName": "LUTEIN AND ZEAXANTHIN",
+        "nutrientNameF": "LUT�INE ET Z�AXANTHINE",
+        "tagName": "LUT+ZEA",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 811,
+        "nutrientCode": 341,
+        "nutrientSymbol": "BTMG",
+        "nutrientUnit": "mg",
+        "nutrientName": "BETA-TOCOPHEROL",
+        "nutrientNameF": "B�TA-TOCOPH�ROL",
+        "tagName": "TOCPHB",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 812,
+        "nutrientCode": 342,
+        "nutrientSymbol": "GTMG",
+        "nutrientUnit": "mg",
+        "nutrientName": "GAMMA-TOCOPHEROL",
+        "nutrientNameF": "GAMMA-TOCOPH�ROL",
+        "tagName": "TOCPHG",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 813,
+        "nutrientCode": 343,
+        "nutrientSymbol": "DTMG",
+        "nutrientUnit": "mg",
+        "nutrientName": "DELTA-TOCOPHEROL",
+        "nutrientNameF": "DELTA-TOCOPH�ROL",
+        "tagName": "TOCPHD",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 401,
+        "nutrientCode": 401,
+        "nutrientSymbol": "VITC",
+        "nutrientUnit": "mg",
+        "nutrientName": "VITAMIN C",
+        "nutrientNameF": "VITAMINE C",
+        "tagName": "VITC",
+        "nutrientDecimals": 1
+    },
+    {
+        "nutrientNameId": 404,
+        "nutrientCode": 404,
+        "nutrientSymbol": "THIA",
+        "nutrientUnit": "mg",
+        "nutrientName": "THIAMIN",
+        "nutrientNameF": "THIAMINE",
+        "tagName": "THIA",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 405,
+        "nutrientCode": 405,
+        "nutrientSymbol": "RIBO",
+        "nutrientUnit": "mg",
+        "nutrientName": "RIBOFLAVIN",
+        "nutrientNameF": "RIBOFLAVINE",
+        "tagName": "RIBF",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 406,
+        "nutrientCode": 406,
+        "nutrientSymbol": "N-MG",
+        "nutrientUnit": "mg",
+        "nutrientName": "NIACIN (NICOTINIC ACID) PREFORMED",
+        "nutrientNameF": "NIACINE (ACIDE NICOTINIQUE) PR�FORM�E",
+        "tagName": "NIA",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 409,
+        "nutrientCode": 409,
+        "nutrientSymbol": "N-NE",
+        "nutrientUnit": "NE",
+        "nutrientName": "TOTAL NIACIN EQUIVALENT",
+        "nutrientNameF": "�QUIVALENT EN NIACINE TOTALE",
+        "tagName": "NIAEQ",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 410,
+        "nutrientCode": 410,
+        "nutrientSymbol": "PANT",
+        "nutrientUnit": "mg",
+        "nutrientName": "PANTOTHENIC ACID",
+        "nutrientNameF": "ACIDE PANTOTH�NIQUE",
+        "tagName": "PANTAC",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 415,
+        "nutrientCode": 415,
+        "nutrientSymbol": "B6",
+        "nutrientUnit": "mg",
+        "nutrientName": "VITAMIN B-6",
+        "nutrientNameF": "VITAMINE B-6",
+        "tagName": "VITB6A",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 416,
+        "nutrientCode": 416,
+        "nutrientSymbol": "BIOT",
+        "nutrientUnit": "�g",
+        "nutrientName": "BIOTIN",
+        "nutrientNameF": "BIOTINE",
+        "tagName": "BIOT",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 417,
+        "nutrientCode": 417,
+        "nutrientSymbol": "FOLA",
+        "nutrientUnit": "�g",
+        "nutrientName": "TOTAL FOLACIN",
+        "nutrientNameF": "FOLACINE TOTALE",
+        "tagName": "FOL",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 418,
+        "nutrientCode": 418,
+        "nutrientSymbol": "B12",
+        "nutrientUnit": "�g",
+        "nutrientName": "VITAMIN B-12",
+        "nutrientNameF": "VITAMINE B-12",
+        "tagName": "VITB12",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 862,
+        "nutrientCode": 421,
+        "nutrientSymbol": "CHOLN",
+        "nutrientUnit": "mg",
+        "nutrientName": "CHOLINE, TOTAL",
+        "nutrientNameF": "CHOLINE, TOTALE",
+        "tagName": "CHOLN",
+        "nutrientDecimals": 1
+    },
+    {
+        "nutrientNameId": 430,
+        "nutrientCode": 430,
+        "nutrientSymbol": "VITK",
+        "nutrientUnit": "�g",
+        "nutrientName": "VITAMIN K",
+        "nutrientNameF": "VITAMINE K",
+        "tagName": "VITK",
+        "nutrientDecimals": 1
+    },
+    {
+        "nutrientNameId": 431,
+        "nutrientCode": 431,
+        "nutrientSymbol": "FOAC",
+        "nutrientUnit": "�g",
+        "nutrientName": "FOLIC ACID",
+        "nutrientNameF": "ACIDE FOLIQUE",
+        "tagName": "FOLAC",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 806,
+        "nutrientCode": 432,
+        "nutrientSymbol": "FOLN",
+        "nutrientUnit": "�g",
+        "nutrientName": "NATURALLY OCCURRING FOLATE",
+        "nutrientNameF": "FOLATES PR�SENTS NATURELLEMENT",
+        "tagName": "FOLFD",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 815,
+        "nutrientCode": 435,
+        "nutrientSymbol": "DFE",
+        "nutrientUnit": "�g",
+        "nutrientName": "DIETARY FOLATE EQUIVALENTS",
+        "nutrientNameF": "�QUIVALENTS DE FOLATE ALIMENTAIRE (�FA)",
+        "tagName": "FOLDFE",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 863,
+        "nutrientCode": 454,
+        "nutrientSymbol": "BETN",
+        "nutrientUnit": "mg",
+        "nutrientName": "BETAINE",
+        "nutrientNameF": "B�TA�NE",
+        "tagName": "BETN",
+        "nutrientDecimals": 1
+    },
+    {
+        "nutrientNameId": 501,
+        "nutrientCode": 501,
+        "nutrientSymbol": "TRP",
+        "nutrientUnit": "g",
+        "nutrientName": "TRYPTOPHAN",
+        "nutrientNameF": "TRYPTOPHANE",
+        "tagName": "TRP",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 502,
+        "nutrientCode": 502,
+        "nutrientSymbol": "THR",
+        "nutrientUnit": "g",
+        "nutrientName": "THREONINE",
+        "nutrientNameF": "THR�ONINE",
+        "tagName": "THR",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 503,
+        "nutrientCode": 503,
+        "nutrientSymbol": "ISO",
+        "nutrientUnit": "g",
+        "nutrientName": "ISOLEUCINE",
+        "nutrientNameF": "ISOLEUCINE",
+        "tagName": "ILE",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 504,
+        "nutrientCode": 504,
+        "nutrientSymbol": "LEU",
+        "nutrientUnit": "g",
+        "nutrientName": "LEUCINE",
+        "nutrientNameF": "LEUCINE",
+        "tagName": "LEU",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 505,
+        "nutrientCode": 505,
+        "nutrientSymbol": "LYS",
+        "nutrientUnit": "g",
+        "nutrientName": "LYSINE",
+        "nutrientNameF": "LYSINE",
+        "tagName": "LYS",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 506,
+        "nutrientCode": 506,
+        "nutrientSymbol": "MET",
+        "nutrientUnit": "g",
+        "nutrientName": "METHIONINE",
+        "nutrientNameF": "M�THIONINE",
+        "tagName": "MET",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 507,
+        "nutrientCode": 507,
+        "nutrientSymbol": "CYS",
+        "nutrientUnit": "g",
+        "nutrientName": "CYSTINE",
+        "nutrientNameF": "CYSTINE",
+        "tagName": "CYS",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 508,
+        "nutrientCode": 508,
+        "nutrientSymbol": "PHE",
+        "nutrientUnit": "g",
+        "nutrientName": "PHENYLALANINE",
+        "nutrientNameF": "PH�NYLALANINE",
+        "tagName": "PHE",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 509,
+        "nutrientCode": 509,
+        "nutrientSymbol": "TYR",
+        "nutrientUnit": "g",
+        "nutrientName": "TYROSINE",
+        "nutrientNameF": "TYROSINE",
+        "tagName": "TYR",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 510,
+        "nutrientCode": 510,
+        "nutrientSymbol": "VAL",
+        "nutrientUnit": "g",
+        "nutrientName": "VALINE",
+        "nutrientNameF": "VALINE",
+        "tagName": "VAL",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 511,
+        "nutrientCode": 511,
+        "nutrientSymbol": "ARG",
+        "nutrientUnit": "g",
+        "nutrientName": "ARGININE",
+        "nutrientNameF": "ARGININE",
+        "tagName": "ARG",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 512,
+        "nutrientCode": 512,
+        "nutrientSymbol": "HIS",
+        "nutrientUnit": "g",
+        "nutrientName": "HISTIDINE",
+        "nutrientNameF": "HISTIDINE",
+        "tagName": "HIS",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 513,
+        "nutrientCode": 513,
+        "nutrientSymbol": "ALA",
+        "nutrientUnit": "g",
+        "nutrientName": "ALANINE",
+        "nutrientNameF": "ALANINE",
+        "tagName": "ALA",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 514,
+        "nutrientCode": 514,
+        "nutrientSymbol": "ASP",
+        "nutrientUnit": "g",
+        "nutrientName": "ASPARTIC ACID",
+        "nutrientNameF": "ACIDE ASPARTIQUE",
+        "tagName": "ASP",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 515,
+        "nutrientCode": 515,
+        "nutrientSymbol": "GLU",
+        "nutrientUnit": "g",
+        "nutrientName": "GLUTAMIC ACID",
+        "nutrientNameF": "ACIDE GLUTAMIQUE",
+        "tagName": "GLU",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 516,
+        "nutrientCode": 516,
+        "nutrientSymbol": "GLY",
+        "nutrientUnit": "g",
+        "nutrientName": "GLYCINE",
+        "nutrientNameF": "GLYCINE",
+        "tagName": "GLY",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 517,
+        "nutrientCode": 517,
+        "nutrientSymbol": "PRO",
+        "nutrientUnit": "g",
+        "nutrientName": "PROLINE",
+        "nutrientNameF": "PROLINE",
+        "tagName": "PRO",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 518,
+        "nutrientCode": 518,
+        "nutrientSymbol": "SER",
+        "nutrientUnit": "g",
+        "nutrientName": "SERINE",
+        "nutrientNameF": "SERINE",
+        "tagName": "SER",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 828,
+        "nutrientCode": 521,
+        "nutrientSymbol": "HYP",
+        "nutrientUnit": "g",
+        "nutrientName": "HYDROXYPROLINE",
+        "nutrientNameF": "HYDROXYPROLINE",
+        "tagName": "HYP",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 550,
+        "nutrientCode": 550,
+        "nutrientSymbol": "ASPA",
+        "nutrientUnit": "mg",
+        "nutrientName": "ASPARTAME",
+        "nutrientNameF": "ASPARTAME",
+        "tagName": "",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 875,
+        "nutrientCode": 573,
+        "nutrientSymbol": "ATMG-A",
+        "nutrientUnit": "mg",
+        "nutrientName": "ALPHA-TOCOPHEROL, ADDED",
+        "nutrientNameF": "ALPHA-TOCOPH�ROL, AJOUT�",
+        "tagName": "",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 874,
+        "nutrientCode": 578,
+        "nutrientSymbol": "B12-A",
+        "nutrientUnit": "�g",
+        "nutrientName": "VITAMIN B12, ADDED",
+        "nutrientNameF": "VITAMINE B12, AJOUT�E",
+        "tagName": "",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 601,
+        "nutrientCode": 601,
+        "nutrientSymbol": "CHOL",
+        "nutrientUnit": "mg",
+        "nutrientName": "CHOLESTEROL",
+        "nutrientNameF": "CHOLESTEROL",
+        "tagName": "CHOLE",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 605,
+        "nutrientCode": 605,
+        "nutrientSymbol": "TRFA",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, TRANS, TOTAL",
+        "nutrientNameF": "ACIDES GRAS TRANS TOTAUX",
+        "tagName": "FATRN",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 606,
+        "nutrientCode": 606,
+        "nutrientSymbol": "TSAT",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, TOTAL",
+        "nutrientNameF": "ACIDES GRAS SATUR�S TOTAUX",
+        "tagName": "FASAT",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 607,
+        "nutrientCode": 607,
+        "nutrientSymbol": "4:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 4:0, BUTANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 4:0, BUTANO�QUE",
+        "tagName": "F4D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 608,
+        "nutrientCode": 608,
+        "nutrientSymbol": "6:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 6:0, HEXANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 6:0, HEXANO�QUE",
+        "tagName": "F6D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 609,
+        "nutrientCode": 609,
+        "nutrientSymbol": "8:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 8:0, OCTANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 8:0, OCTANO�QUE",
+        "tagName": "F8D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 610,
+        "nutrientCode": 610,
+        "nutrientSymbol": "10:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 10:0, DECANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 10:0, D�CANO�QUE",
+        "tagName": "F10D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 611,
+        "nutrientCode": 611,
+        "nutrientSymbol": "12:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 12:0, DODECANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 12:0, DOD�CANO�QUE",
+        "tagName": "F12D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 612,
+        "nutrientCode": 612,
+        "nutrientSymbol": "14:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 14:0, TETRADECANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 14:0, T�TRAD�CANO�QUE",
+        "tagName": "F14D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 613,
+        "nutrientCode": 613,
+        "nutrientSymbol": "16:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 16:0, HEXADECANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 16:0, HEXAD�CANO�QUE",
+        "tagName": "F16D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 614,
+        "nutrientCode": 614,
+        "nutrientSymbol": "18:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 18:0, OCTADECANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 18:0,  OCTAD�CANO�QUE",
+        "tagName": "F18D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 615,
+        "nutrientCode": 615,
+        "nutrientSymbol": "20:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 20:0, EICOSANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 20:0, E�COSANO�QUE",
+        "tagName": "F20D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 617,
+        "nutrientCode": 617,
+        "nutrientSymbol": "18:1undiff",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 18:1undifferentiated, OCTADECENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 18:1non diff�renci�, OCTAD�C�NO�QUE",
+        "tagName": "F18D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 618,
+        "nutrientCode": 618,
+        "nutrientSymbol": "18:2undiff",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:2undifferentiated, LINOLEIC, OCTADECADIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:2non diff�renci�,  LINOL�IQUE, OCTAD�CADI�NO�QUE",
+        "tagName": "F18D2",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 619,
+        "nutrientCode": 619,
+        "nutrientSymbol": "18:3undiff",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:3undifferentiated, LINOLENIC, OCTADECATRIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:3non diff�renci�, LINOL�NIQUE, OCTAD�CATRI�NO�QUE",
+        "tagName": "F18D3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 620,
+        "nutrientCode": 620,
+        "nutrientSymbol": "20:4undiff",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 20:4, EICOSATETRAENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 20:4, E�COSAT�TRA�NO�QUE",
+        "tagName": "F20D4",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 621,
+        "nutrientCode": 621,
+        "nutrientSymbol": "22:6n-3DHA",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 22:6 n-3, DOCOSAHEXAENOIC (DHA)",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S,  22:6 n-3, DOCOSAHEXA�NO�QUE",
+        "tagName": "F22D6N3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 624,
+        "nutrientCode": 624,
+        "nutrientSymbol": "22:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 22:0, DOCOSANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 22:0, DOCOSANO�QUE",
+        "tagName": "F22D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 625,
+        "nutrientCode": 625,
+        "nutrientSymbol": "14:1",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 14:1, TETRADECENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 14:1, T�TRAD�C�NO�QUE",
+        "tagName": "F14D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 626,
+        "nutrientCode": 626,
+        "nutrientSymbol": "16:1undiff",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 16:1undifferentiated, HEXADECENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 16:1non diff�renci�, HEXAD�C�NO�QUE",
+        "tagName": "F16D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 627,
+        "nutrientCode": 627,
+        "nutrientSymbol": "18:4",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:4, OCTADECATETRAENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:4, OCTAD�CAT�TRA�NO�QUE",
+        "tagName": "F18D4",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 628,
+        "nutrientCode": 628,
+        "nutrientSymbol": "20:1",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 20:1, EICOSENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 20:1, E�COS�NO�QUE",
+        "tagName": "F20D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 629,
+        "nutrientCode": 629,
+        "nutrientSymbol": "20:5n-3EPA",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 20:5 n-3, EICOSAPENTAENOIC (EPA)",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 20:5 n-3, E�COSAPENTA�NO�QUE",
+        "tagName": "F20D5N3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 630,
+        "nutrientCode": 630,
+        "nutrientSymbol": "22:1undiff",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 22:1undifferentiated, DOCOSENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 22:1non diff�renci�, DOCOS�NO�QUE",
+        "tagName": "F22D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 631,
+        "nutrientCode": 631,
+        "nutrientSymbol": "22:5n-3DPA",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 22:5 n-3, DOCOSAPENTAENOIC (DPA)",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 22:5 n-3, DOCOSAPENTA�NO�QUE",
+        "tagName": "F22D5N3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 636,
+        "nutrientCode": 636,
+        "nutrientSymbol": "TPST",
+        "nutrientUnit": "mg",
+        "nutrientName": "TOTAL PLANT STEROL",
+        "nutrientNameF": "ST�ROLS V�G�TAUX TOTAUX",
+        "tagName": "PHYSTR",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 638,
+        "nutrientCode": 638,
+        "nutrientSymbol": "STIG",
+        "nutrientUnit": "mg",
+        "nutrientName": "STIGMASTEROL",
+        "nutrientNameF": "STIGMAST�ROL",
+        "tagName": "STID7",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 866,
+        "nutrientCode": 639,
+        "nutrientSymbol": "CAMSTR",
+        "nutrientUnit": "mg",
+        "nutrientName": "CAMPESTEROL",
+        "nutrientNameF": "CAMPEST�ROL",
+        "tagName": "CAMD5",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 816,
+        "nutrientCode": 641,
+        "nutrientSymbol": "SITSTR",
+        "nutrientUnit": "mg",
+        "nutrientName": "BETA-SITOSTEROL",
+        "nutrientNameF": "B�TA-SITOST�ROL",
+        "tagName": "SITSTR",
+        "nutrientDecimals": 0
+    },
+    {
+        "nutrientNameId": 645,
+        "nutrientCode": 645,
+        "nutrientSymbol": "MUFA",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, TOTAL",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S  TOTAUX",
+        "tagName": "FAMS",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 646,
+        "nutrientCode": 646,
+        "nutrientSymbol": "PUFA",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, TOTAL",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S TOTAUX",
+        "tagName": "FAPU",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 652,
+        "nutrientCode": 652,
+        "nutrientSymbol": "15:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 15:0, PENTADECANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 15:0, PENTAD�CANO�QUE",
+        "tagName": "F15D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 653,
+        "nutrientCode": 653,
+        "nutrientSymbol": "17:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 17:0, HEPTADECANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 17:0, HEPTAD�CANO�QUE",
+        "tagName": "F17D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 654,
+        "nutrientCode": 654,
+        "nutrientSymbol": "24:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 24:0, TETRACOSANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 24:0, T�TRASANO�QUE",
+        "tagName": "F24D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 817,
+        "nutrientCode": 662,
+        "nutrientSymbol": "16:1t",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 16:1t, HEXADECENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 16:1t, HEXAD�C�NO�QUE",
+        "tagName": "F16D1T",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 818,
+        "nutrientCode": 663,
+        "nutrientSymbol": "18:1t",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 18:1t, OCTADECENOIC",
+        "nutrientNameF": "ACIDE GRAS MONOINSATUR�S, 18:1t, OCTAD�C�NO�QUE",
+        "tagName": "F18D1T",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 852,
+        "nutrientCode": 664,
+        "nutrientSymbol": "22:1t",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 22:1t, DOCOSENOIC",
+        "nutrientNameF": "ACIDE GRAS MONOINSATUR�S, 22:1t, DOCOS�NO�QUE",
+        "tagName": "",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 819,
+        "nutrientCode": 666,
+        "nutrientSymbol": "18:2i",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:2i, LINOLEIC, OCTADECADIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:2i, LINOL�IQUE, OCTAD�CADI�NO�QUE",
+        "tagName": "",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 853,
+        "nutrientCode": 669,
+        "nutrientSymbol": "18:2t,t",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:2t,t , OCTADECADIENENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:2t,t , OCTADECADI�NO�QUE",
+        "tagName": "F18D2TT",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 838,
+        "nutrientCode": 670,
+        "nutrientSymbol": "18:2cla",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, CONJUGATED, 18:2 cla, LINOLEIC, OCTADECADIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S CONJUGU�S, 18:2 cla, LINOL�IQUE, OCTAD�CADI�NO�QUE",
+        "tagName": "F18D2CLA",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 820,
+        "nutrientCode": 671,
+        "nutrientSymbol": "24:1c",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 24:1c, TETRACOSENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 24:1c, T�TRACOS�NO�QUE",
+        "tagName": "F24D1C",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 823,
+        "nutrientCode": 672,
+        "nutrientSymbol": "20:2cc",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 20:2 c,c  EICOSADIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 20:2 c,c  E�COSADI�NO�QUE",
+        "tagName": "F20D2CN6",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 821,
+        "nutrientCode": 673,
+        "nutrientSymbol": "16:1c",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 16:1c, HEXADECENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 16:1c, HEXAD�C�NO�QUE",
+        "tagName": "F16D1C",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 824,
+        "nutrientCode": 674,
+        "nutrientSymbol": "18:1c",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 18:1c, OCTADECENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 18:1c, OCTAD�C�NO�QUE",
+        "tagName": "F18D1C",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 825,
+        "nutrientCode": 675,
+        "nutrientSymbol": "18:2ccn-6",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:2 c,c n-6,  LINOLEIC, OCTADECADIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:2 c,c n-6, LINOL�IQUE, OCTAD�CADI�NO�QUE",
+        "tagName": "F18D2CN6",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 840,
+        "nutrientCode": 676,
+        "nutrientSymbol": "22:1c",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 22:1c, DOCOSENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 22:1c, DOCOS�NO�QUE",
+        "tagName": "",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 832,
+        "nutrientCode": 685,
+        "nutrientSymbol": "18:3cccn-6",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:3 c,c,c n-6, g-LINOLENIC, OCTADECATRIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:3 c,c,c n-6, g-LINOL�NIQUE, OCTAD�CATRI�NO�QUE",
+        "tagName": "F18D3CN6",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 826,
+        "nutrientCode": 687,
+        "nutrientSymbol": "17:1",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 17:1, HEPTADECENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 17:1, HEPTAD�C�NO�QUE",
+        "tagName": "F17D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 827,
+        "nutrientCode": 689,
+        "nutrientSymbol": "20:3undiff",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 20:3, EICOSATRIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 20:3, E�COSATRI�NO�QUE",
+        "tagName": "F20D3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 829,
+        "nutrientCode": 693,
+        "nutrientSymbol": "TRMO",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, TOTAL TRANS-MONOENOIC",
+        "nutrientNameF": "ACIDES GRAS TRANS MONO�NO�QUES TOTAUX",
+        "tagName": "FATRNM",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 859,
+        "nutrientCode": 695,
+        "nutrientSymbol": "TRPO",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, TOTAL TRANS-POLYENOIC",
+        "nutrientNameF": "ACIDES GRAS TRANS POLY�NO�QUES TOTAUX",
+        "tagName": "FATRNP",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 830,
+        "nutrientCode": 696,
+        "nutrientSymbol": "13:0",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, SATURATED, 13:0 TRIDECANOIC",
+        "nutrientNameF": "ACIDES GRAS SATUR�S, 13:0, TRID�CANO�QUE",
+        "tagName": "F13D0",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 833,
+        "nutrientCode": 697,
+        "nutrientSymbol": "15:1",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 15:1, PENTADECENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 15:1, PENTAD�C�NO�QUE",
+        "tagName": "F15D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 802,
+        "nutrientCode": 802,
+        "nutrientSymbol": "TMOS",
+        "nutrientUnit": "g",
+        "nutrientName": "TOTAL MONOSACCARIDES",
+        "nutrientNameF": "MONOSACCHARIDES TOTAUX",
+        "tagName": "MNSAC",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 803,
+        "nutrientCode": 803,
+        "nutrientSymbol": "TDIS",
+        "nutrientUnit": "g",
+        "nutrientName": "TOTAL DISACCHARIDES",
+        "nutrientNameF": "DISACCHARIDES TOTAUX",
+        "tagName": "DISAC",
+        "nutrientDecimals": 2
+    },
+    {
+        "nutrientNameId": 831,
+        "nutrientCode": 851,
+        "nutrientSymbol": "18:3cccn-3",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:3 c,c,c n-3  LINOLENIC, OCTADECATRIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:3 c,c,c  n-3, LINOL�NIQUE, OCTAD�CATRI�NO�QUE",
+        "tagName": "F18D3CN3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 861,
+        "nutrientCode": 852,
+        "nutrientSymbol": "20:3n-3",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 20:3 n-3 EICOSATRIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 20:3 n-3",
+        "tagName": "F20D3N3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 854,
+        "nutrientCode": 853,
+        "nutrientSymbol": "20:3n-6",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 20:3 n-6, EICOSATRIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 20:3 n-6, E�COSATRI�NO�QUE",
+        "tagName": "F20D3N6",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 855,
+        "nutrientCode": 855,
+        "nutrientSymbol": "20:4n-6",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 20:4 n-6, ARACHIDONIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 20:4 n-6, ARACHIDONIQUE",
+        "tagName": "F20D4N6",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 841,
+        "nutrientCode": 856,
+        "nutrientSymbol": "18:3i",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 18:3i, LINOLENIC, OCTADECATRIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 18:3i, LINOL�NIQUE, OCTAD�CATRI�NO�QUE",
+        "tagName": "",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 843,
+        "nutrientCode": 857,
+        "nutrientSymbol": "21:5",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 21:5",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S,  21:5",
+        "tagName": "F21D5",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 845,
+        "nutrientCode": 858,
+        "nutrientSymbol": "22:4n-6",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 22:4 n-6, DOCOSATETRAENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 22:4n-6, DOCOSAT�TRA�NO�QUE",
+        "tagName": "F22D4",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 846,
+        "nutrientCode": 859,
+        "nutrientSymbol": "24:1undiff",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED,  24:1undifferentiated, TETRACOSENOIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 24:1non diff�renci�, T�TRACOS�NO�QUE",
+        "tagName": "F24D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 847,
+        "nutrientCode": 860,
+        "nutrientSymbol": "12:1",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, MONOUNSATURATED, 12:1, LAUROLEIC",
+        "nutrientNameF": "ACIDES GRAS MONOINSATUR�S, 12:1, LAUROLEIC",
+        "tagName": "F12D1",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 848,
+        "nutrientCode": 861,
+        "nutrientSymbol": "22:3",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 22:3,",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 22:3",
+        "tagName": "F22D3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 849,
+        "nutrientCode": 862,
+        "nutrientSymbol": "22:2",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, 22:2, DOCOSADIENOIC",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, 22:2, DOCOSADI�NO�QUE",
+        "tagName": "F22D2",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 868,
+        "nutrientCode": 902,
+        "nutrientSymbol": "TOmega n-3",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, TOTAL OMEGA  N-3",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, TOTAUX D'OM�GA N-3\n",
+        "tagName": "FAPUN3",
+        "nutrientDecimals": 3
+    },
+    {
+        "nutrientNameId": 869,
+        "nutrientCode": 903,
+        "nutrientSymbol": "TOmega n-6",
+        "nutrientUnit": "g",
+        "nutrientName": "FATTY ACIDS, POLYUNSATURATED, TOTAL OMEGA   N-6",
+        "nutrientNameF": "ACIDES GRAS POLYINSATUR�S, TOTAUX D'OM�GA N-6",
+        "tagName": "FAPUN6",
+        "nutrientDecimals": 3
+    }
+]

@@ -1,0 +1,752 @@
+[
+    {
+        "refuseId": 750,
+        "refuseDescription": "total refuse",
+        "refuseDescriptionF": "portion non comestible totale"
+    },
+    {
+        "refuseId": 751,
+        "refuseDescription": "bone",
+        "refuseDescriptionF": "os"
+    },
+    {
+        "refuseId": 752,
+        "refuseDescription": "skin",
+        "refuseDescriptionF": "peau (pelure)"
+    },
+    {
+        "refuseId": 753,
+        "refuseDescription": "shell + membrane",
+        "refuseDescriptionF": "coquille et membrane"
+    },
+    {
+        "refuseId": 754,
+        "refuseDescription": "tough stems, flower heads + trimmings",
+        "refuseDescriptionF": "tiges coriaces, boutons de fleurs"
+    },
+    {
+        "refuseId": 758,
+        "refuseDescription": "separable fat",
+        "refuseDescriptionF": "gras s�parable"
+    },
+    {
+        "refuseId": 759,
+        "refuseDescription": "skin and seperable fat",
+        "refuseDescriptionF": "peau et gras s�parable"
+    },
+    {
+        "refuseId": 760,
+        "refuseDescription": "handling loss",
+        "refuseDescriptionF": "pertes dues aux manipulations"
+    },
+    {
+        "refuseId": 777,
+        "refuseDescription": "fat and valves",
+        "refuseDescriptionF": "gras et valvules"
+    },
+    {
+        "refuseId": 778,
+        "refuseDescription": "cartilage and connective tissue",
+        "refuseDescriptionF": "cartilage et tissu conjonctif"
+    },
+    {
+        "refuseId": 779,
+        "refuseDescription": "skin and connective tissue",
+        "refuseDescriptionF": "peau et tissu conjonctif"
+    },
+    {
+        "refuseId": 780,
+        "refuseDescription": "bone and skin",
+        "refuseDescriptionF": "os et peau"
+    },
+    {
+        "refuseId": 781,
+        "refuseDescription": "connective tissue",
+        "refuseDescriptionF": "tissu conjonctif"
+    },
+    {
+        "refuseId": 782,
+        "refuseDescription": "bloodclots and membrane",
+        "refuseDescriptionF": "caillots sanguins et membrane"
+    },
+    {
+        "refuseId": 783,
+        "refuseDescription": "thaw juice and trim",
+        "refuseDescriptionF": "liquide de d�congelation et parures"
+    },
+    {
+        "refuseId": 784,
+        "refuseDescription": "bone and hard tissue",
+        "refuseDescriptionF": "os et tissus durs"
+    },
+    {
+        "refuseId": 785,
+        "refuseDescription": "fat",
+        "refuseDescriptionF": "gras"
+    },
+    {
+        "refuseId": 786,
+        "refuseDescription": "bone and tendon",
+        "refuseDescriptionF": "os et tendons"
+    },
+    {
+        "refuseId": 802,
+        "refuseDescription": "connective tissue, fat and veins",
+        "refuseDescriptionF": "tissu conjonctif, gras et veines"
+    },
+    {
+        "refuseId": 803,
+        "refuseDescription": "connective tissue and veins",
+        "refuseDescriptionF": "tissu conjonctif et veines"
+    },
+    {
+        "refuseId": 804,
+        "refuseDescription": "seeds",
+        "refuseDescriptionF": "p�pins/noyaux"
+    },
+    {
+        "refuseId": 805,
+        "refuseDescription": "stems",
+        "refuseDescriptionF": "queues/tiges"
+    },
+    {
+        "refuseId": 806,
+        "refuseDescription": "pits",
+        "refuseDescriptionF": "noyaux"
+    },
+    {
+        "refuseId": 807,
+        "refuseDescription": "seeds and skin",
+        "refuseDescriptionF": "noyau (p�pins) et peau (pelure)"
+    },
+    {
+        "refuseId": 808,
+        "refuseDescription": "core and stem",
+        "refuseDescriptionF": "noyau et queue (tige)"
+    },
+    {
+        "refuseId": 809,
+        "refuseDescription": "core",
+        "refuseDescriptionF": "noyau"
+    },
+    {
+        "refuseId": 810,
+        "refuseDescription": "pits and stems",
+        "refuseDescriptionF": "noyaux et tiges (queues)"
+    },
+    {
+        "refuseId": 811,
+        "refuseDescription": "peel, seeds, core and membrane",
+        "refuseDescriptionF": "pelure, p�pins, noyaux et membrane"
+    },
+    {
+        "refuseId": 812,
+        "refuseDescription": "husk",
+        "refuseDescriptionF": "enveloppe -- �cale"
+    },
+    {
+        "refuseId": 813,
+        "refuseDescription": "seeds, stem and blossom end",
+        "refuseDescriptionF": "p�pins, tige et fleur"
+    },
+    {
+        "refuseId": 815,
+        "refuseDescription": "peel",
+        "refuseDescriptionF": "pelure "
+    },
+    {
+        "refuseId": 816,
+        "refuseDescription": "peel and seeds",
+        "refuseDescriptionF": "pelure et p�pins"
+    },
+    {
+        "refuseId": 817,
+        "refuseDescription": "shells and seeds",
+        "refuseDescriptionF": "�cailles et noyaux"
+    },
+    {
+        "refuseId": 818,
+        "refuseDescription": "cavity contents",
+        "refuseDescriptionF": "contenu cavit�"
+    },
+    {
+        "refuseId": 819,
+        "refuseDescription": "rind",
+        "refuseDescriptionF": "zeste / pelure / �corce"
+    },
+    {
+        "refuseId": 820,
+        "refuseDescription": "peel and navel",
+        "refuseDescriptionF": "pelure et navel"
+    },
+    {
+        "refuseId": 821,
+        "refuseDescription": "shells / husks",
+        "refuseDescriptionF": "enveloppes/ �cales"
+    },
+    {
+        "refuseId": 822,
+        "refuseDescription": "calyx",
+        "refuseDescriptionF": "calice"
+    },
+    {
+        "refuseId": 823,
+        "refuseDescription": "skin and stems",
+        "refuseDescriptionF": "pelure et tige (queue)"
+    },
+    {
+        "refuseId": 824,
+        "refuseDescription": "seeds, skin and bud",
+        "refuseDescriptionF": "p�pins, pelure et bouton"
+    },
+    {
+        "refuseId": 825,
+        "refuseDescription": "seeds, skin and membrane",
+        "refuseDescriptionF": "p�pins, pelure et membrane"
+    },
+    {
+        "refuseId": 826,
+        "refuseDescription": "core, seeds and parings",
+        "refuseDescriptionF": "noyau, p�pins et �pluchures"
+    },
+    {
+        "refuseId": 827,
+        "refuseDescription": "caps and pits",
+        "refuseDescriptionF": "capuchons et noyaux"
+    },
+    {
+        "refuseId": 828,
+        "refuseDescription": "seed pods and stem",
+        "refuseDescriptionF": "p�pins et tiges (queues)"
+    },
+    {
+        "refuseId": 829,
+        "refuseDescription": "pods and seeds",
+        "refuseDescriptionF": "gousses et graines"
+    },
+    {
+        "refuseId": 830,
+        "refuseDescription": "rind, seeds and cutting loss",
+        "refuseDescriptionF": "pelure, noyaux et pertes/manipulations"
+    },
+    {
+        "refuseId": 831,
+        "refuseDescription": "stems and spoiled berries",
+        "refuseDescriptionF": "queues et baies g�t�es"
+    },
+    {
+        "refuseId": 832,
+        "refuseDescription": "cutting loss",
+        "refuseDescriptionF": "pertes/manipulations"
+    },
+    {
+        "refuseId": 833,
+        "refuseDescription": "pits and skin",
+        "refuseDescriptionF": "noyaux et pelure"
+    },
+    {
+        "refuseId": 834,
+        "refuseDescription": "crown",
+        "refuseDescriptionF": "couronne"
+    },
+    {
+        "refuseId": 835,
+        "refuseDescription": "parings",
+        "refuseDescriptionF": "�pluchures"
+    },
+    {
+        "refuseId": 836,
+        "refuseDescription": "caps, stems and spoiled berries",
+        "refuseDescriptionF": "capuchons, queues et baies g�t�es"
+    },
+    {
+        "refuseId": 837,
+        "refuseDescription": "ends",
+        "refuseDescriptionF": "bouts"
+    },
+    {
+        "refuseId": 838,
+        "refuseDescription": "leaves",
+        "refuseDescriptionF": "feuilles"
+    },
+    {
+        "refuseId": 839,
+        "refuseDescription": "caps and stems",
+        "refuseDescriptionF": "capuchons et queues"
+    },
+    {
+        "refuseId": 840,
+        "refuseDescription": "shells and skins",
+        "refuseDescriptionF": "�cales et pelures"
+    },
+    {
+        "refuseId": 841,
+        "refuseDescription": "shells, skin and water",
+        "refuseDescriptionF": "�cales, peau et eau"
+    },
+    {
+        "refuseId": 842,
+        "refuseDescription": "liquid",
+        "refuseDescriptionF": "liquide"
+    },
+    {
+        "refuseId": 843,
+        "refuseDescription": "soft shells",
+        "refuseDescriptionF": "�cales molles"
+    },
+    {
+        "refuseId": 857,
+        "refuseDescription": "hard seed coat",
+        "refuseDescriptionF": "couche dure des noyaux"
+    },
+    {
+        "refuseId": 870,
+        "refuseDescription": "skin and sprout",
+        "refuseDescriptionF": "pelure et germe"
+    },
+    {
+        "refuseId": 919,
+        "refuseDescription": "tough stems and leaves",
+        "refuseDescriptionF": "p�doncules (tiges) coriaces et feuilles"
+    },
+    {
+        "refuseId": 920,
+        "refuseDescription": "pods",
+        "refuseDescriptionF": "gousses"
+    },
+    {
+        "refuseId": 936,
+        "refuseDescription": "external fat",
+        "refuseDescriptionF": "gras externe"
+    },
+    {
+        "refuseId": 937,
+        "refuseDescription": "internal fat",
+        "refuseDescriptionF": "gras interne"
+    },
+    {
+        "refuseId": 956,
+        "refuseDescription": "roots, old / bruised leaves",
+        "refuseDescriptionF": "racines, feuilles vieilles / endommag�es"
+    },
+    {
+        "refuseId": 1006,
+        "refuseDescription": "crown, tops and scrapings",
+        "refuseDescriptionF": "collet,  fanes et pelures"
+    },
+    {
+        "refuseId": 1105,
+        "refuseDescription": "outer leaves, core and trimmings",
+        "refuseDescriptionF": "feuilles ext�rieures, noyau et parures"
+    },
+    {
+        "refuseId": 1106,
+        "refuseDescription": "trimmings",
+        "refuseDescriptionF": "parures"
+    },
+    {
+        "refuseId": 1147,
+        "refuseDescription": "sheath",
+        "refuseDescriptionF": "enveloppe"
+    },
+    {
+        "refuseId": 1148,
+        "refuseDescription": "pods and imperfect beans",
+        "refuseDescriptionF": "cosses et f�ves imparfaites"
+    },
+    {
+        "refuseId": 1149,
+        "refuseDescription": "stems, bruised and old leaves",
+        "refuseDescriptionF": "tiges, feuilles/vieilles endommag�es"
+    },
+    {
+        "refuseId": 1150,
+        "refuseDescription": "skin, root and tips",
+        "refuseDescriptionF": "pelure, racine et bouts"
+    },
+    {
+        "refuseId": 1151,
+        "refuseDescription": "leaves, stem ends, peels",
+        "refuseDescriptionF": "feuilles, bouts de la tige, pelure"
+    },
+    {
+        "refuseId": 1155,
+        "refuseDescription": "base and damaged leaves",
+        "refuseDescriptionF": "base et feuilles endommag�es"
+    },
+    {
+        "refuseId": 1156,
+        "refuseDescription": "outer leaves and root base",
+        "refuseDescriptionF": "feuilles ext�rieures et base de la racine"
+    },
+    {
+        "refuseId": 1157,
+        "refuseDescription": "end and stem",
+        "refuseDescriptionF": "bouts et tige"
+    },
+    {
+        "refuseId": 1158,
+        "refuseDescription": "root base and core",
+        "refuseDescriptionF": "base de la racine et noyau"
+    },
+    {
+        "refuseId": 1159,
+        "refuseDescription": "peels and tops",
+        "refuseDescriptionF": "pelure et fanes"
+    },
+    {
+        "refuseId": 1160,
+        "refuseDescription": "stem ends",
+        "refuseDescriptionF": "bouts de la tige"
+    },
+    {
+        "refuseId": 1162,
+        "refuseDescription": "cob",
+        "refuseDescriptionF": "�pi"
+    },
+    {
+        "refuseId": 1163,
+        "refuseDescription": "end and strings",
+        "refuseDescriptionF": "bouts et fils"
+    },
+    {
+        "refuseId": 1164,
+        "refuseDescription": "stems, crown and spoiled leaves",
+        "refuseDescriptionF": "tiges, couronne et feuilles endommag�es"
+    },
+    {
+        "refuseId": 1165,
+        "refuseDescription": "ends, parings and trimmings",
+        "refuseDescriptionF": "bouts, �pluchures et parures"
+    },
+    {
+        "refuseId": 1167,
+        "refuseDescription": "scrapings",
+        "refuseDescriptionF": "pelure / peau"
+    },
+    {
+        "refuseId": 1168,
+        "refuseDescription": "ends, skins and seeds",
+        "refuseDescriptionF": "bouts, peau et p�pins"
+    },
+    {
+        "refuseId": 1169,
+        "refuseDescription": "ribs, skin, stem and blossom end",
+        "refuseDescriptionF": "peau, tige et extremit� apicale"
+    },
+    {
+        "refuseId": 1170,
+        "refuseDescription": "stems and defects",
+        "refuseDescriptionF": "tige et taches"
+    },
+    {
+        "refuseId": 1171,
+        "refuseDescription": "leaves, stems and parings",
+        "refuseDescriptionF": "feuilles, tiges et �pluchures"
+    },
+    {
+        "refuseId": 1172,
+        "refuseDescription": "outer leaves and core",
+        "refuseDescriptionF": "feuilles ext�rieures et noyau"
+    },
+    {
+        "refuseId": 1180,
+        "refuseDescription": "skin and end of lobes",
+        "refuseDescriptionF": "peau et bout des lobes"
+    },
+    {
+        "refuseId": 1181,
+        "refuseDescription": "ends and skin",
+        "refuseDescriptionF": "bouts et peau"
+    },
+    {
+        "refuseId": 1182,
+        "refuseDescription": "bases",
+        "refuseDescriptionF": "bases"
+    },
+    {
+        "refuseId": 1183,
+        "refuseDescription": "large stems and roots",
+        "refuseDescriptionF": "large tige et racines"
+    },
+    {
+        "refuseId": 1184,
+        "refuseDescription": "crown and tips",
+        "refuseDescriptionF": "bouts de la tige et petits bouts"
+    },
+    {
+        "refuseId": 1185,
+        "refuseDescription": "rootlets",
+        "refuseDescriptionF": "radicelles"
+    },
+    {
+        "refuseId": 1188,
+        "refuseDescription": "leaf tops and roots",
+        "refuseDescriptionF": "bouts de feuilles et racines"
+    },
+    {
+        "refuseId": 1190,
+        "refuseDescription": "pistil and calyx",
+        "refuseDescriptionF": "pistil et callice"
+    },
+    {
+        "refuseId": 1192,
+        "refuseDescription": "tops ans parings",
+        "refuseDescriptionF": "fanes et �pluchures"
+    },
+    {
+        "refuseId": 1193,
+        "refuseDescription": "scrapings and rootlets",
+        "refuseDescriptionF": "pelures et radicelles"
+    },
+    {
+        "refuseId": 1198,
+        "refuseDescription": "stems, pistil and calyx",
+        "refuseDescriptionF": "tiges, pistil et calice"
+    },
+    {
+        "refuseId": 1199,
+        "refuseDescription": "tough stems and bruised leaves",
+        "refuseDescriptionF": "tiges coriaces et feuilles endommag�es"
+    },
+    {
+        "refuseId": 1201,
+        "refuseDescription": "parings and trimmings",
+        "refuseDescriptionF": "�pluchures et parures"
+    },
+    {
+        "refuseId": 1202,
+        "refuseDescription": "stem, midrib and tough leaves",
+        "refuseDescriptionF": "tige, nervure m�diane et feuilles coriaces"
+    },
+    {
+        "refuseId": 1203,
+        "refuseDescription": "root crown, tough stems and discarded leaves",
+        "refuseDescriptionF": "collet, tiges coriaces et feuilles jet�es"
+    },
+    {
+        "refuseId": 1204,
+        "refuseDescription": "tough stems and ends",
+        "refuseDescriptionF": "tiges coriaces et bouts"
+    },
+    {
+        "refuseId": 1205,
+        "refuseDescription": "stem, center and skin",
+        "refuseDescriptionF": "tiges, milieu et peau"
+    },
+    {
+        "refuseId": 1206,
+        "refuseDescription": "stalks",
+        "refuseDescriptionF": "tiges ou queues"
+    },
+    {
+        "refuseId": 1207,
+        "refuseDescription": "hard outer coverings and fibre",
+        "refuseDescriptionF": "recouvrement externe dur et fibres"
+    },
+    {
+        "refuseId": 1208,
+        "refuseDescription": "stems, tough part of midribs",
+        "refuseDescriptionF": "tiges, parties coriaces de la nervure m�diane"
+    },
+    {
+        "refuseId": 1210,
+        "refuseDescription": "seeds, rind and stem",
+        "refuseDescriptionF": "p�pins, zeste/pelure/�corce et tige"
+    },
+    {
+        "refuseId": 1211,
+        "refuseDescription": "stem ends, seeds and core",
+        "refuseDescriptionF": "bout de la tige, p�pins et noyau"
+    },
+    {
+        "refuseId": 1213,
+        "refuseDescription": "stems and inedible parts of bracts and flower",
+        "refuseDescriptionF": "tiges et parties non comestible de la fleur et de la bract�e"
+    },
+    {
+        "refuseId": 1221,
+        "refuseDescription": "stems and trimmings",
+        "refuseDescriptionF": "tiges et parures"
+    },
+    {
+        "refuseId": 1223,
+        "refuseDescription": "core and leaf ends",
+        "refuseDescriptionF": "noyau et bouts de feuilles"
+    },
+    {
+        "refuseId": 1224,
+        "refuseDescription": "stalk, leaves and core",
+        "refuseDescriptionF": "tiges, feuilles et noyau"
+    },
+    {
+        "refuseId": 1225,
+        "refuseDescription": "roots, stems and bruised leaves",
+        "refuseDescriptionF": "racines, tiges et feuilles endommag�es"
+    },
+    {
+        "refuseId": 1226,
+        "refuseDescription": "spines and dark spots",
+        "refuseDescriptionF": "�pines et taches fonc�es"
+    },
+    {
+        "refuseId": 1227,
+        "refuseDescription": "leaf, stalks, core and trimmings",
+        "refuseDescriptionF": "feuilles, tiges, noyau et parures"
+    },
+    {
+        "refuseId": 1233,
+        "refuseDescription": "ends, strings and trimmings",
+        "refuseDescriptionF": "bouts, fils et parures"
+    },
+    {
+        "refuseId": 1236,
+        "refuseDescription": "leaves, tough stalks and trimmings",
+        "refuseDescriptionF": "feuilles, tiges coriaces et parures"
+    },
+    {
+        "refuseId": 1240,
+        "refuseDescription": "outer leaves",
+        "refuseDescriptionF": "feuilles ext�rieures"
+    },
+    {
+        "refuseId": 1249,
+        "refuseDescription": "roots and trimmings",
+        "refuseDescriptionF": "racines et parures"
+    },
+    {
+        "refuseId": 1254,
+        "refuseDescription": "husk, silk and trimmings",
+        "refuseDescriptionF": "enveloppe, soie et parures"
+    },
+    {
+        "refuseId": 1258,
+        "refuseDescription": "knob and skin",
+        "refuseDescriptionF": "bourse et peau"
+    },
+    {
+        "refuseId": 1259,
+        "refuseDescription": "stem ends, tough stems and tough midrib parts",
+        "refuseDescriptionF": "bout de tiges, tiges coriaces et parties coriaces de la nervure m�diane"
+    },
+    {
+        "refuseId": 1260,
+        "refuseDescription": "tops, root ends and skin",
+        "refuseDescriptionF": "fanes, bouts de racines et peau"
+    },
+    {
+        "refuseId": 1264,
+        "refuseDescription": "1 cap",
+        "refuseDescriptionF": "1 capuchon"
+    },
+    {
+        "refuseId": 1265,
+        "refuseDescription": "stem ends, sprouts and defects",
+        "refuseDescriptionF": "bouts de racine, pousses et d�fauts"
+    },
+    {
+        "refuseId": 1271,
+        "refuseDescription": "tough stems",
+        "refuseDescriptionF": "tiges coriaces"
+    },
+    {
+        "refuseId": 1273,
+        "refuseDescription": "pods and inedible seeds",
+        "refuseDescriptionF": "cosses et p�pins non comestibles"
+    },
+    {
+        "refuseId": 1277,
+        "refuseDescription": "skin and adhering flesh",
+        "refuseDescriptionF": "peau et chair adh�rente"
+    },
+    {
+        "refuseId": 1278,
+        "refuseDescription": "skin and eyes",
+        "refuseDescriptionF": "peau et oeil"
+    },
+    {
+        "refuseId": 1285,
+        "refuseDescription": "stem ends, rootlets and trimmings",
+        "refuseDescriptionF": "bout de tiges, radicelle et parures"
+    },
+    {
+        "refuseId": 1287,
+        "refuseDescription": "seeds, rind and trimmings",
+        "refuseDescriptionF": "p�pins, zeste/pelure/�corce et parures"
+    },
+    {
+        "refuseId": 1288,
+        "refuseDescription": "seeds, rind, trimmings and cutting loss",
+        "refuseDescriptionF": "graines, peau et parures"
+    },
+    {
+        "refuseId": 1289,
+        "refuseDescription": "rind and seeds",
+        "refuseDescriptionF": "zeste/pelure/�corce et p�pins"
+    },
+    {
+        "refuseId": 1305,
+        "refuseDescription": "parings and part tops",
+        "refuseDescriptionF": "pelure et partie de la tige"
+    },
+    {
+        "refuseId": 1306,
+        "refuseDescription": "stems and flowers",
+        "refuseDescriptionF": "tiges et fleurs"
+    },
+    {
+        "refuseId": 1449,
+        "refuseDescription": "fat, veins and connective tissue",
+        "refuseDescriptionF": "gras, veines et tissus conjonctif"
+    },
+    {
+        "refuseId": 1450,
+        "refuseDescription": "bone and connective tissue",
+        "refuseDescriptionF": "os et tissu conjonctif"
+    },
+    {
+        "refuseId": 1566,
+        "refuseDescription": "core and damaged outer leaves",
+        "refuseDescriptionF": "noyau et feuilles ext�rieures endommag�es"
+    },
+    {
+        "refuseId": 1618,
+        "refuseDescription": "stems and seeds",
+        "refuseDescriptionF": "tiges et p�pins"
+    },
+    {
+        "refuseId": 502433,
+        "refuseDescription": "bone and cartilage",
+        "refuseDescriptionF": "os et cartilage"
+    },
+    {
+        "refuseId": 502450,
+        "refuseDescription": "skin, subcutaneous fat and breading",
+        "refuseDescriptionF": "peau, gras sous cutan� et panure"
+    },
+    {
+        "refuseId": 502506,
+        "refuseDescription": "stem, core and seeds",
+        "refuseDescriptionF": "tige, coeur, et p�pins"
+    },
+    {
+        "refuseId": 502507,
+        "refuseDescription": "seeds, skin and core",
+        "refuseDescriptionF": "p�pins, peau et coeur"
+    },
+    {
+        "refuseId": 502513,
+        "refuseDescription": "skin and membrane",
+        "refuseDescriptionF": "peau et membranes"
+    },
+    {
+        "refuseId": 502531,
+        "refuseDescription": "tail and shell",
+        "refuseDescriptionF": "queue et carapace"
+    },
+    {
+        "refuseId": 502532,
+        "refuseDescription": "skin, head, viscera and bones",
+        "refuseDescriptionF": "peau, t�te, visc�res et os"
+    }
+]
