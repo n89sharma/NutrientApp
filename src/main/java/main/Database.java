@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.stream.Collectors;
 
@@ -44,19 +45,26 @@ public class Database {
             .stream()
             .collect(Collectors.groupingBy(NutrientAmount::getFoodId, Collectors.toList()));
 
+        List<Integer> nutrientsDisplayedUi = Arrays.asList(208, 203, 205, 269, 291, 204, 606, 605, 601, 307, 303, 301, 319, 321, 418, 401, 324, 868, 869);
         while(true) {
             int foodId = Integer.parseInt(System.console().readLine());
             if(foodNameMap.keySet().contains(foodId)) {
                 String foodDescription = foodNameMap.get(foodId).getFoodDescription(); 
                 List<NutrientAmount> nutrientsInGivenFood = nutrientAmountsPerFoodId.get(foodId);
-                System.out.println(foodDescription + " " + nutrientsInGivenFood.size());        
+                System.out.println(foodDescription + " " + nutrientsInGivenFood.size());     
+                
+                nutrientsInGivenFood = nutrientsInGivenFood
+                    .stream()
+                    .filter(nutrientAmount -> nutrientsDisplayedUi.contains(nutrientAmount.getNutrientId()))
+                    .collect(Collectors.toList());
+
                 for(NutrientAmount nutrientAmount : nutrientsInGivenFood) {
                     int nutrientId              = nutrientAmount.getNutrientId();
                     NutrientName nutrientInfo   = nutrientNamesMap.get(nutrientId);
                     String nutrientName         = nutrientInfo.getNutrientName();
                     double nutrientValue        = nutrientAmount.getNutrientValue();
                     String nutrientUnit         = new String(nutrientInfo.getNutrientUnit().getBytes(), "UTF-8");
-                    System.out.println(nutrientName + " " + nutrientValue + " " + nutrientUnit);
+                    System.out.println(nutrientId + " " + nutrientName + " " + nutrientValue + " " + nutrientUnit);
                 }
             }
         }
