@@ -3,17 +3,17 @@ package main;
 import dbobjects.*;
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
+import java.util.*;
 
 import static dbobjects.Tables.*;
+import static java.util.stream.Collectors.toMap;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.util.Map;
-import java.util.Set;
+
+import java.util.function.BiFunction;
 import java.util.function.Function;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Database {
 
@@ -45,27 +45,22 @@ public class Database {
             .stream()
             .collect(Collectors.groupingBy(NutrientAmount::getFoodId, Collectors.toList()));
 
-        List<Integer> nutrientsDisplayedUi = Arrays.asList(208, 203, 205, 269, 291, 204, 606, 605, 601, 307, 303, 301, 319, 321, 418, 401, 324, 868, 869);
-        while(true) {
-            int foodId = Integer.parseInt(System.console().readLine());
-            if(foodNameMap.keySet().contains(foodId)) {
-                String foodDescription = foodNameMap.get(foodId).getFoodDescription(); 
-                List<NutrientAmount> nutrientsInGivenFood = nutrientAmountsPerFoodId.get(foodId);
-                System.out.println(foodDescription + " " + nutrientsInGivenFood.size());     
-                
-                nutrientsInGivenFood = nutrientsInGivenFood
-                    .stream()
-                    .filter(nutrientAmount -> nutrientsDisplayedUi.contains(nutrientAmount.getNutrientId()))
-                    .collect(Collectors.toList());
+        List<Integer> nutrientsDisplayedUi = Arrays.asList(208, 205, 269, 291, 203, 204, 605, 606, 601, 301, 303, 307, 319, 321, 418, 401, 324, 868, 869);
+        List<Integer> foodIds = Arrays.asList(2, 3582, 502230, 4883, 4919, 502555, 4616, 502440, 502718);
 
-                for(NutrientAmount nutrientAmount : nutrientsInGivenFood) {
-                    int nutrientId              = nutrientAmount.getNutrientId();
-                    NutrientName nutrientInfo   = nutrientNamesMap.get(nutrientId);
-                    String nutrientName         = nutrientInfo.getNutrientName();
-                    double nutrientValue        = nutrientAmount.getNutrientValue();
-                    String nutrientUnit         = new String(nutrientInfo.getNutrientUnit().getBytes(), "UTF-8");
-                    System.out.println(nutrientId + " " + nutrientName + " " + nutrientValue + " " + nutrientUnit);
+        for(int foodId : foodIds) {
+            if(foodNameMap.keySet().contains(foodId)) {
+                Map<Integer, Double> nutrientInFood = nutrientAmountsPerFoodId.get(foodId)
+                    .stream()
+                    .collect(toMap(NutrientAmount::getNutrientId, NutrientAmount::getNutrientValue));
+                for(int nutrientId : nutrientsDisplayedUi) {
+                    double nutrientValue = nutrientInFood.keySet().contains(nutrientId)
+                        ? nutrientInFood.get(nutrientId)
+                        : 0;
+                    System.out.print(nutrientValue + ",");
+//                    System.out.println(nutrientId + " " + nutrientName + " " + nutrientValue + " " + nutrientUnit);
                 }
+                System.out.println();
             }
         }
     }
@@ -73,7 +68,7 @@ public class Database {
     private static <K, E> Map<K, E> getMap(List<E> elements, Function<E, K> keyMapper) {
         return elements
             .stream()
-            .collect(Collectors.toMap(keyMapper, Function.identity()));
+            .collect(toMap(keyMapper, Function.identity()));
     }
 
 }
