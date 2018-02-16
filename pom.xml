@@ -10,6 +10,11 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.4.4.RELEASE</version>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
@@ -31,7 +36,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>main.Database</mainClass>
+                    <mainClass>main.NutrientApp</mainClass>
                 </configuration>
             </plugin>
 
@@ -78,6 +83,12 @@
         </plugins>
     </build>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.10.RELEASE</version>
+    </parent>
+
     <dependencies>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
@@ -89,6 +100,10 @@
             <artifactId>lombok</artifactId>
             <version>1.16.16</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
