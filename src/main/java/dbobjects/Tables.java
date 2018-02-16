@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 
 public enum Tables {
@@ -44,12 +45,17 @@ public enum Tables {
         this.clazz = clazz;
     }
 
-    public static <T> List<T> getAllTableRowsFrom(Tables table) throws IOException {
-        return (List<T>) new CsvMapper()
-            .readerFor(table.getClazz())
-            .with(table.getCsvSchema())
-            .readValues(getFile(table.getFileName()))
-            .readAll();
+    public static <T> List<T> getAllTableRowsFrom(Tables table) {
+        try {
+            return (List<T>) new CsvMapper()
+                .readerFor(table.getClazz())
+                .with(table.getCsvSchema())
+                .readValues(getFile(table.getFileName()))
+                .readAll();
+        }
+        catch (Exception e) {
+            return Collections.emptyList();
+        }
     }
 
     private static File getFile(String fileName) {
