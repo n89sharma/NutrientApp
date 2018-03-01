@@ -1,9 +1,6 @@
 package main;
 
-import java.util.Map;
 import java.util.List;
-import java.util.Arrays;
-import java.util.HashMap;
 import static java.util.Arrays.asList;
 
 public enum DailyValue {

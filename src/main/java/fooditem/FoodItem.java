@@ -1,12 +1,13 @@
-package main;
+package fooditem;
 
 import dbobjects.FoodName;
 import dbobjects.NutrientAmount;
 import lombok.Data;
-
+import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.List;
 
 @Data
+@Document(collection = "fooditems")
 public class FoodItem {
     int foodId;
     String foodDescription;

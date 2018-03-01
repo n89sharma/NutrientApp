@@ -16,11 +16,13 @@ import java.util.Scanner;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import fooditem.FoodItem;
 import static dbobjects.Tables.*;
 import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
+
 
 @Controller
 @EnableAutoConfiguration
@@ -61,33 +63,6 @@ public class NutrientApp {
         //@formatter:on
 
         testMeasureAmount();
-    }
-
-    @RequestMapping("/foodItem")
-    @ResponseBody
-    public FoodItem getFoodItem(int foodId) {
-        return FoodItem.of(foodNamesPerFoodId.get(foodId), nutrientAmountsPerFoodId.get(foodId));
-    }
-
-    @RequestMapping("/foodItems")
-    @ResponseBody
-    public List<FoodIdAndDescription> getFoodItems() {
-        return foodNames
-            .stream()
-            .map(foodName -> FoodIdAndDescription.of(foodName.getFoodId(), foodName.getFoodDescription()))
-            .collect(toList());
-    }
-
-    @RequestMapping("/conversionOptions")
-    @ResponseBody
-    public Map<String, Double> getConversionOptions(int foodId) {
-        List<ConversionFactor> conversionFactors = conversionFactorsPerFoodId.get(foodId);
-
-        return conversionFactors
-            .stream()
-            .collect(toMap(
-                f-> measureNamesPerMeasureId.get(f.getMeasureId()).getMeasureDescription(),
-                ConversionFactor::getConversionFactorValue));
     }
 
     private static <K, E> Map<K, E> getMap(List<E> elements, Function<E, K> keyMapper) {
