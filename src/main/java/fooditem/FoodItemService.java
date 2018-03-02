@@ -1,42 +1,44 @@
 package fooditem;
 
-import dbobjects.FoodName;
-import dbobjects.NutrientAmount;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.groupingBy;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import java.util.List;
+
+@Service
 public class FoodItemService {
 
-    private Map<Integer, FoodName> foodNamesPerFoodId;    
-    private Map<Integer, List<NutrientAmount>> nutrientAmountsPerFoodId;
     private FoodItemRepository foodItemRepository;
-    
-    //Saving data to repository
-    public void saveItemsToRepository(FoodItem foodItem) {
-        List<FoodItem> foodItems = foodNamesPerFoodId
-            .values()
-            .stream()
-            .map(foodName -> FoodItem.of(foodName, nutrientAmountsPerFoodId.get(foodName.getFoodId())))
-            .collect(Collectors.toList());
-        foodItemRepository.save(foodItems);
-    }
-    //---------------------------------------------------------------------------------------------------------
+    private FoodIdAndDescriptionRepository foodIdAndDescriptionRepository;
+    private ConversionFactorRepository conversionFactorRepository;
 
-    public FoodItemService(Map<Integer, FoodName> foodNamesPerFoodId, List<NutrientAmount> nutrientAmounts) {
-        this.foodNamesPerFoodId = foodNamesPerFoodId;
-        this.nutrientAmountsPerFoodId = nutrientAmounts
-        .stream()
-        .collect(groupingBy(NutrientAmount::getFoodId, toList()));
+    @Autowired
+    public FoodItemService(FoodItemRepository foodItemRepository,
+            FoodIdAndDescriptionRepository foodIdAndDescriptionRepository,
+            ConversionFactorRepository conversionFactorRepository) {
+
+        this.foodItemRepository = foodItemRepository;
+        this.foodIdAndDescriptionRepository = foodIdAndDescriptionRepository;
+        this.conversionFactorRepository = conversionFactorRepository;
     }
 
     public FoodItem getFoodItem(int foodId) {
         FoodItem foodItem = null;
-        if(foodItemRepository.exists(foodId)) {
+        if (foodItemRepository.exists(foodId)) {
             foodItem = foodItemRepository.findOne(foodId);
         }
         return foodItem;
+    }
+
+    public List<FoodIdAndDescription> getFoodIdAndDescriptions() {
+        return foodIdAndDescriptionRepository.findAll();
+    }
+
+    public ConversionFactorFoodItem getConversionFactors(int foodId) {
+        ConversionFactorFoodItem conversionFactorFoodItem = null;
+        if (conversionFactorRepository.exists(foodId)) {
+            conversionFactorFoodItem = conversionFactorRepository.findOne(foodId);
+        }
+        return conversionFactorFoodItem;
     }
 }

@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @AllArgsConstructor
-@Document(collection = "fooditems")
+@Document(collection = "foodIdAndDescriptions")
 public class FoodIdAndDescription {
     int foodId;
     String foodDescription;
