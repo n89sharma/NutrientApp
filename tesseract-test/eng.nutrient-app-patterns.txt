@@ -1,0 +1,7 @@
+Per\d\p\d\c\*(\d\*\c\*)
+pour\d\p\d\c\*(\d\*\c\*)
+Amount%DailyValue
+Teneur%valeurquotidienne
+Calories/Colories\n\*
+Fat/Lipides\n*.\n*\c*
+Servingsize\n\*\c\*(\n\*\c*)

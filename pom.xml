@@ -22,8 +22,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-        
-
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -36,10 +34,9 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>main.NutrientApp</mainClass>
+                    <mainClass>nutrientapp.NutrientApp</mainClass>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -58,7 +55,6 @@
                 </execution>
                 </executions>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -70,7 +66,7 @@
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                             <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                             <addClasspath>true</addClasspath>
-                            <mainClass>axisallies.AxisAllies</mainClass>
+                            <mainClass>nutrientapp.NutrientApp</mainClass>
                         </manifest>
                         <manifestEntries>
                             <mode>development</mode>
