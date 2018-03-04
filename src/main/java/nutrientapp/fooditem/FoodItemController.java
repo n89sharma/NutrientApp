@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import nutrientapp.fooditem.FoodItemService.NutrientEffeciencyFactors;
 
 import static org.springframework.web.bind.annotation.RequestMethod.*;
 
@@ -11,12 +12,14 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 public class FoodItemController {
 
     private FoodItemService foodItemService;
+    private UserService userService;
     private DataInput dataInput;
 
     @Autowired
-    public FoodItemController(FoodItemService foodItemService, DataInput dataInput) {
+    public FoodItemController(FoodItemService foodItemService, DataInput dataInput, UserService userService) {
         this.foodItemService = foodItemService;
         this.dataInput = dataInput;
+        this.userService = userService;
         //dataInput.saveItemsToRepository();
     }
 
@@ -54,5 +57,28 @@ public class FoodItemController {
     @ResponseBody
     public FoodItem updateFoodItem(@RequestBody FoodItemPair foodItemPair) {
         return foodItemService.updateFoodItem(foodItemPair);
+    }
+
+    @RequestMapping(value = "/foodItems/topFatEffecient")
+    @ResponseBody
+    public List<FoodItemEffeciency> getTopFatEffecienctFoodItems(
+        @RequestParam int numberOfItems, 
+        @RequestParam NutrientEffeciencyFactors nutrientEffeciencyFactor, 
+        @RequestParam boolean showBestItems,
+        @RequestParam(required = false) boolean show100Percent,
+        @RequestParam(required = false) boolean show0Percent) {
+        return foodItemService.getFoodItemsForNutrientEffeciency(numberOfItems, nutrientEffeciencyFactor, showBestItems, show0Percent, show0Percent);
+    }
+
+    @RequestMapping(value = "/{userId}/weight", method = POST)
+    @ResponseBody
+    public List<UserWeightAtTime> addWeightAtTime(@RequestBody UserWeightAtTime weightAtTime) {
+        return userService.saveWeightAtTime(weightAtTime);
+    }
+
+    @RequestMapping(value = "/{userId}/meal", method = POST)
+    @ResponseBody
+    public List<UserMealAtTime> addMealAtTime(@RequestBody UserMealAtTime mealAtTime) {
+        return userService.saveMealAtTime(mealAtTime);
     }
 }
