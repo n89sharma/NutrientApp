@@ -1,20 +1,16 @@
 package nutrientapp.fooditem;
 
-import nutrientapp.dbobjects.ConversionFactor;
-import nutrientapp.dbobjects.Food;
-import nutrientapp.dbobjects.MeasureCsv;
-import nutrientapp.dbobjects.NutrientAmount;
-import nutrientapp.dbobjects.NutrientName;
-
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toMap;
-import static nutrientapp.dbobjects.Tables.*;
+import nutrientapp.dbobjects.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toMap;
+import static nutrientapp.dbobjects.Tables.*;
 
 @Component
 class DataInput {
@@ -35,24 +31,24 @@ class DataInput {
 
     private FoodItemRepository foodItemRepository;
     private FoodIdAndDescriptionRepository foodIdAndDescriptionRepository;
-    private ConversionFactorRepository conversionFactorRepository;
+    private MeasuresRepository measuresRepository;
 
     @Autowired
     public DataInput(
         FoodItemRepository foodItemRepository,
         FoodIdAndDescriptionRepository foodIdAndDescriptionRepository,
-        ConversionFactorRepository conversionFactorRepository) {
+        MeasuresRepository measuresRepository) {
 
         this.foodItemRepository = foodItemRepository;
         this.foodIdAndDescriptionRepository = foodIdAndDescriptionRepository;
-        this.conversionFactorRepository = conversionFactorRepository;
+        this.measuresRepository = measuresRepository;
     }
 
     //Saving data to repository
     public void saveItemsToRepository() {
 
         List<FoodItem> foodItems = foodNamesPerFoodId.values().stream()
-                .map(food -> FoodItem.of(food, nutrientAmountsPerFoodId.get(food.getFoodId())))
+                .map(food -> foodItemOf(food, nutrientAmountsPerFoodId.get(food.getFoodId())))
                 .collect(toList());
         foodItemRepository.save(foodItems);
 
@@ -82,7 +78,7 @@ class DataInput {
         }
         List<Integer> uniqueMeasureIds = incorrectMeasureIds.stream().distinct().collect(toList());
         System.out.println(uniqueMeasureIds);
-        conversionFactorRepository.save(measuresForFoodItems);
+        measuresRepository.save(measuresForFoodItems);
     }
 
     private static <K, E> Map<K, E> getMap(List<E> elements, Function<E, K> keyMapper) {
@@ -128,5 +124,47 @@ class DataInput {
                 System.out.println();
             }
         }
+    }
+
+    public static FoodItem foodItemOf(Food food, List<NutrientAmount> nutrientAmounts) {
+        FoodItem foodItem = new FoodItem();
+        foodItem.setFoodId(food.getFoodId());
+        foodItem.setFoodDescription(food.getFoodDescription());
+
+        //@formatter:off
+        foodItem.setCalories(       getNutrientAmount(208, nutrientAmounts));
+        foodItem.setProtein(        getNutrientAmount(203, nutrientAmounts));
+        foodItem.setCarbohydrates(  getNutrientAmount(205, nutrientAmounts));
+        foodItem.setSugars(         getNutrientAmount(269, nutrientAmounts));
+        foodItem.setFibre(          getNutrientAmount(291, nutrientAmounts));
+        foodItem.setFats(           getNutrientAmount(204, nutrientAmounts));
+        foodItem.setSaturatedFats(  getNutrientAmount(606, nutrientAmounts));
+        foodItem.setTransFats(      getNutrientAmount(605, nutrientAmounts));
+        foodItem.setCholesterol(    getNutrientAmount(601, nutrientAmounts));
+        foodItem.setSodium(         getNutrientAmount(307, nutrientAmounts));
+        foodItem.setIron(           getNutrientAmount(303, nutrientAmounts));
+        foodItem.setCalcium(        getNutrientAmount(301, nutrientAmounts));
+
+        double retinolAmount =      getNutrientAmount(319, nutrientAmounts);
+        double betaCaroteneAMount = getNutrientAmount(321, nutrientAmounts);
+
+        foodItem.setVitaminA(       retinolAmount*3.33 + betaCaroteneAMount*1.66);
+        foodItem.setVitaminB12(     getNutrientAmount(418, nutrientAmounts));
+        foodItem.setVitaminC(       getNutrientAmount(401, nutrientAmounts));
+        foodItem.setVitaminD(       getNutrientAmount(324, nutrientAmounts));
+        foodItem.setOmega3(         getNutrientAmount(868, nutrientAmounts));
+        foodItem.setOmega6(         getNutrientAmount(869, nutrientAmounts));
+        //@formatter:on
+
+        return foodItem;
+    }
+
+    private static double getNutrientAmount(int nutrientId, List<NutrientAmount> nutrientAmounts) {
+        return nutrientAmounts
+            .stream()
+            .filter(nutrientAmount -> nutrientAmount.getNutrientId() == nutrientId)
+            .findFirst()
+            .map(NutrientAmount::getNutrientValue)
+            .orElse(0.0);
     }
 }

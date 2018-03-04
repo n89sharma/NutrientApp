@@ -1,11 +1,11 @@
 package nutrientapp.fooditem;
 
-import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+import static org.springframework.web.bind.annotation.RequestMethod.*;
 
 @RestController
 public class FoodItemController {
@@ -20,21 +20,39 @@ public class FoodItemController {
         //dataInput.saveItemsToRepository();
     }
 
-    @RequestMapping(value = "/foodItem", method = RequestMethod.GET)
+    @RequestMapping(value = "/foodItems/{foodId}", method = GET)
     @ResponseBody
-    public FoodItem getFoodItem(int foodId) {
+    public FoodItem getFoodItem(@PathVariable int foodId) {
         return foodItemService.getFoodItem(foodId);
     }
 
-    @RequestMapping(value = "/foodItems", method = RequestMethod.GET)
+    @RequestMapping(value = "/foodItems", method = GET)
     @ResponseBody
     public List<FoodIdAndDescription> getFoodIdAndDescriptions() {
         return foodItemService.getFoodIdAndDescriptions();
     }
 
-    @RequestMapping(value = "/conversionOptions", method = RequestMethod.GET)
+    @RequestMapping(value = "/{userId}/foodItems", method = POST)
     @ResponseBody
-    public Measures getConversionOptions(int foodId) {
+    public void createCustomFoodItem(@PathVariable String userId, @RequestBody FoodItem foodItem) {
+        foodItemService.saveFoodItemForUser(userId, foodItem);
+    }
+
+    @RequestMapping(value = "/foodItems/{foodId}/conversionOptions", method = GET)
+    @ResponseBody
+    public Measures getConversionOptions(@PathVariable int foodId) {
         return foodItemService.getConversionFactors(foodId);
+    }
+
+    @RequestMapping(value = "/foodItems", method = POST)
+    @ResponseBody
+    public FoodItem createFoodItem(@RequestBody FoodItem foodItem) {
+        return foodItemService.saveFoodItem(foodItem);
+    }
+
+    @RequestMapping(value = "/foodItems/{foodId}", method = PUT)
+    @ResponseBody
+    public FoodItem updateFoodItem(@RequestBody FoodItemPair foodItemPair) {
+        return foodItemService.updateFoodItem(foodItemPair);
     }
 }

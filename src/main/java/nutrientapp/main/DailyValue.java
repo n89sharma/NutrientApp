@@ -1,6 +1,7 @@
 package nutrientapp.main;
 
 import java.util.List;
+
 import static java.util.Arrays.asList;
 
 public enum DailyValue {
