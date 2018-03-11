@@ -32,6 +32,7 @@ public class FoodItem {
     double omega6;
     boolean customItem;
     String userId;
+    FoodGroup foodGroup;
 
     private double totalCalculatedCalories() {
         return this.protein*4 + this.carbohydrates*4 + this.fats*9;

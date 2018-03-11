@@ -15,16 +15,16 @@ import static nutrientapp.dbobjects.Tables.*;
 @Component
 class DataInput {
 
-    private static List<Food> foods = getAllTableRowsFrom(FOOD_NAME);
-    private static Map<Integer, Food> foodNamesPerFoodId = getMap(foods, Food::getFoodId);
+    private static List<FoodCsv> foods = getAllTableRowsFrom(FOOD_NAME);
+    private static Map<Integer, FoodCsv> foodNamesPerFoodId = getMap(foods, FoodCsv::getFoodId);
+    
+    private static List<NutrientAmountCsv> nutrientAmounts = getAllTableRowsFrom(NUTRIENT_AMOUNT);
+    private static Map<Integer, List<NutrientAmountCsv>> nutrientAmountsPerFoodId = nutrientAmounts.stream()
+        .collect(Collectors.groupingBy(NutrientAmountCsv::getFoodId, toList()));
 
-    private static List<NutrientAmount> nutrientAmounts = getAllTableRowsFrom(NUTRIENT_AMOUNT);
-    private static Map<Integer, List<NutrientAmount>> nutrientAmountsPerFoodId = nutrientAmounts.stream()
-        .collect(Collectors.groupingBy(NutrientAmount::getFoodId, toList()));
-
-    private static List<ConversionFactor> conversionFactors = getAllTableRowsFrom(CONVERSION_FACTOR);
-    private static Map<Integer, List<ConversionFactor>> conversionFactorsPerFoodId = conversionFactors.stream()
-        .collect(Collectors.groupingBy(ConversionFactor::getFoodId, toList()));
+    private static List<ConversionFactorCsv> conversionFactors = getAllTableRowsFrom(CONVERSION_FACTOR);
+    private static Map<Integer, List<ConversionFactorCsv>> conversionFactorsPerFoodId = conversionFactors.stream()
+        .collect(Collectors.groupingBy(ConversionFactorCsv::getFoodId, toList()));
 
     private static List<MeasureCsv> measureCsvs = getAllTableRowsFrom(MEASURE_NAME);
     private static Map<Integer, MeasureCsv> measurePerMeasureId = getMap(measureCsvs, MeasureCsv::getMeasureId);
@@ -61,7 +61,7 @@ class DataInput {
         List<Measures> measuresForFoodItems = new ArrayList<>();
         for (int foodId : conversionFactorsPerFoodId.keySet()) {
             Measures measures = new Measures();
-            for (ConversionFactor conversionFactor : conversionFactorsPerFoodId.get(foodId)) {
+            for (ConversionFactorCsv conversionFactor : conversionFactorsPerFoodId.get(foodId)) {
 
                 MeasureCsv measureCsv = measurePerMeasureId.get(conversionFactor.getMeasureId());
                 if(null != measureCsv) {
@@ -90,7 +90,7 @@ class DataInput {
         while (true) {
             int foodId = reader.nextInt();
             System.out.println(foodNamesPerFoodId.get(foodId).getFoodDescription());
-            for (ConversionFactor conversionFactor : conversionFactorsPerFoodId.get(foodId)) {
+            for (ConversionFactorCsv conversionFactor : conversionFactorsPerFoodId.get(foodId)) {
                 int measureIdForFood = conversionFactor.getMeasureId();
                 System.out.println(measurePerMeasureId.get(measureIdForFood).getMeasureDescription() + " : "
                         + conversionFactor.getConversionFactorValue());
@@ -98,9 +98,9 @@ class DataInput {
         }
     }
 
-    private static void printMockDataForUi(Map<Integer, Food> foodNamesPerFoodId,
-            Map<Integer, NutrientName> nutrientNamesPerNutrientId,
-            Map<Integer, List<NutrientAmount>> nutrientAmountsPerFoodId) {
+    private static void printMockDataForUi(Map<Integer, FoodCsv> foodNamesPerFoodId,
+            Map<Integer, NutrientNameCsv> nutrientNamesPerNutrientId,
+            Map<Integer, List<NutrientAmountCsv>> nutrientAmountsPerFoodId) {
 
         List<Integer> nutrientsDisplayedUi = Arrays.asList(208, 205, 269, 291, 203, 204, 605, 606, 601, 301, 303, 307,
                 319, 321, 418, 401, 324, 868, 869);
@@ -113,7 +113,7 @@ class DataInput {
         for (int foodId : foodIds) {
             if (foodNamesPerFoodId.keySet().contains(foodId)) {
                 Map<Integer, Double> nutrientValuePerNutrientIdInFood = nutrientAmountsPerFoodId.get(foodId).stream()
-                        .collect(toMap(NutrientAmount::getNutrientId, NutrientAmount::getNutrientValue));
+                        .collect(toMap(NutrientAmountCsv::getNutrientId, NutrientAmountCsv::getNutrientValue));
                 System.out.print(foodNamesPerFoodId.get(foodId).getFoodDescription().replace(",", "-") + ",");
                 for (int nutrientId : nutrientsDisplayedUi) {
                     double nutrientValue = nutrientValuePerNutrientIdInFood.keySet().contains(nutrientId)
@@ -126,7 +126,7 @@ class DataInput {
         }
     }
 
-    public static FoodItem foodItemOf(Food food, List<NutrientAmount> nutrientAmounts) {
+    public static FoodItem foodItemOf(FoodCsv food, List<NutrientAmountCsv> nutrientAmounts) {
         FoodItem foodItem = new FoodItem();
         foodItem.setFoodId(food.getFoodId());
         foodItem.setFoodDescription(food.getFoodDescription());
@@ -156,15 +156,21 @@ class DataInput {
         foodItem.setOmega6(         getNutrientAmount(869, nutrientAmounts));
         //@formatter:on
 
+        foodItem.getFoodGroup()
+
         return foodItem;
     }
 
-    private static double getNutrientAmount(int nutrientId, List<NutrientAmount> nutrientAmounts) {
+    private static FoodGroup foodGroupOf(FoodGroupCsv foodGroupCsv) {
+        return new FoodGroup(foodGroupCsv.getFoodGroupId(), foodGroupCsv.getFoodGroupName());
+    }
+
+    private static double getNutrientAmount(int nutrientId, List<NutrientAmountCsv> nutrientAmounts) {
         return nutrientAmounts
             .stream()
             .filter(nutrientAmount -> nutrientAmount.getNutrientId() == nutrientId)
             .findFirst()
-            .map(NutrientAmount::getNutrientValue)
+            .map(NutrientAmountCsv::getNutrientValue)
             .orElse(0.0);
     }
 }

@@ -6,7 +6,7 @@ import lombok.Data;
 import static com.fasterxml.jackson.dataformat.csv.CsvSchema.ColumnType.NUMBER;
 
 @Data
-public class NutrientName {
+public class NutrientNameCsv {
     private int nutrientNameId;
     private int nutrientCode;
     private String nutrientSymbol;

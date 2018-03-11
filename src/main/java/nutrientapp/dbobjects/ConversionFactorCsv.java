@@ -9,20 +9,20 @@ import java.util.Date;
 import static com.fasterxml.jackson.dataformat.csv.CsvSchema.ColumnType.NUMBER;
 
 @Data
-public class RefuseAmount {
+public class ConversionFactorCsv {
     private int foodId;
-    private int refuseId;
-    private int refuseAmount;
+    private int measureId;
+    private double conversionFactorValue;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    private Date refuseDateOfEntry;
+    private Date conversionFactorDateOfEntry;
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
             .builder()
             .addColumn("foodId", NUMBER)
-            .addColumn("refuseId", NUMBER)
-            .addColumn("refuseAmount", NUMBER)
-            .addColumn("refuseDateOfEntry")
+            .addColumn("measureId", NUMBER)
+            .addColumn("conversionFactorValue", NUMBER)
+            .addColumn("conversionFactorDateOfEntry")
             .build();
     }
 }

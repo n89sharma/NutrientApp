@@ -9,7 +9,7 @@ import java.util.Date;
 import static com.fasterxml.jackson.dataformat.csv.CsvSchema.ColumnType.NUMBER;
 
 @Data
-public class Food {
+public class FoodCsv {
     private int foodId;
     private int foodCode;
     private int foodGroupId;

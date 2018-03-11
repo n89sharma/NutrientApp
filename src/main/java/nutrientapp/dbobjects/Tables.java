@@ -11,18 +11,18 @@ import java.util.List;
 
 public enum Tables {
     // @formatter:off
-    CONVERSION_FACTOR   (ConversionFactor.getCsvSchema(),   "CONVERSION_FACTOR.csv",    ConversionFactor.class),
-    FOOD_GROUP          (FoodGroup.getCsvSchema(),          "FOOD_GROUP.csv",           FoodGroup.class),
-    FOOD_NAME           (Food.getCsvSchema(),           "FOOD_NAME.csv",            Food.class),
-    FOOD_SOURCE         (FoodSource.getCsvSchema(),         "FOOD_SOURCE.csv",          FoodSource.class),
+    CONVERSION_FACTOR   (ConversionFactorCsv.getCsvSchema(),   "CONVERSION_FACTOR.csv",    ConversionFactorCsv.class),
+    FOOD_GROUP          (FoodGroupCsv.getCsvSchema(),          "FOOD_GROUP.csv",           FoodGroupCsv.class),
+    FOOD_NAME           (FoodCsv.getCsvSchema(),           "FOOD_NAME.csv",            FoodCsv.class),
+    FOOD_SOURCE         (FoodSourceCsv.getCsvSchema(),         "FOOD_SOURCE.csv",          FoodSourceCsv.class),
     MEASURE_NAME        (MeasureCsv.getCsvSchema(),        "MEASURE_NAME.csv",         MeasureCsv.class),
-    NUTRIENT_AMOUNT     (NutrientAmount.getCsvSchema(),     "NUTRIENT_AMOUNT.csv",      NutrientAmount.class),
-    NUTRIENT_NAME       (NutrientName.getCsvSchema(),       "NUTRIENT_NAME.csv",        NutrientName.class),
-    NUTRIENT_SOURCE     (NutrientSource.getCsvSchema(),     "NUTRIENT_SOURCE.csv",      NutrientSource.class),
-    REFUSE_AMOUNT       (RefuseAmount.getCsvSchema(),       "REFUSE_AMOUNT.csv",        RefuseAmount.class),
-    REFUSE_NAME         (RefuseName.getCsvSchema(),         "REFUSE_NAME.csv",          RefuseName.class),
-    YIELD_AMOUNT        (YieldAmount.getCsvSchema(),        "YIELD_AMOUNT.csv",         YieldAmount.class),
-    YIELD_NAME          (YieldName.getCsvSchema(),          "YIELD_NAME.csv",           YieldName.class);
+    NUTRIENT_AMOUNT     (NutrientAmountCsv.getCsvSchema(),     "NUTRIENT_AMOUNT.csv",      NutrientAmountCsv.class),
+    NUTRIENT_NAME       (NutrientNameCsv.getCsvSchema(),       "NUTRIENT_NAME.csv",        NutrientNameCsv.class),
+    NUTRIENT_SOURCE     (NutrientSourceCsv.getCsvSchema(),     "NUTRIENT_SOURCE.csv",      NutrientSourceCsv.class),
+    REFUSE_AMOUNT       (RefuseAmountCsv.getCsvSchema(),       "REFUSE_AMOUNT.csv",        RefuseAmountCsv.class),
+    REFUSE_NAME         (RefuseNameCsv.getCsvSchema(),         "REFUSE_NAME.csv",          RefuseNameCsv.class),
+    YIELD_AMOUNT        (YieldAmountCsv.getCsvSchema(),        "YIELD_AMOUNT.csv",         YieldAmountCsv.class),
+    YIELD_NAME          (YieldNameCsv.getCsvSchema(),          "YIELD_NAME.csv",           YieldNameCsv.class);
     // @formatter:on
 
     @Getter
@@ -57,7 +57,7 @@ public enum Tables {
     }
 
     private static File getFile(String fileName) {
-        return new File(FoodGroup.class
+        return new File(FoodGroupCsv.class
             .getClassLoader()
             .getResource(fileName)
             .getPath());

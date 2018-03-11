@@ -17,23 +17,27 @@ public class FoodItemService {
     private FoodItemRepository foodItemRepository;
     private FoodIdAndDescriptionRepository foodIdAndDescriptionRepository;
     private MeasuresRepository measuresRepository;
+    private FoodGroupRepository foodGroupRepository;
     private MongoTemplate mongoTemplate;
 
     @Autowired
     public FoodItemService(FoodItemRepository foodItemRepository,
                            FoodIdAndDescriptionRepository foodIdAndDescriptionRepository,
                            MeasuresRepository measuresRepository,
+                           FoodGroupRepository foodGroupRepository;
                            Mongo mongo,
                            SpringMongoConfig springMongoConfig) {
 
         this.foodItemRepository = foodItemRepository;
         this.foodIdAndDescriptionRepository = foodIdAndDescriptionRepository;
         this.measuresRepository = measuresRepository;
+        this.foodGroupRepository = foodGroupRepository;
         this.mongoTemplate = new MongoTemplate(mongo, springMongoConfig.getDatabaseName());
     }
 
     public FoodItem getFoodItem(int foodId) {
-        return foodItemRepository.findByFoodId(foodId);
+        FoodItem foodItem = foodItemRepository.findByFoodId(foodId);
+        foodItem.setFoodGroup(foodGroupRepository.findByFoodGroupId(foodItem.get));
     }
 
     public List<FoodIdAndDescription> getFoodIdAndDescriptions() {
