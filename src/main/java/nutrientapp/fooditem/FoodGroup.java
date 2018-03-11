@@ -2,11 +2,11 @@ package nutrientapp.fooditem;
 
 import org.springframework.data.annotation.Id;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@AllArgsConstructor
+@Document(collection = "foodgroups")
 public class FoodGroup {
     
     @Id
@@ -16,6 +16,12 @@ public class FoodGroup {
     private String foodGroupNameEnglish;
     private String foodGroupNameFrench;
 
+    public static FoodGroup of(int foodGroupId, String foodGroupNameEnglish) {
+        FoodGroup foodGroup = new FoodGroup();
+        foodGroup.setFoodGroupId(foodGroupId);
+        foodGroup.setFoodGroupNameEnglish(foodGroupNameEnglish);
+        return foodGroup;
+    }
     public boolean isDairyOrEggProduct() {
         return this.foodGroupId == 1;
     }

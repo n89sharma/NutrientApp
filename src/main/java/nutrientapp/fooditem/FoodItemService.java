@@ -24,7 +24,7 @@ public class FoodItemService {
     public FoodItemService(FoodItemRepository foodItemRepository,
                            FoodIdAndDescriptionRepository foodIdAndDescriptionRepository,
                            MeasuresRepository measuresRepository,
-                           FoodGroupRepository foodGroupRepository;
+                           FoodGroupRepository foodGroupRepository,
                            Mongo mongo,
                            SpringMongoConfig springMongoConfig) {
 
@@ -37,7 +37,8 @@ public class FoodItemService {
 
     public FoodItem getFoodItem(int foodId) {
         FoodItem foodItem = foodItemRepository.findByFoodId(foodId);
-        foodItem.setFoodGroup(foodGroupRepository.findByFoodGroupId(foodItem.get));
+//        foodItem.setFoodGroup(foodGroupRepository.findByFoodGroupId(foodItem.getFoodGroup());
+        return foodItem;
     }
 
     public List<FoodIdAndDescription> getFoodIdAndDescriptions() {

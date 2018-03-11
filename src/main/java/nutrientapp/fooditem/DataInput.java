@@ -32,16 +32,19 @@ class DataInput {
     private FoodItemRepository foodItemRepository;
     private FoodIdAndDescriptionRepository foodIdAndDescriptionRepository;
     private MeasuresRepository measuresRepository;
+    private FoodGroupRepository foodGroupRepository;
 
     @Autowired
     public DataInput(
         FoodItemRepository foodItemRepository,
         FoodIdAndDescriptionRepository foodIdAndDescriptionRepository,
-        MeasuresRepository measuresRepository) {
+        MeasuresRepository measuresRepository,
+        FoodGroupRepository foodGroupRepository) {
 
         this.foodItemRepository = foodItemRepository;
         this.foodIdAndDescriptionRepository = foodIdAndDescriptionRepository;
         this.measuresRepository = measuresRepository;
+        this.foodGroupRepository = foodGroupRepository;
     }
 
     //Saving data to repository
@@ -126,10 +129,10 @@ class DataInput {
         }
     }
 
-    public static FoodItem foodItemOf(FoodCsv food, List<NutrientAmountCsv> nutrientAmounts) {
+    public static FoodItem foodItemOf(FoodCsv foodCsv, List<NutrientAmountCsv> nutrientAmounts) {
         FoodItem foodItem = new FoodItem();
-        foodItem.setFoodId(food.getFoodId());
-        foodItem.setFoodDescription(food.getFoodDescription());
+        foodItem.setFoodId(foodCsv.getFoodId());
+        foodItem.setFoodDescription(foodCsv.getFoodDescription());
 
         //@formatter:off
         foodItem.setCalories(       getNutrientAmount(208, nutrientAmounts));
@@ -156,13 +159,10 @@ class DataInput {
         foodItem.setOmega6(         getNutrientAmount(869, nutrientAmounts));
         //@formatter:on
 
-        foodItem.getFoodGroup()
+
+//        foodItem.setFoodGroup(Food);
 
         return foodItem;
-    }
-
-    private static FoodGroup foodGroupOf(FoodGroupCsv foodGroupCsv) {
-        return new FoodGroup(foodGroupCsv.getFoodGroupId(), foodGroupCsv.getFoodGroupName());
     }
 
     private static double getNutrientAmount(int nutrientId, List<NutrientAmountCsv> nutrientAmounts) {
