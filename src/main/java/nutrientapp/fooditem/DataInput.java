@@ -55,33 +55,33 @@ class DataInput {
                 .collect(toList());
         foodItemRepository.save(foodItems);
 
-        List<FoodIdAndDescription> foodIdAndDescriptions = foodNamesPerFoodId.values().stream()
-                .map(food -> FoodIdAndDescription.of(food.getFoodId(), food.getFoodDescription()))
-                .collect(toList());
-        foodIdAndDescriptionRepository.save(foodIdAndDescriptions);
+        // List<FoodIdAndDescription> foodIdAndDescriptions = foodNamesPerFoodId.values().stream()
+        //         .map(food -> FoodIdAndDescription.of(food.getFoodId(), food.getFoodDescription()))
+        //         .collect(toList());
+        // foodIdAndDescriptionRepository.save(foodIdAndDescriptions);
 
-        List<Integer> incorrectMeasureIds = new ArrayList<>();
-        List<Measures> measuresForFoodItems = new ArrayList<>();
-        for (int foodId : conversionFactorsPerFoodId.keySet()) {
-            Measures measures = new Measures();
-            for (ConversionFactorCsv conversionFactor : conversionFactorsPerFoodId.get(foodId)) {
+        // List<Integer> incorrectMeasureIds = new ArrayList<>();
+        // List<Measures> measuresForFoodItems = new ArrayList<>();
+        // for (int foodId : conversionFactorsPerFoodId.keySet()) {
+        //     Measures measures = new Measures();
+        //     for (ConversionFactorCsv conversionFactor : conversionFactorsPerFoodId.get(foodId)) {
 
-                MeasureCsv measureCsv = measurePerMeasureId.get(conversionFactor.getMeasureId());
-                if(null != measureCsv) {
-                    String measureName = measureCsv.getMeasureDescription();
-                    Double conversionValue = conversionFactor.getConversionFactorValue();
-                    measures.add(foodId, measureName, conversionValue);
-                }
-                else {
-                    incorrectMeasureIds.add(conversionFactor.getMeasureId());
-                }
+        //         MeasureCsv measureCsv = measurePerMeasureId.get(conversionFactor.getMeasureId());
+        //         if(null != measureCsv) {
+        //             String measureName = measureCsv.getMeasureDescription();
+        //             Double conversionValue = conversionFactor.getConversionFactorValue();
+        //             measures.add(foodId, measureName, conversionValue);
+        //         }
+        //         else {
+        //             incorrectMeasureIds.add(conversionFactor.getMeasureId());
+        //         }
 
-            }
-            measuresForFoodItems.add(measures);
-        }
-        List<Integer> uniqueMeasureIds = incorrectMeasureIds.stream().distinct().collect(toList());
-        System.out.println(uniqueMeasureIds);
-        measuresRepository.save(measuresForFoodItems);
+        //     }
+        //     measuresForFoodItems.add(measures);
+        // }
+        // List<Integer> uniqueMeasureIds = incorrectMeasureIds.stream().distinct().collect(toList());
+        // System.out.println(uniqueMeasureIds);
+        // measuresRepository.save(measuresForFoodItems);
     }
 
     private static <K, E> Map<K, E> getMap(List<E> elements, Function<E, K> keyMapper) {
@@ -160,7 +160,7 @@ class DataInput {
         //@formatter:on
 
 
-//        foodItem.setFoodGroup(Food);
+       foodItem.setFoodGroupId(foodCsv.getFoodGroupId());
 
         return foodItem;
     }
