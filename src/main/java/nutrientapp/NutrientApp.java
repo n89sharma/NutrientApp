@@ -4,13 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-import java.io.IOException;
-
 @SpringBootApplication
 @CrossOrigin(origins = "http://localhost:3000")
 public class NutrientApp {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
+
         SpringApplication.run(NutrientApp.class, args);
     }
 }

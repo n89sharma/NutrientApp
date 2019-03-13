@@ -11,7 +11,7 @@ public class SpringMongoConfig extends AbstractMongoConfiguration {
 
     @Override
     public String getDatabaseName() {
-        return "webappdb";
+        return "nutrient_app";
     }
 
     @Override

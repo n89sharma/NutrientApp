@@ -2,134 +2,59 @@ package nutrientapp.fooditem;
 
 import com.mongodb.Mongo;
 import nutrientapp.config.SpringMongoConfig;
+import nutrientapp.domain.csvobjects.ConversionFactorCsv;
+import nutrientapp.domain.csvobjects.FoodCsv;
+import nutrientapp.domain.csvobjects.MeasureNameCsv;
+import nutrientapp.domain.repositories.ConversionFactorRepository;
+import nutrientapp.domain.repositories.FoodGroupRepository;
+import nutrientapp.domain.repositories.FoodRepository;
+import nutrientapp.domain.repositories.MeasureNameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
-import java.util.ArrayList;
+
 import java.util.List;
-import java.util.Comparator;
-import java.util.function.Function;
-import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.toList;
 
 @Service
 public class FoodItemService {
 
-    private FoodItemRepository foodItemRepository;
-    private FoodIdAndDescriptionRepository foodIdAndDescriptionRepository;
-    private MeasuresRepository measuresRepository;
+    private FoodRepository foodRepository;
+    private ConversionFactorRepository conversionFactorRepository;
+    private MeasureNameRepository measureNameRepository;
     private FoodGroupRepository foodGroupRepository;
     private MongoTemplate mongoTemplate;
 
     @Autowired
-    public FoodItemService(FoodItemRepository foodItemRepository,
-                           FoodIdAndDescriptionRepository foodIdAndDescriptionRepository,
-                           MeasuresRepository measuresRepository,
+    public FoodItemService(FoodRepository foodRepository,
+                           MeasureNameRepository measureNameRepository,
                            FoodGroupRepository foodGroupRepository,
                            Mongo mongo,
                            SpringMongoConfig springMongoConfig) {
 
-        this.foodItemRepository = foodItemRepository;
-        this.foodIdAndDescriptionRepository = foodIdAndDescriptionRepository;
-        this.measuresRepository = measuresRepository;
+        this.foodRepository = foodRepository;
+        this.measureNameRepository = measureNameRepository;
         this.foodGroupRepository = foodGroupRepository;
         this.mongoTemplate = new MongoTemplate(mongo, springMongoConfig.getDatabaseName());
     }
 
-    public FoodItem getFoodItem(int foodId) {
-        FoodItem foodItem = foodItemRepository.findByFoodId(foodId);
-//        foodItem.setFoodGroup(foodGroupRepository.findByFoodGroupId(foodItem.getFoodGroup());
-        return foodItem;
+    public FoodCsv getFoodItem(int foodId) {
+        return foodRepository.findByFoodId(foodId);
     }
 
-    public List<FoodIdAndDescription> getFoodIdAndDescriptions() {
-        return foodIdAndDescriptionRepository.findAll();
-    }
-
-    public Measures getConversionFactors(int foodId) {
-        return measuresRepository.findByFoodId(foodId);
-    }
-
-    public void saveFoodItemForUser(String userId, FoodItem foodItem) {
-        foodItem.setUserId(userId);
-        mongoTemplate.save(foodItem, "customFoodItems");
-    }
-
-    public FoodItem saveFoodItem(FoodItem foodItem) {
-        return foodItemRepository.save(foodItem);
-    }
-
-    public FoodItem updateFoodItem(FoodItemPair foodItemPair) {
-        FoodItem existingFoodItem = foodItemRepository.findByFoodId(foodItemPair.getOldFoodItem().getFoodId());
-        FoodItem newFoodItem = foodItemPair.getNewFoodItem();
-        existingFoodItem.setCalories(newFoodItem.getCalories());
-        existingFoodItem.setProtein(newFoodItem.getProtein());
-        existingFoodItem.setCarbohydrates(newFoodItem.getCarbohydrates());
-        existingFoodItem.setSugars(newFoodItem.getSugars());
-        existingFoodItem.setFibre(newFoodItem.getFibre());
-        existingFoodItem.setFats(newFoodItem.getFats());
-        existingFoodItem.setSaturatedFats(newFoodItem.getSaturatedFats());
-        existingFoodItem.setTransFats(newFoodItem.getTransFats());
-        existingFoodItem.setCholesterol(newFoodItem.getCholesterol());
-        existingFoodItem.setSodium(newFoodItem.getSodium());
-        existingFoodItem.setIron(newFoodItem.getIron());
-        existingFoodItem.setCalcium(newFoodItem.getCalcium());
-        existingFoodItem.setVitaminA(newFoodItem.getVitaminA());
-        existingFoodItem.setVitaminB12(newFoodItem.getVitaminB12());
-        existingFoodItem.setVitaminC(newFoodItem.getVitaminC());
-        existingFoodItem.setVitaminD(newFoodItem.getVitaminD());
-        existingFoodItem.setOmega3(newFoodItem.getOmega3());
-        existingFoodItem.setOmega6(newFoodItem.getOmega6());
-        foodItemRepository.save(existingFoodItem);
-        return existingFoodItem;
-    }
-
-    public enum NutrientEffeciencyFactors {
-        CALORY_PERCENT_FROM_FAT, CALORY_PERCENT_FROM_PROTEIN, CALORY_PERCENT_FROM_CARBOHYDRATE, PERCENT_FAT, PERCENT_PROTEIN, PERCENT_CARBOHYRATE;
-    }
-
-    public List<FoodItemEffeciency> getFoodItemsForNutrientEffeciency(
-        int numberOfItems, 
-        NutrientEffeciencyFactors nutrientEffeciencyFactor, 
-        boolean showBestItems,
-        boolean show0Percent,
-        boolean show100Percent) {
-
-        List<FoodIdAndDescription> foodIdAndDescriptions = foodIdAndDescriptionRepository.findAll();
-        List<FoodItemEffeciency> foodItemEffeciencies = new ArrayList<>();
-        if(nutrientEffeciencyFactor.equals(NutrientEffeciencyFactors.CALORY_PERCENT_FROM_FAT)) {
-            foodItemEffeciencies = getFoodItemEffeciencies(foodIdAndDescriptions, FoodItem::getCaloryPercentFromFat);
-        }
-        else if(nutrientEffeciencyFactor.equals(NutrientEffeciencyFactors.CALORY_PERCENT_FROM_PROTEIN)) {
-            foodItemEffeciencies = getFoodItemEffeciencies(foodIdAndDescriptions, FoodItem::getCaloryPercentFromProtein);            
-        }
-        else if(nutrientEffeciencyFactor.equals(NutrientEffeciencyFactors.CALORY_PERCENT_FROM_CARBOHYDRATE)) {
-            foodItemEffeciencies = getFoodItemEffeciencies(foodIdAndDescriptions, FoodItem::getCaloryPercentFromCarbohydrates);
-        }
-
-        Comparator<FoodItemEffeciency> compareEffeciency;
-        if(showBestItems) {
-             compareEffeciency = Comparator.comparing(FoodItemEffeciency::getEffeciency).reversed();
-        }
-        else{
-            compareEffeciency = Comparator.comparing(FoodItemEffeciency::getEffeciency);
-        }
-            
-        return foodItemEffeciencies
+    public List<MeasureNameCsv> getConversionFactors(int foodId) {
+        return conversionFactorRepository
+            .findByFoodId(foodId)
             .stream()
-            .sorted(compareEffeciency)
-            .filter(foodEff -> foodEff.getEffeciency() > 0.05 || show0Percent)
-            .filter(foodEff -> foodEff.getEffeciency() < 0.99 || show100Percent)
-            .limit(numberOfItems)
-            .collect(Collectors.toList());
+            .map(ConversionFactorCsv::getMeasureId)
+            .map(measureId -> measureNameRepository.findByMeasureId(measureId))
+            .collect(toList());
     }
 
-    private List<FoodItemEffeciency> getFoodItemEffeciencies(List<FoodIdAndDescription> foodIdAndDescriptions, Function<FoodItem, Double> getEffeciencyFromFoodItem) {
-        List<FoodItemEffeciency> foodItemEffeciencies = new ArrayList<>();
-        for(FoodIdAndDescription foodIdAndDesc : foodIdAndDescriptions) {
-            FoodItem foodItem = foodItemRepository.findByFoodId(foodIdAndDesc.getFoodId());
-            FoodItemEffeciency foodItemEffeciency = FoodItemEffeciency.of(foodItem.getFoodId(), foodItem.getFoodDescription(), getEffeciencyFromFoodItem.apply(foodItem));
-            foodItemEffeciencies.add(foodItemEffeciency);
-        }
-        return foodItemEffeciencies;
+    public enum MacroNutrientDensities {
+        CALORIE_PERCENT_FROM_FAT,
+        CALORIE_PERCENT_FROM_PROTEIN,
+        CALORIE_PERCENT_FROM_CARBOHYDRATE;
     }
 }
