@@ -1,23 +1,21 @@
-package nutrientapp.domain;
+package nutrientapp.user;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
+import nutrientapp.fooditem.Food;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
+import java.util.List;
 
 @Data
-public class DailySummary {
+@Document(collection = "user_meals")
+public class Meal {
     @Id
     private String id;
     private String userId;
+    private List<Food> meal;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX")
     private Date date;
-    private double caloriePercentFromProtein;
-    private double caloriePercentFromCarbohydrates;
-    private double caloriePercentFromFat;
-    private double protein;
-    private double carbohydrates;
-    private double fat;
-    private double calories;
 }

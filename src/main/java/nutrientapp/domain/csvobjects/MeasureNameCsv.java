@@ -15,10 +15,10 @@ public class MeasureNameCsv {
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
-            .builder()
-            .addColumn("measureId", NUMBER)
-            .addColumn("measureDescription")
-            .addColumn("measureDescriptionF")
-            .build();
+                .builder()
+                .addColumn("measureId", NUMBER)
+                .addColumn("measureDescription")
+                .addColumn("measureDescriptionF")
+                .build();
     }
 }

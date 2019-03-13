@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Data
 @Document(collection = "user_weights")
-public class UserWeightAtTime {
+public class BodyWeight {
     @Id
     String id;
     private String userId;

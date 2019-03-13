@@ -23,14 +23,14 @@ public class NutrientAmountCsv {
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
-            .builder()
-            .addColumn("foodId", NUMBER)
-            .addColumn("nutrientId", NUMBER)
-            .addColumn("nutrientValue", NUMBER)
-            .addColumn("standardError", NUMBER)
-            .addColumn("numberOfObservations", NUMBER)
-            .addColumn("nutrientSourceId", NUMBER)
-            .addColumn("nutrientDateOfEntry")
-            .build();
+                .builder()
+                .addColumn("foodId", NUMBER)
+                .addColumn("nutrientId", NUMBER)
+                .addColumn("nutrientValue", NUMBER)
+                .addColumn("standardError", NUMBER)
+                .addColumn("numberOfObservations", NUMBER)
+                .addColumn("nutrientSourceId", NUMBER)
+                .addColumn("nutrientDateOfEntry")
+                .build();
     }
 }

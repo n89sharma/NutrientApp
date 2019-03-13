@@ -16,11 +16,11 @@ public class NutrientSourceCsv {
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
-            .builder()
-            .addColumn("nutrientSourceId", NUMBER)
-            .addColumn("nutrientSourceCode", NUMBER)
-            .addColumn("nutrientSourceDescription")
-            .addColumn("nutrientSourceDescriptionF")
-            .build();
+                .builder()
+                .addColumn("nutrientSourceId", NUMBER)
+                .addColumn("nutrientSourceCode", NUMBER)
+                .addColumn("nutrientSourceDescription")
+                .addColumn("nutrientSourceDescriptionF")
+                .build();
     }
 }

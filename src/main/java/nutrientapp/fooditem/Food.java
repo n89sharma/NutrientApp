@@ -1,57 +1,52 @@
 package nutrientapp.fooditem;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 @Data
 public class Food {
 
-    @Id
-    String id;
-    int foodId;
-    String foodDescription;
-    double calories;
-    double protein;
-    double carbohydrates;
-    double sugars;
-    double fibre;
-    double fats;
-    double saturatedFats;
-    double transFats;
-    double cholesterol;
-    double sodium;
-    double iron;
-    double calcium;
-    double vitaminA;
-    double vitaminB12;
-    double vitaminC;
-    double vitaminD;
-    double omega3;
-    double omega6;
-    int foodGroupId;
+    private int foodId;
+    private String foodDescription;
+    private double calories;
 
-    private double totalCalculatedCalories() {
-        return this.protein * 4 + this.carbohydrates * 4 + this.fats * 9;
+    @Data
+    public class MacroNutrients {
+        private Nutrient protein;
+        private Nutrient carbohydrates;
+        private Nutrient sugars;
+        private Nutrient fibre;
+        private Nutrient fats;
+        private Nutrient saturatedFats;
+        private Nutrient transFats;
+        private Nutrient cholesterol;
     }
 
-    public double getCaloriePercentFromFat() {
-        if (totalCalculatedCalories() < 1) {
-            return 0;
-        }
-        return this.fats * 9 / totalCalculatedCalories();
-    }
+    @Data
+    public class MicroNutrients {
 
-    public double getCaloriePercentFromProtein() {
-        if (totalCalculatedCalories() < 1) {
-            return 0;
+        @Data
+        public class Minerals {
+            private Nutrient sodium;
+            private Nutrient iron;
+            private Nutrient calcium;
+            private Nutrient magnesium;
+            private Nutrient potassium;
+            private Nutrient zinc;
         }
-        return this.protein * 4 / totalCalculatedCalories();
-    }
 
-    public double getCaloriePercentFromCarbohydrates() {
-        if (totalCalculatedCalories() < 1) {
-            return 0;
+        @Data
+        public class Vitamins {
+            private Nutrient vitaminA;
+            private Nutrient vitaminB6;
+            private Nutrient vitaminB12;
+            private Nutrient vitaminC;
+            private Nutrient vitaminD;
         }
-        return this.carbohydrates * 4 / totalCalculatedCalories();
+
+        @Data
+        public class EssentialFats {
+            private Nutrient omega3;
+            private Nutrient omega6;
+        }
     }
 }

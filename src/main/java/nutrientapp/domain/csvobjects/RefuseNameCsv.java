@@ -15,10 +15,10 @@ public class RefuseNameCsv {
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
-            .builder()
-            .addColumn("refuseId", NUMBER)
-            .addColumn("refuseDescription")
-            .addColumn("refuseDescriptionF")
-            .build();
+                .builder()
+                .addColumn("refuseId", NUMBER)
+                .addColumn("refuseDescription")
+                .addColumn("refuseDescriptionF")
+                .build();
     }
 }

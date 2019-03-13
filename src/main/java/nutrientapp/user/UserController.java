@@ -22,7 +22,7 @@ public class UserController {
 
     @RequestMapping(value = "/{userId}/weight", method = POST)
     @ResponseBody
-    public List<UserWeightAtTime> addWeightAtTime(@RequestBody UserWeightAtTime weightAtTime) {
+    public List<BodyWeight> addWeightAtTime(@RequestBody BodyWeight weightAtTime) {
         return userService.saveWeightAtTime(weightAtTime);
     }
 

@@ -20,15 +20,15 @@ public class NutrientNameCsv {
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
-            .builder()
-            .addColumn("nutrientNameId", NUMBER)
-            .addColumn("nutrientCode", NUMBER)
-            .addColumn("nutrientSymbol")
-            .addColumn("nutrientUnit")
-            .addColumn("nutrientName")
-            .addColumn("nutrientNameF")
-            .addColumn("tagName")
-            .addColumn("nutrientDecimals", NUMBER)
-            .build();
+                .builder()
+                .addColumn("nutrientNameId", NUMBER)
+                .addColumn("nutrientCode", NUMBER)
+                .addColumn("nutrientSymbol")
+                .addColumn("nutrientUnit")
+                .addColumn("nutrientName")
+                .addColumn("nutrientNameF")
+                .addColumn("tagName")
+                .addColumn("nutrientDecimals", NUMBER)
+                .build();
     }
 }

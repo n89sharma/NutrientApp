@@ -16,11 +16,11 @@ public class FoodGroupCsv {
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
-            .builder()
-            .addColumn("foodGroupId", NUMBER)
-            .addColumn("foodGroupCode", NUMBER)
-            .addColumn("foodGroupName")
-            .addColumn("foodGroupNameF")
-            .build();
+                .builder()
+                .addColumn("foodGroupId", NUMBER)
+                .addColumn("foodGroupCode", NUMBER)
+                .addColumn("foodGroupName")
+                .addColumn("foodGroupNameF")
+                .build();
     }
 }

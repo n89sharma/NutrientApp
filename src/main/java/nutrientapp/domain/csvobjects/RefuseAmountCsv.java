@@ -20,11 +20,11 @@ public class RefuseAmountCsv {
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
-            .builder()
-            .addColumn("foodId", NUMBER)
-            .addColumn("refuseId", NUMBER)
-            .addColumn("refuseAmount", NUMBER)
-            .addColumn("refuseDateOfEntry")
-            .build();
+                .builder()
+                .addColumn("foodId", NUMBER)
+                .addColumn("refuseId", NUMBER)
+                .addColumn("refuseAmount", NUMBER)
+                .addColumn("refuseDateOfEntry")
+                .build();
     }
 }

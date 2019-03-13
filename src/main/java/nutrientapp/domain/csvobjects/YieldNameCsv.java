@@ -15,10 +15,10 @@ public class YieldNameCsv {
 
     public static CsvSchema getCsvSchema() {
         return CsvSchema
-            .builder()
-            .addColumn("yieldId", NUMBER)
-            .addColumn("yieldDescription")
-            .addColumn("yieldDescriptionF")
-            .build();
+                .builder()
+                .addColumn("yieldId", NUMBER)
+                .addColumn("yieldDescription")
+                .addColumn("yieldDescriptionF")
+                .build();
     }
 }

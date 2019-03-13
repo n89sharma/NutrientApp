@@ -16,7 +16,7 @@ public class UserService {
         this.userWeightRepository = userWeightRepository;
     }
 
-    public List<UserWeightAtTime> saveWeightAtTime(UserWeightAtTime weightAtTime) {
+    public List<BodyWeight> saveWeightAtTime(BodyWeight weightAtTime) {
         userWeightRepository.save(weightAtTime);
         return userWeightRepository.findByUserId(weightAtTime.getUserId());
     }
