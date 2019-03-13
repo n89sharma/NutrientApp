@@ -13,11 +13,11 @@ import static com.fasterxml.jackson.dataformat.csv.CsvSchema.ColumnType.NUMBER;
 @Document(collection = "nutrient_amounts")
 public class NutrientAmountCsv {
     private int foodId;
-    private int nutrientId;
+    private int nutrientNameId;
+    private int nutrientSourceId;
     private double nutrientValue;
     private double standardError;
     private int numberOfObservations;
-    private int nutrientSourceId;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date nutrientDateOfEntry;
 
@@ -25,7 +25,7 @@ public class NutrientAmountCsv {
         return CsvSchema
                 .builder()
                 .addColumn("foodId", NUMBER)
-                .addColumn("nutrientId", NUMBER)
+                .addColumn("nutrientNameId", NUMBER)
                 .addColumn("nutrientValue", NUMBER)
                 .addColumn("standardError", NUMBER)
                 .addColumn("numberOfObservations", NUMBER)
