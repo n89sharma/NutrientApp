@@ -18,6 +18,8 @@ public enum NutrientIds {
     ZINC(309),
     RETINOL(319),
     BETA_CAROTENE(321),
+    ALPHA_CAROTENE(834),
+    BETA_CRYPTOXANTHIN(835),
     VITAMIN_B6(415),
     VITAMIN_B12(418),
     VITAMIN_C(401),

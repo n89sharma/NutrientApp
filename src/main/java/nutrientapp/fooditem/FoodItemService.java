@@ -14,7 +14,9 @@ import java.util.Map;
 import java.util.function.Function;
 
 import static java.util.stream.Collectors.toMap;
+import static nutrientapp.nutrient.NutrientIds.ALPHA_CAROTENE;
 import static nutrientapp.nutrient.NutrientIds.BETA_CAROTENE;
+import static nutrientapp.nutrient.NutrientIds.BETA_CRYPTOXANTHIN;
 import static nutrientapp.nutrient.NutrientIds.CALCIUM;
 import static nutrientapp.nutrient.NutrientIds.CALORIES;
 import static nutrientapp.nutrient.NutrientIds.CARBOHYDRATES;
@@ -63,10 +65,8 @@ public class FoodItemService {
         minerals.setPotassium(getNutrientOrEmpty(nutrients, POTASSIUM));
         minerals.setZinc(getNutrientOrEmpty(nutrients, ZINC));
 
-        val retinol = getNutrientOrEmpty(nutrients, RETINOL);
-        val betaCarotene = getNutrientOrEmpty(nutrients, BETA_CAROTENE);
         val vitamins = new MicroNutrients.Vitamins();
-        vitamins.setVitaminA(getNutrientOrEmpty(nutrients, RETINOL)); //TODO: change to consistent units.
+        vitamins.setVitaminA(getVitaminA(nutrients));
         vitamins.setVitaminB6(getNutrientOrEmpty(nutrients, VITAMIN_B6));
         vitamins.setVitaminB12(getNutrientOrEmpty(nutrients, VITAMIN_B12));
         vitamins.setVitaminC(getNutrientOrEmpty(nutrients, VITAMIN_C));
@@ -96,6 +96,24 @@ public class FoodItemService {
                 calorieNutrient.getAmountValue(),
                 macroNutrients,
                 microNutrients);
+    }
+
+    private Nutrient getVitaminA(Map<Integer, Nutrient> nutrients) {
+        val retinol = getNutrientOrEmpty(nutrients, RETINOL);
+        val betaCarotene = getNutrientOrEmpty(nutrients, BETA_CAROTENE);
+        val alphaCarotene = getNutrientOrEmpty(nutrients, ALPHA_CAROTENE);
+        val betaCryptoxanthin = getNutrientOrEmpty(nutrients, BETA_CRYPTOXANTHIN);
+        val retinolActivityEquivalent = retinol.getAmountValue() +
+                betaCarotene.getAmountValue() / 12 +
+                alphaCarotene.getAmountValue() / 24 +
+                betaCryptoxanthin.getAmountValue() / 24;
+
+        val nutrient = new Nutrient();
+        nutrient.setName("Vitamin A");
+        nutrient.setSymbol("RAE");
+        nutrient.setUnit("RAE");
+        nutrient.setAmountValue(retinolActivityEquivalent);
+        return nutrient;
     }
 
     private Nutrient getNutrientOrEmpty(Map<Integer, Nutrient> nutrients, NutrientIds nutrientId) {
