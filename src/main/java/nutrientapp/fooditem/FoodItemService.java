@@ -1,7 +1,9 @@
 package nutrientapp.fooditem;
 
 import lombok.val;
+import nutrientapp.domain.repositories.ConversionFactorRepository;
 import nutrientapp.domain.repositories.FoodRepository;
+import nutrientapp.domain.repositories.MeasureNameRepository;
 import nutrientapp.nutrient.MacroNutrients;
 import nutrientapp.nutrient.MicroNutrients;
 import nutrientapp.nutrient.Nutrient;
@@ -10,44 +12,31 @@ import nutrientapp.nutrient.NutrientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
-import java.util.function.Function;
 
+import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.toMap;
-import static nutrientapp.nutrient.NutrientIds.ALPHA_CAROTENE;
-import static nutrientapp.nutrient.NutrientIds.BETA_CAROTENE;
-import static nutrientapp.nutrient.NutrientIds.BETA_CRYPTOXANTHIN;
-import static nutrientapp.nutrient.NutrientIds.CALCIUM;
-import static nutrientapp.nutrient.NutrientIds.CALORIES;
-import static nutrientapp.nutrient.NutrientIds.CARBOHYDRATES;
-import static nutrientapp.nutrient.NutrientIds.CHOLESTEROL;
-import static nutrientapp.nutrient.NutrientIds.FAT;
-import static nutrientapp.nutrient.NutrientIds.FIBRE;
-import static nutrientapp.nutrient.NutrientIds.IRON;
-import static nutrientapp.nutrient.NutrientIds.MAGNESIUM;
-import static nutrientapp.nutrient.NutrientIds.OMEGA3;
-import static nutrientapp.nutrient.NutrientIds.OMEGA6;
-import static nutrientapp.nutrient.NutrientIds.POTASSIUM;
-import static nutrientapp.nutrient.NutrientIds.PROTEIN;
-import static nutrientapp.nutrient.NutrientIds.RETINOL;
-import static nutrientapp.nutrient.NutrientIds.SATURATED_FAT;
-import static nutrientapp.nutrient.NutrientIds.SODIUM;
-import static nutrientapp.nutrient.NutrientIds.SUGARS;
-import static nutrientapp.nutrient.NutrientIds.TRANS_FAT;
-import static nutrientapp.nutrient.NutrientIds.VITAMIN_B12;
-import static nutrientapp.nutrient.NutrientIds.VITAMIN_B6;
-import static nutrientapp.nutrient.NutrientIds.VITAMIN_C;
-import static nutrientapp.nutrient.NutrientIds.VITAMIN_D;
-import static nutrientapp.nutrient.NutrientIds.ZINC;
+import static nutrientapp.nutrient.NutrientIds.*;
 
 @Service
 public class FoodItemService {
+    private ConversionFactorRepository conversionFactorRepository;
     private FoodRepository foodRepository;
+    private MeasureNameRepository measureNameRepository;
     private NutrientService nutrientService;
 
     @Autowired
-    public FoodItemService(FoodRepository foodRepository, NutrientService nutrientService) {
+    public FoodItemService(
+        ConversionFactorRepository conversionFactorRepository,
+        FoodRepository foodRepository,
+        MeasureNameRepository measureNameRepository,
+        NutrientService nutrientService) {
+
+        this.conversionFactorRepository = conversionFactorRepository;
         this.foodRepository = foodRepository;
+        this.measureNameRepository = measureNameRepository;
         this.nutrientService = nutrientService;
     }
 
@@ -55,7 +44,7 @@ public class FoodItemService {
         val nutrients = nutrientService
                 .getNutrients(foodId)
                 .stream()
-                .collect(toMap(Nutrient::getNutrientNameId, Function.identity()));
+            .collect(toMap(Nutrient::getNutrientNameId, identity()));
 
         val minerals = new MicroNutrients.Minerals();
         minerals.setSodium(getNutrientOrEmpty(nutrients, SODIUM));
@@ -120,5 +109,34 @@ public class FoodItemService {
         return nutrients.getOrDefault(
                 nutrientId.getId(),
                 nutrientService.getEmptyNutrient(nutrientId.getId()));
+    }
+
+    public List<FoodSummary> getFoodItems() {
+        val foodSummaries = new ArrayList<FoodSummary>();
+        val csvFoodItems = foodRepository.findAll();
+        for (val csvFoodItem : csvFoodItems) {
+            val foodSummary = new FoodSummary();
+            foodSummary.setFoodId(csvFoodItem.getFoodId());
+            foodSummary.setFoodDescription(csvFoodItem.getFoodDescription());
+            foodSummary.setFoodDescriptionF(csvFoodItem.getFoodDescriptionF());
+            foodSummaries.add(foodSummary);
+        }
+        return foodSummaries;
+    }
+
+    public List<Measure> getMeasures(int foodId) {
+        val measures = new ArrayList<Measure>();
+        val csvConversionFactors = conversionFactorRepository.findByFoodId(foodId);
+        for (val csvConversionFactor : csvConversionFactors) {
+            val measure = new Measure();
+            val csvMeasureName = measureNameRepository.findByMeasureId(csvConversionFactor.getMeasureId());
+            if (csvMeasureName != null) {
+                measure.setConversionFactor(csvConversionFactor.getConversionFactorValue());
+                measure.setMeasureName(csvMeasureName.getMeasureDescription());
+                measure.setMeasureNameF(csvMeasureName.getMeasureDescriptionF());
+                measures.add(measure);
+            }
+        }
+        return measures;
     }
 }
