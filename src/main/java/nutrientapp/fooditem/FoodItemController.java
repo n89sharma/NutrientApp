@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,8 +25,14 @@ public class FoodItemController {
 
     @RequestMapping(value = "/food/{foodId}", method = GET)
     @ResponseBody
-    public Food getFoodItem(@PathVariable int foodId) {
-        return foodItemService.getFoodItem(foodId);
+    public Food getFoodItem(
+        @PathVariable int foodId,
+        @RequestParam(required = false)Integer measureId,
+        @RequestParam(required = false) Double serving) {
+
+        return measureId == null || serving == null
+            ? foodItemService.getFoodItem(foodId)
+            : foodItemService.getFoodItem(foodId, measureId, serving);
     }
 
     @RequestMapping(value = "/food", method = GET)

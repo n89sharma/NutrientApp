@@ -40,6 +40,14 @@ public class FoodItemService {
         this.nutrientService = nutrientService;
     }
 
+    Food getFoodItem(int foodId, int measureId, double serving) {
+        val conversionFactor = conversionFactorRepository.findByFoodIdAndMeasureId(foodId, measureId);
+        val totalConversionFactor = conversionFactor.getConversionFactorValue()*serving;
+        val foodItem = getFoodItem(foodId);
+        foodItem.multiplyByFactor(totalConversionFactor);
+        return foodItem;
+    }
+
     Food getFoodItem(int foodId) {
         val nutrients = nutrientService
                 .getNutrients(foodId)
@@ -131,6 +139,7 @@ public class FoodItemService {
             val measure = new Measure();
             val csvMeasureName = measureNameRepository.findByMeasureId(csvConversionFactor.getMeasureId());
             if (csvMeasureName != null) {
+                measure.setMeasureId(csvConversionFactor.getMeasureId());
                 measure.setConversionFactor(csvConversionFactor.getConversionFactorValue());
                 measure.setMeasureName(csvMeasureName.getMeasureDescription());
                 measure.setMeasureNameF(csvMeasureName.getMeasureDescriptionF());
