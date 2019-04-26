@@ -18,7 +18,7 @@ public class DailySummary {
     @Id
     private String id;
     private String userId;
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyyMMdd")
     private Date date;
 
     private List<PortionIds> breakfast;

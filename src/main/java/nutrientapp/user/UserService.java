@@ -1,16 +1,17 @@
 package nutrientapp.user;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import lombok.val;
 import nutrientapp.domain.repositories.ConversionFactorRepository;
 import nutrientapp.domain.repositories.DailySummaryRepository;
 import nutrientapp.domain.repositories.FoodRepository;
 import nutrientapp.domain.repositories.UserWeightRepository;
 import nutrientapp.user.DailySummary.PortionIds;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
+import nutrientapp.user.DailySummary;
 
 @Service
 public class UserService {
@@ -38,13 +39,17 @@ public class UserService {
         return userWeightRepository.findByUserId(weightAtTime.getUserId());
     }
 
-    public String saveDailySummary(DailySummary dailySummary) {
+    public DailySummary saveDailySummary(DailySummary dailySummary) {
         if(isDailySummaryValid(dailySummary)) {
-            return dailySummaryRepository.save(dailySummary).getId();
+            val dbDailySummary = dailySummaryRepository.findByUserIdAndDate(
+                dailySummary.getUserId(),
+                dailySummary.getDate());
+            if(dbDailySummary != null) {
+                dailySummary.setId(dbDailySummary.getId());
+            }
+            return dailySummaryRepository.save(dailySummary);
         }
-        else {
-            return "Error: Either the food IDs or the measure IDs are not valid.";
-        }
+        return null;
     }
 
     private boolean isDailySummaryValid(DailySummary dailySummary) {

@@ -1,13 +1,20 @@
 package nutrientapp.user;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.web.bind.annotation.*;
+import static org.springframework.web.bind.annotation.RequestMethod.POST;
+import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
 import java.util.Date;
 import java.util.List;
 
-import static org.springframework.web.bind.annotation.RequestMethod.POST;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+import nutrientapp.user.DailySummary;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
@@ -26,11 +33,11 @@ public class UserController {
         return userService.saveWeightAtTime(weightAtTime);
     }
 
-    @RequestMapping(value = "/{userId}/data/{date}/food-summary", method = POST)
+    @RequestMapping(value = "/{userId}/data/{date}/food-summary", method = PUT)
     @ResponseBody
-    public String addDailySummary(
+    public DailySummary addDailySummary(
             @PathVariable String userId,
-            @PathVariable("date") @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX") Date date,
+            @PathVariable("date") @DateTimeFormat(pattern = "yyyyMMdd") Date date,
             @RequestBody DailySummary dailySummary) {
 
         return userService.saveDailySummary(dailySummary);
