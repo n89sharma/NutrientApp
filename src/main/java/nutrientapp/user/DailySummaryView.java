@@ -5,6 +5,7 @@ import lombok.Data;
 import nutrientapp.fooditem.Food;
 import nutrientapp.fooditem.Measure;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -14,10 +15,10 @@ public class DailySummaryView {
     private String userId;
     private Date date;
 
-    private List<Portion> breakfast;
-    private List<Portion> lunch;
-    private List<Portion> dinner;
-    private List<Portion> other;
+    private List<Portion> breakfast = new ArrayList<>();
+    private List<Portion> lunch = new ArrayList<>();
+    private List<Portion> dinner = new ArrayList<>();
+    private List<Portion> other = new ArrayList<>();
 
     private DailyTotals dailyTotals;
 
