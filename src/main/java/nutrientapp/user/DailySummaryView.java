@@ -1,5 +1,6 @@
 package nutrientapp.user;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import nutrientapp.fooditem.Food;
 import nutrientapp.fooditem.Measure;
@@ -7,6 +8,7 @@ import nutrientapp.fooditem.Measure;
 import java.util.Date;
 import java.util.List;
 
+@Data
 public class DailySummaryView {
 
     private String userId;
@@ -20,6 +22,7 @@ public class DailySummaryView {
     private DailyTotals dailyTotals;
 
     @Data
+    @AllArgsConstructor
     public static class Portion {
         private Food food;
         private Measure measure;

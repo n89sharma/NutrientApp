@@ -1,5 +1,6 @@
 package nutrientapp.user;
 
+import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
@@ -40,7 +41,16 @@ public class UserController {
             @PathVariable("date") @DateTimeFormat(pattern = "yyyyMMdd") Date date,
             @RequestBody DailySummary dailySummary) {
 
-        return userService.saveDailySummary(dailySummary);
+        return userService.saveDailySummary(dailySummary, date);
+    }
+
+    @RequestMapping(value = "/{userId}/data/{date}/food-summary", method = GET)
+    @ResponseBody
+    public DailySummaryView getDailySummary(
+            @PathVariable String userId,
+            @PathVariable("date") @DateTimeFormat(pattern = "yyyyMMdd") Date date) {
+
+        return userService.getDailySummary(userId, date);
     }
 
 }

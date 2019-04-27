@@ -1,5 +1,6 @@
 package nutrientapp.user;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -18,13 +19,12 @@ public class DailySummary {
     @Id
     private String id;
     private String userId;
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyyMMdd")
     private Date date;
 
-    private List<PortionIds> breakfast;
-    private List<PortionIds> lunch;
-    private List<PortionIds> dinner;
-    private List<PortionIds> other;
+    private List<PortionIds> breakfast = new ArrayList<>();
+    private List<PortionIds> lunch = new ArrayList<>();
+    private List<PortionIds> dinner = new ArrayList<>();
+    private List<PortionIds> other = new ArrayList<>();
 
     @Data
     public static class PortionIds {

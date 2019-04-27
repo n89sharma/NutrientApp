@@ -1,6 +1,8 @@
 package nutrientapp.fooditem;
 
 import lombok.val;
+import nutrientapp.domain.csvobjects.ConversionFactorCsv;
+import nutrientapp.domain.csvobjects.MeasureNameCsv;
 import nutrientapp.domain.repositories.ConversionFactorRepository;
 import nutrientapp.domain.repositories.FoodRepository;
 import nutrientapp.domain.repositories.MeasureNameRepository;
@@ -40,7 +42,7 @@ public class FoodItemService {
         this.nutrientService = nutrientService;
     }
 
-    Food getFoodItem(int foodId, int measureId, double serving) {
+    public Food getFoodItem(int foodId, int measureId, double serving) {
         val conversionFactor = conversionFactorRepository.findByFoodIdAndMeasureId(foodId, measureId);
         val totalConversionFactor = conversionFactor.getConversionFactorValue()*serving;
         val foodItem = getFoodItem(foodId);
@@ -134,18 +136,28 @@ public class FoodItemService {
 
     public List<Measure> getMeasures(int foodId) {
         val measures = new ArrayList<Measure>();
-        val csvConversionFactors = conversionFactorRepository.findByFoodId(foodId);
-        for (val csvConversionFactor : csvConversionFactors) {
-            val measure = new Measure();
-            val csvMeasureName = measureNameRepository.findByMeasureId(csvConversionFactor.getMeasureId());
-            if (csvMeasureName != null) {
-                measure.setMeasureId(csvConversionFactor.getMeasureId());
-                measure.setConversionFactor(csvConversionFactor.getConversionFactorValue());
-                measure.setMeasureName(csvMeasureName.getMeasureDescription());
-                measure.setMeasureNameF(csvMeasureName.getMeasureDescriptionF());
-                measures.add(measure);
+        val conversionFactorCsvs = conversionFactorRepository.findByFoodId(foodId);
+        for (val conversionFactorCsv : conversionFactorCsvs) {
+            val measureNameCsv = measureNameRepository.findByMeasureId(conversionFactorCsv.getMeasureId());
+            if (measureNameCsv != null) {
+                measures.add(mapMeasure(measureNameCsv, conversionFactorCsv));
             }
         }
         return measures;
+    }
+
+    public Measure getMeasure(int foodId, int measureId) {
+        val conversionFactorCsv = conversionFactorRepository.findByFoodIdAndMeasureId(foodId, measureId);
+        val measureNameCsv = measureNameRepository.findByMeasureId(conversionFactorCsv.getMeasureId());
+        return mapMeasure(measureNameCsv, conversionFactorCsv);
+    }
+
+    private Measure mapMeasure(MeasureNameCsv measureNameCsv, ConversionFactorCsv conversionFactorCsv) {
+        val measure = new Measure();
+        measure.setMeasureId(measureNameCsv.getMeasureId());
+        measure.setConversionFactor(conversionFactorCsv.getConversionFactorValue());
+        measure.setMeasureName(measureNameCsv.getMeasureDescription());
+        measure.setMeasureNameF(measureNameCsv.getMeasureDescriptionF());
+        return measure;
     }
 }
