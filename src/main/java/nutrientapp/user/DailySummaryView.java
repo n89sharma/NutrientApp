@@ -2,12 +2,17 @@ package nutrientapp.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import net.minidev.json.annotate.JsonIgnore;
 import nutrientapp.fooditem.Food;
 import nutrientapp.fooditem.Measure;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toList;
 
 @Data
 public class DailySummaryView {
@@ -30,14 +35,10 @@ public class DailySummaryView {
         private double serving;
     }
 
-    @Data
-    public static class DailyTotals {
-        private double caloriePercentFromProtein;
-        private double caloriePercentFromCarbohydrates;
-        private double caloriePercentFromFat;
-        private double totalProtein;
-        private double totalCarbohydrates;
-        private double totalFat;
-        private double totalCalories;
+    @JsonIgnore
+    public List<Portion> getPortionsInTheDay() {
+        return Stream.of(this.breakfast, this.lunch, this.dinner, this.other)
+                .flatMap(Collection::stream)
+                .collect(toList());
     }
 }

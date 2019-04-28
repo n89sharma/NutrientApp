@@ -53,4 +53,12 @@ public class UserController {
         return userService.getDailySummary(userId, date);
     }
 
+    @RequestMapping(value = "/{userId}/data/{date}/total", method = GET)
+    @ResponseBody
+    public DailyTotals getDailyTotal(
+            @PathVariable String userId,
+            @PathVariable("date") @DateTimeFormat(pattern = "yyyyMMdd") Date date) {
+
+        return userService.getDailyTotals(userId, date);
+    }
 }

@@ -1,19 +1,19 @@
 package nutrientapp.user;
 
-import java.util.Date;
-import java.util.List;
-
-import nutrientapp.fooditem.FoodItemService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import lombok.val;
 import nutrientapp.domain.repositories.ConversionFactorRepository;
 import nutrientapp.domain.repositories.DailySummaryRepository;
 import nutrientapp.domain.repositories.FoodRepository;
 import nutrientapp.domain.repositories.UserWeightRepository;
+import nutrientapp.fooditem.Food;
+import nutrientapp.fooditem.FoodItemService;
 import nutrientapp.user.DailySummary.PortionIds;
-import nutrientapp.user.DailySummary;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Date;
+import java.util.List;
+import java.util.function.Function;
 
 import static java.util.stream.Collectors.toList;
 
@@ -48,11 +48,11 @@ public class UserService {
 
     public DailySummary saveDailySummary(DailySummary dailySummary, Date date) {
         dailySummary.setDate(date); //TODO: Not sure if this is the right way to do it.
-        if(isDailySummaryValid(dailySummary)) {
+        if (isDailySummaryValid(dailySummary)) {
             val dbDailySummary = dailySummaryRepository.findByUserIdAndDate(
-                dailySummary.getUserId(),
-                dailySummary.getDate());
-            if(dbDailySummary != null) {
+                    dailySummary.getUserId(),
+                    dailySummary.getDate());
+            if (dbDailySummary != null) {
                 dailySummary.setId(dbDailySummary.getId());
             }
             return dailySummaryRepository.save(dailySummary);
@@ -73,7 +73,7 @@ public class UserService {
                 portionIds.getFoodId(),
                 portionIds.getMeasureId());
         val serving = portionIds.getServing();
-        return foodCsv!=null && conversionFactorCsv!=null && serving > 0;
+        return foodCsv != null && conversionFactorCsv != null && serving > 0;
     }
 
     public DailySummaryView getDailySummary(String userId, Date date) {
@@ -82,7 +82,7 @@ public class UserService {
         dailySummaryView.setDate(date);
 
         val dailySummary = dailySummaryRepository.findByUserIdAndDate(userId, date);
-        if(dailySummary != null) {
+        if (dailySummary != null) {
             val breakfast = getPortions(dailySummary.getBreakfast());
             val lunch = getPortions(dailySummary.getLunch());
             val dinner = getPortions(dailySummary.getDinner());
@@ -106,6 +106,52 @@ public class UserService {
         val food = foodItemService.getFoodItem(foodId, measureId, serving);
         val measure = foodItemService.getMeasure(foodId, measureId);
         return new DailySummaryView.Portion(food, measure, serving);
+    }
+
+    public DailyTotals getDailyTotals(String userId, Date date) {
+        val dailySummary = getDailySummary(userId, date);
+        val dailyPortions = dailySummary.getPortionsInTheDay();
+        val dailyTotals = new DailyTotals();
+
+        if (dailyPortions.size() > 0) {
+            val totalCalories = getTotalOfValue(dailyPortions, Food::getCalories);
+            val totalFat = getTotalOfValue(dailyPortions, f -> f.getMacroNutrients().getFats().getAmountValue());
+            val totalCarbohydrates = getTotalOfValue(dailyPortions, f -> f.getMacroNutrients().getCarbohydrates().getAmountValue());
+            val totalProtein = getTotalOfValue(dailyPortions, f -> f.getMacroNutrients().getProtein().getAmountValue());
+
+
+            val totalFatCalorie = totalFat * 9.0;
+            val totalCarbohydrateCalorie = totalCarbohydrates * 4.0;
+            val totalProteinCalorie = totalProtein * 4.0;
+            val totalOtherCalorieRaw = totalCalories - totalFatCalorie - totalCarbohydrateCalorie - totalProteinCalorie;
+            val totalOtherCalorie = totalOtherCalorieRaw < 0 ? 0 : totalOtherCalorieRaw;
+
+            val caloriePercentFromFat = totalFatCalorie / totalCalories;
+            val caloriePercentFromCarbohydrates = totalCarbohydrateCalorie / totalCalories;
+            val caloriePercentFromProtein = totalProteinCalorie / totalCalories;
+            val caloriePercentFromOther = totalOtherCalorie / totalCalories;
+
+
+            dailyTotals.setTotalCalories(totalCalories);
+            dailyTotals.setTotalFat(totalFat);
+            dailyTotals.setTotalCarbohydrates(totalCarbohydrates);
+            dailyTotals.setTotalProtein(totalProtein);
+
+            dailyTotals.setCaloriePercentFromCarbohydrates(caloriePercentFromCarbohydrates);
+            dailyTotals.setCaloriePercentFromFats(caloriePercentFromFat);
+            dailyTotals.setCaloriePercentFromProteins(caloriePercentFromProtein);
+            dailyTotals.setCaloriePercentFromOther(caloriePercentFromOther);
+        }
+
+        return dailyTotals;
+    }
+
+    private double getTotalOfValue(List<DailySummaryView.Portion> portions, Function<Food, Double> getValue) {
+        return portions
+                .stream()
+                .map(DailySummaryView.Portion::getFood)
+                .map(getValue)
+                .reduce(0.0, (a, b) -> a + b);
     }
 
 }
