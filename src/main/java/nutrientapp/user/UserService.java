@@ -115,33 +115,54 @@ public class UserService {
 
         if (dailyPortions.size() > 0) {
             val totalCalories = getTotalOfValue(dailyPortions, Food::getCalories);
-            val totalFat = getTotalOfValue(dailyPortions, f -> f.getMacroNutrients().getFats().getAmountValue());
+
+            val totalFats = getTotalOfValue(dailyPortions, f -> f.getMacroNutrients().getFats().getAmountValue());
             val totalCarbohydrates = getTotalOfValue(dailyPortions, f -> f.getMacroNutrients().getCarbohydrates().getAmountValue());
-            val totalProtein = getTotalOfValue(dailyPortions, f -> f.getMacroNutrients().getProtein().getAmountValue());
+            val totalProteins = getTotalOfValue(dailyPortions, f -> f.getMacroNutrients().getProtein().getAmountValue());
 
-
-            val totalFatCalorie = totalFat * 9.0;
+            val totalFatCalorie = totalFats * 9.0;
             val totalCarbohydrateCalorie = totalCarbohydrates * 4.0;
-            val totalProteinCalorie = totalProtein * 4.0;
+            val totalProteinCalorie = totalProteins * 4.0;
             val totalOtherCalorieRaw = totalCalories - totalFatCalorie - totalCarbohydrateCalorie - totalProteinCalorie;
             val totalOtherCalorie = totalOtherCalorieRaw < 0 ? 0 : totalOtherCalorieRaw;
 
-            val caloriePercentFromFat = totalFatCalorie / totalCalories;
+            val caloriePercentFromFats = totalFatCalorie / totalCalories;
             val caloriePercentFromCarbohydrates = totalCarbohydrateCalorie / totalCalories;
-            val caloriePercentFromProtein = totalProteinCalorie / totalCalories;
-            val caloriePercentFromOther = totalOtherCalorie / totalCalories;
+            val caloriePercentFromProteins = totalProteinCalorie / totalCalories;
+            val caloriePercentFromOtherMacro = totalOtherCalorie / totalCalories;
 
 
-            dailyTotals.setTotalCalories(totalCalories);
-            dailyTotals.setTotalFat(totalFat);
-            dailyTotals.setTotalCarbohydrates(totalCarbohydrates);
-            dailyTotals.setTotalProtein(totalProtein);
+            dailyTotals.setMacroDistribution(
+                    caloriePercentFromProteins,
+                    caloriePercentFromCarbohydrates,
+                    caloriePercentFromFats,
+                    caloriePercentFromOtherMacro,
+                    totalProteins,
+                    totalCarbohydrates,
+                    totalFats,
+                    totalCalories);
 
-            dailyTotals.setCaloriePercentFromCarbohydrates(caloriePercentFromCarbohydrates);
-            dailyTotals.setCaloriePercentFromFats(caloriePercentFromFat);
-            dailyTotals.setCaloriePercentFromProteins(caloriePercentFromProtein);
-            dailyTotals.setCaloriePercentFromOther(caloriePercentFromOther);
+            val totalBreakfast = getTotalOfValue(dailySummary.getBreakfast(), Food::getCalories);
+            val totalLunch = getTotalOfValue(dailySummary.getLunch(), Food::getCalories);
+            val totalDinner = getTotalOfValue(dailySummary.getDinner(), Food::getCalories);
+            val totalOther = getTotalOfValue(dailySummary.getOther(), Food::getCalories);
+
+            val caloriePercentFromBreakfast = totalBreakfast/ totalCalories;
+            val caloriePercentFromLunch = totalLunch/ totalCalories;
+            val caloriePercentFromDinner = totalDinner/ totalCalories;
+            val caloriePercentFromOtherMeal = totalOther/ totalCalories;
+
+            dailyTotals.setMealDistribution(
+                    caloriePercentFromBreakfast,
+                    caloriePercentFromLunch,
+                    caloriePercentFromDinner,
+                    caloriePercentFromOtherMeal,
+                    totalBreakfast,
+                    totalLunch,
+                    totalDinner,
+                    totalOther);
         }
+
 
         return dailyTotals;
     }
