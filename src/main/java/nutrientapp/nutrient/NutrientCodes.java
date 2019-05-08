@@ -18,14 +18,14 @@ public enum NutrientCodes {
     ZINC(309),
     RETINOL(319),
     BETA_CAROTENE(321),
-    ALPHA_CAROTENE(834),
-    BETA_CRYPTOXANTHIN(835),
+    ALPHA_CAROTENE(322),
+    BETA_CRYPTOXANTHIN(334),
     VITAMIN_B6(415),
     VITAMIN_B12(418),
     VITAMIN_C(401),
     VITAMIN_D(324),
-    OMEGA3(868),
-    OMEGA6(869); //415
+    OMEGA3(902),
+    OMEGA6(903);
 
     private int nutrientCode;
 
