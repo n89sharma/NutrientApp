@@ -1,13 +1,7 @@
 package nutrientapp.user;
 
 import lombok.val;
-import nutrientapp.domain.internal.BodyWeight;
-import nutrientapp.domain.internal.DailySummary;
-import nutrientapp.domain.internal.DailySummaryView;
-import nutrientapp.domain.internal.DailyTotals;
-import nutrientapp.domain.internal.Food;
-import nutrientapp.domain.internal.PortionIds;
-import nutrientapp.domain.internal.Recipe;
+import nutrientapp.domain.internal.*;
 import nutrientapp.domain.repositories.*;
 import nutrientapp.fooditem.FoodItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,12 +25,12 @@ public class UserService {
 
     @Autowired
     public UserService(
-        UserWeightRepository userWeightRepository,
-        ConversionFactorRepository conversionFactorRepository,
-        FoodRepository foodRepository,
-        DailySummaryRepository dailySummaryRepository,
-        RecipeRepository recipeRepository,
-        FoodItemService foodItemService) {
+            UserWeightRepository userWeightRepository,
+            ConversionFactorRepository conversionFactorRepository,
+            FoodRepository foodRepository,
+            DailySummaryRepository dailySummaryRepository,
+            RecipeRepository recipeRepository,
+            FoodItemService foodItemService) {
 
         this.userWeightRepository = userWeightRepository;
         this.conversionFactorRepository = conversionFactorRepository;
@@ -73,12 +67,12 @@ public class UserService {
     }
 
     private boolean isFoodMeasureAndServingValid(PortionIds portionIds) {
-        val foodCsv = foodRepository.findOne(portionIds.getFoodId());
-        val conversionFactorCsv = conversionFactorRepository.findByFoodIdAndMeasureId(
+        val food = foodRepository.findOne(portionIds.getFoodId());
+        val conversionFactor = conversionFactorRepository.findByFoodIdAndMeasureId(
                 portionIds.getFoodId(),
                 portionIds.getMeasureId());
         val serving = portionIds.getServing();
-        return foodCsv != null && conversionFactorCsv != null && serving > 0;
+        return food != null && conversionFactor != null && serving > 0;
     }
 
     public DailySummaryView getDailySummary(String userId, Date date) {

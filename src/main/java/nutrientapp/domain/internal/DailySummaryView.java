@@ -1,8 +1,8 @@
 package nutrientapp.domain.internal;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import net.minidev.json.annotate.JsonIgnore;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -25,18 +25,18 @@ public class DailySummaryView {
 
     private DailyTotals dailyTotals;
 
+    @JsonIgnore
+    public List<Portion> getPortionsInTheDay() {
+        return Stream.of(this.breakfast, this.lunch, this.dinner, this.other)
+                .flatMap(Collection::stream)
+                .collect(toList());
+    }
+
     @Data
     @AllArgsConstructor
     public static class Portion {
         private Food food;
         private Measure measure;
         private double serving;
-    }
-
-    @JsonIgnore
-    public List<Portion> getPortionsInTheDay() {
-        return Stream.of(this.breakfast, this.lunch, this.dinner, this.other)
-                .flatMap(Collection::stream)
-                .collect(toList());
     }
 }

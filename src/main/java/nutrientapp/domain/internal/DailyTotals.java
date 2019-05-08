@@ -36,19 +36,6 @@ public class DailyTotals {
         this.macroDistribution.setTotalCalories(totalCalories);
     }
 
-    @Data
-    public static class MacroDistribution {
-        private double proteins;
-        private double carbohydrates;
-        private double fats;
-        private double other;
-
-        private double totalProteins;
-        private double totalCarbohydrates;
-        private double totalFats;
-        private double totalCalories;
-    }
-
     public void setMealDistribution(
             double breakfast,
             double lunch,
@@ -68,6 +55,19 @@ public class DailyTotals {
         this.mealDistribution.setTotalLunch(totalLunch);
         this.mealDistribution.setTotalDinner(totalDinner);
         this.mealDistribution.setTotalOther(totalOther);
+    }
+
+    @Data
+    public static class MacroDistribution {
+        private double proteins;
+        private double carbohydrates;
+        private double fats;
+        private double other;
+
+        private double totalProteins;
+        private double totalCarbohydrates;
+        private double totalFats;
+        private double totalCalories;
     }
 
     @Data

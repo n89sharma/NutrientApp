@@ -3,12 +3,7 @@ package nutrientapp.fooditem;
 import lombok.val;
 import nutrientapp.domain.databaseobjects.ConversionFactor;
 import nutrientapp.domain.databaseobjects.MeasureName;
-import nutrientapp.domain.internal.Food;
-import nutrientapp.domain.internal.FoodSummary;
-import nutrientapp.domain.internal.MacroNutrients;
-import nutrientapp.domain.internal.Measure;
-import nutrientapp.domain.internal.MicroNutrients;
-import nutrientapp.domain.internal.Nutrient;
+import nutrientapp.domain.internal.*;
 import nutrientapp.domain.repositories.ConversionFactorRepository;
 import nutrientapp.domain.repositories.FoodRepository;
 import nutrientapp.domain.repositories.MeasureNameRepository;
@@ -34,10 +29,10 @@ public class FoodItemService {
 
     @Autowired
     public FoodItemService(
-        FoodRepository foodRepository,
-        ConversionFactorRepository conversionFactorRepository,
-        MeasureNameRepository measureNameRepository,
-        NutrientService nutrientService) {
+            FoodRepository foodRepository,
+            ConversionFactorRepository conversionFactorRepository,
+            MeasureNameRepository measureNameRepository,
+            NutrientService nutrientService) {
 
         this.conversionFactorRepository = conversionFactorRepository;
         this.foodRepository = foodRepository;
@@ -47,7 +42,7 @@ public class FoodItemService {
 
     public Food getFoodItem(String foodId, String measureId, double serving) {
         val conversionFactor = conversionFactorRepository.findByFoodIdAndMeasureId(foodId, measureId);
-        val totalConversionFactor = conversionFactor.getConversionFactorValue()*serving;
+        val totalConversionFactor = conversionFactor.getConversionFactorValue() * serving;
         val foodItem = getFoodItem(foodId);
         foodItem.multiplyByFactor(totalConversionFactor);
         return foodItem;
@@ -57,7 +52,7 @@ public class FoodItemService {
         val nutrients = nutrientService
                 .getNutrients(foodId)
                 .stream()
-            .collect(toMap(Nutrient::getNutrientCode, identity()));
+                .collect(toMap(Nutrient::getNutrientCode, identity()));
 
         val minerals = new MicroNutrients.Minerals();
         minerals.setSodium(getNutrientOrEmpty(nutrients, SODIUM));

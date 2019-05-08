@@ -25,7 +25,7 @@ public class NutrientAmountCsv {
         return CsvSchema
                 .builder()
                 .addColumn("foodId", NUMBER)
-                .addColumn("nutrientCode", NUMBER)
+                .addColumn("nutrientNameId", NUMBER)
                 .addColumn("nutrientValue", NUMBER)
                 .addColumn("standardError", NUMBER)
                 .addColumn("numberOfObservations", NUMBER)

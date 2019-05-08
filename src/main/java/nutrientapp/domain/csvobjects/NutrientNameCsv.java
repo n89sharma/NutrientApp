@@ -21,7 +21,7 @@ public class NutrientNameCsv {
     public static CsvSchema getCsvSchema() {
         return CsvSchema
                 .builder()
-                .addColumn("nutrientCode", NUMBER)
+                .addColumn("nutrientNameId", NUMBER)
                 .addColumn("nutrientCode", NUMBER)
                 .addColumn("nutrientSymbol")
                 .addColumn("nutrientUnit")

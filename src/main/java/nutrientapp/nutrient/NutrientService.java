@@ -18,10 +18,10 @@ import static java.util.stream.Collectors.toMap;
 
 @Service
 public class NutrientService {
-    private NutrientAmountRepository nutrientAmountRepository;
-    private NutrientNameRepository nutrientNameRepository;
     private final Map<String, NutrientName> nutrientNamesByNameId;
     private final Map<Integer, NutrientName> nutrientNamesByNutrientCode;
+    private NutrientAmountRepository nutrientAmountRepository;
+    private NutrientNameRepository nutrientNameRepository;
 
     @Autowired
     NutrientService(

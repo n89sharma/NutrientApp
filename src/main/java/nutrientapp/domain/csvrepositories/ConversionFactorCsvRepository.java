@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface ConversionFactorCsvRepository extends MongoRepository<ConversionFactorCsv, String> {
     List<ConversionFactorCsv> findByFoodId(int foodId);
+
     ConversionFactorCsv findByFoodIdAndMeasureId(int foodId, int measureId);
 }

@@ -16,7 +16,7 @@ public class Food {
 
     @JsonIgnore
     public void multiplyByFactor(double factor) {
-        this.calories*=factor;
+        this.calories *= factor;
         this.macroNutrients.multiplyByFactor(factor);
         this.microNutrients.multiplyByFactor(factor);
     }

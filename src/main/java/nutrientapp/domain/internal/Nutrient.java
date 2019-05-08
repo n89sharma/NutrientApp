@@ -19,7 +19,7 @@ public class Nutrient {
 
     @JsonIgnore
     public void multiplyByFactor(double factor) {
-        this.amountValue*=factor;
+        this.amountValue *= factor;
     }
 
 }
