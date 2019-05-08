@@ -3,9 +3,9 @@ package nutrientapp.nutrient;
 import lombok.val;
 import nutrientapp.domain.csvobjects.NutrientAmountCsv;
 import nutrientapp.domain.csvobjects.NutrientNameCsv;
+import nutrientapp.domain.csvrepositories.NutrientAmountCsvRepository;
+import nutrientapp.domain.csvrepositories.NutrientNameCsvRepository;
 import nutrientapp.domain.internal.Nutrient;
-import nutrientapp.domain.csvrepositories.NutrientAmountRepository;
-import nutrientapp.domain.csvrepositories.NutrientNameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,15 +18,15 @@ import static java.util.stream.Collectors.toMap;
 
 @Service
 public class NutrientService {
-    private NutrientAmountRepository nutrientAmountRepository;
-    private NutrientNameRepository nutrientNameRepository;
+    private NutrientAmountCsvRepository nutrientAmountCsvRepository;
+    private NutrientNameCsvRepository nutrientNameCsvRepository;
     private final Map<Integer, NutrientNameCsv> nutrientNames;
 
     @Autowired
-    NutrientService(NutrientAmountRepository nutrientAmountRepository, NutrientNameRepository nutrientNameRepository) {
-        this.nutrientAmountRepository = nutrientAmountRepository;
-        this.nutrientNameRepository = nutrientNameRepository;
-        this.nutrientNames = nutrientNameRepository
+    NutrientService(NutrientAmountCsvRepository nutrientAmountCsvRepository, NutrientNameCsvRepository nutrientNameCsvRepository) {
+        this.nutrientAmountCsvRepository = nutrientAmountCsvRepository;
+        this.nutrientNameCsvRepository = nutrientNameCsvRepository;
+        this.nutrientNames = nutrientNameCsvRepository
                 .findAll()
                 .stream()
                 .collect(toMap(NutrientNameCsv::getNutrientNameId, identity()));
@@ -34,7 +34,7 @@ public class NutrientService {
 
     public List<Nutrient> getNutrients(int foodId) {
         val nutrients = new ArrayList<Nutrient>();
-        val dbNutrientAmounts = nutrientAmountRepository.findByFoodId(foodId);
+        val dbNutrientAmounts = nutrientAmountCsvRepository.findByFoodId(foodId);
         for (val dbNutrientAmount : dbNutrientAmounts) {
             val dbNutrientName = nutrientNames.get(dbNutrientAmount.getNutrientNameId());
             nutrients.add(mapDbToDomain(dbNutrientAmount, dbNutrientName));

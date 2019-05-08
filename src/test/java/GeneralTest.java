@@ -1,34 +1,62 @@
 import lombok.val;
 import nutrientapp.NutrientApp;
-import nutrientapp.domain.csvobjects.*;
-import nutrientapp.domain.csvrepositories.ConversionFactorRepository;
-import nutrientapp.domain.csvrepositories.FoodGroupRepository;
-import nutrientapp.domain.csvrepositories.FoodRepository;
-import nutrientapp.domain.csvrepositories.MeasureNameRepository;
-import nutrientapp.domain.csvrepositories.NutrientAmountRepository;
-import nutrientapp.domain.csvrepositories.NutrientNameRepository;
-import nutrientapp.domain.csvrepositories.RefuseAmountRepository;
-import nutrientapp.domain.csvrepositories.RefuseNameRepository;
-import nutrientapp.domain.csvrepositories.YieldAmountRepository;
-import nutrientapp.domain.csvrepositories.YieldNameRepository;
-import nutrientapp.domain.databaseobjects.*;
+import nutrientapp.domain.csvobjects.ConversionFactorCsv;
+import nutrientapp.domain.csvobjects.FoodCsv;
+import nutrientapp.domain.csvobjects.FoodGroupCsv;
+import nutrientapp.domain.csvobjects.FoodSourceCsv;
+import nutrientapp.domain.csvobjects.MeasureNameCsv;
+import nutrientapp.domain.csvobjects.NutrientAmountCsv;
+import nutrientapp.domain.csvobjects.NutrientNameCsv;
+import nutrientapp.domain.csvobjects.NutrientSourceCsv;
+import nutrientapp.domain.csvobjects.RefuseAmountCsv;
+import nutrientapp.domain.csvobjects.RefuseNameCsv;
+import nutrientapp.domain.csvobjects.YieldAmountCsv;
+import nutrientapp.domain.csvobjects.YieldNameCsv;
+import nutrientapp.domain.csvrepositories.ConversionFactorCsvRepository;
+import nutrientapp.domain.csvrepositories.FoodCsvRepository;
+import nutrientapp.domain.csvrepositories.FoodGroupCsvRepository;
+import nutrientapp.domain.csvrepositories.FoodSourceCsvRepository;
+import nutrientapp.domain.csvrepositories.MeasureNameCsvRepository;
+import nutrientapp.domain.csvrepositories.NutrientAmountCsvRepository;
+import nutrientapp.domain.csvrepositories.NutrientNameCsvRepository;
+import nutrientapp.domain.csvrepositories.NutrientSourceCsvRepository;
+import nutrientapp.domain.csvrepositories.RefuseAmountCsvRepository;
+import nutrientapp.domain.csvrepositories.RefuseNameCsvRepository;
+import nutrientapp.domain.csvrepositories.YieldAmountCsvRepository;
+import nutrientapp.domain.csvrepositories.YieldNameCsvRepository;
+import nutrientapp.domain.databaseobjects.ConversionFactor;
+import nutrientapp.domain.databaseobjects.Food;
+import nutrientapp.domain.databaseobjects.FoodGroup;
+import nutrientapp.domain.databaseobjects.FoodSource;
+import nutrientapp.domain.databaseobjects.MeasureName;
+import nutrientapp.domain.databaseobjects.NutrientAmount;
+import nutrientapp.domain.databaseobjects.NutrientName;
+import nutrientapp.domain.databaseobjects.NutrientSource;
+import nutrientapp.domain.databaseobjects.RefuseAmount;
+import nutrientapp.domain.databaseobjects.RefuseName;
+import nutrientapp.domain.databaseobjects.YieldAmount;
+import nutrientapp.domain.databaseobjects.YieldName;
+import nutrientapp.utils.CsvFiles;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.test.context.junit4.SpringRunner;
-import sun.java2d.loops.FillRect;
 
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.function.Function;
 
 import static nutrientapp.utils.CsvFiles.CONVERSION_FACTOR;
 import static nutrientapp.utils.CsvFiles.FOOD_GROUP;
 import static nutrientapp.utils.CsvFiles.FOOD_NAME;
+import static nutrientapp.utils.CsvFiles.FOOD_SOURCE;
 import static nutrientapp.utils.CsvFiles.MEASURE_NAME;
 import static nutrientapp.utils.CsvFiles.NUTRIENT_AMOUNT;
 import static nutrientapp.utils.CsvFiles.NUTRIENT_NAME;
+import static nutrientapp.utils.CsvFiles.NUTRIENT_SOURCE;
 import static nutrientapp.utils.CsvFiles.REFUSE_AMOUNT;
 import static nutrientapp.utils.CsvFiles.REFUSE_NAME;
 import static nutrientapp.utils.CsvFiles.YIELD_AMOUNT;
@@ -40,25 +68,29 @@ import static nutrientapp.utils.CsvFiles.getAllTableRowsFrom;
 public class GeneralTest {
 
     @Autowired
-    ConversionFactorRepository conversionFactorCsvRepository;
+    ConversionFactorCsvRepository conversionFactorCsvRepository;
     @Autowired
-    FoodGroupRepository foodGroupCsvRepository;
+    FoodGroupCsvRepository foodGroupCsvRepository;
     @Autowired
-    FoodRepository foodCsvRepository;
+    FoodCsvRepository foodCsvRepository;
     @Autowired
-    MeasureNameRepository measureNameCsvRepository;
+    FoodSourceCsvRepository foodSourceCsvRepository;
     @Autowired
-    NutrientAmountRepository nutrientAmountCsvRepository;
+    MeasureNameCsvRepository measureNameCsvRepository;
     @Autowired
-    NutrientNameRepository nutrientNameCsvRepository;
+    NutrientAmountCsvRepository nutrientAmountCsvRepository;
     @Autowired
-    RefuseAmountRepository refuseAmountCsvRepository;
+    NutrientNameCsvRepository nutrientNameCsvRepository;
     @Autowired
-    RefuseNameRepository refuseNameCsvRepository;
+    NutrientSourceCsvRepository nutrientSourceCsvRepository;
     @Autowired
-    YieldNameRepository yieldNameCsvRepository;
+    RefuseAmountCsvRepository refuseAmountCsvRepository;
     @Autowired
-    YieldAmountRepository yieldAmountCsvRepository;
+    RefuseNameCsvRepository refuseNameCsvRepository;
+    @Autowired
+    YieldNameCsvRepository yieldNameCsvRepository;
+    @Autowired
+    YieldAmountCsvRepository yieldAmountCsvRepository;
 
     @Autowired
     nutrientapp.domain.repositories.ConversionFactorRepository conversionFactorRepository;
@@ -67,11 +99,15 @@ public class GeneralTest {
     @Autowired
     nutrientapp.domain.repositories.FoodRepository foodRepository;
     @Autowired
+    nutrientapp.domain.repositories.FoodSourceRepository foodSourceRepository;
+    @Autowired
     nutrientapp.domain.repositories.MeasureNameRepository measureNameRepository;
     @Autowired
     nutrientapp.domain.repositories.NutrientAmountRepository nutrientAmountRepository;
     @Autowired
     nutrientapp.domain.repositories.NutrientNameRepository nutrientNameRepository;
+    @Autowired
+    nutrientapp.domain.repositories.NutrientSourceRepository nutrientSourceRepository;
     @Autowired
     nutrientapp.domain.repositories.RefuseAmountRepository refuseAmountRepository;
     @Autowired
@@ -82,76 +118,215 @@ public class GeneralTest {
     nutrientapp.domain.repositories.YieldAmountRepository yieldAmountRepository;
 
     @Test
-    public void saveAllCsvFilesInDatabase() {
-        conversionFactorCsvRepository.save(getAllTableRowsFrom(CONVERSION_FACTOR));
-        foodGroupCsvRepository.save(getAllTableRowsFrom(FOOD_GROUP));
-        foodCsvRepository.save(getAllTableRowsFrom(FOOD_NAME));
-        measureNameCsvRepository.save(getAllTableRowsFrom(MEASURE_NAME));
-        nutrientAmountCsvRepository.save(getAllTableRowsFrom(NUTRIENT_AMOUNT));
-        nutrientNameCsvRepository.save(getAllTableRowsFrom(NUTRIENT_NAME));
-        refuseAmountCsvRepository.save(getAllTableRowsFrom(REFUSE_AMOUNT));
-        refuseNameCsvRepository.save(getAllTableRowsFrom(REFUSE_NAME));
-        yieldAmountCsvRepository.save(getAllTableRowsFrom(YIELD_AMOUNT));
-        yieldNameCsvRepository.save(getAllTableRowsFrom(YIELD_NAME));
+    public void saveAllCsvFilesInDatabase() throws IOException {
+        conversionFactorCsvRepository.save((List<ConversionFactorCsv>) getAllTableRowsFrom(CONVERSION_FACTOR));
+        foodGroupCsvRepository.save((List<FoodGroupCsv>) getAllTableRowsFrom(FOOD_GROUP));
+        foodCsvRepository.save((List<FoodCsv>) getAllTableRowsFrom(FOOD_NAME));
+        measureNameCsvRepository.save((List<MeasureNameCsv>) getAllTableRowsFrom(MEASURE_NAME));
+        nutrientAmountCsvRepository.save((List<NutrientAmountCsv>) getAllTableRowsFrom(NUTRIENT_AMOUNT));
+        nutrientNameCsvRepository.save((List<NutrientNameCsv>) getAllTableRowsFrom(NUTRIENT_NAME));
+        refuseAmountCsvRepository.save((List<RefuseAmountCsv>) getAllTableRowsFrom(REFUSE_AMOUNT));
+        refuseNameCsvRepository.save((List<RefuseNameCsv>) getAllTableRowsFrom(REFUSE_NAME));
+        yieldAmountCsvRepository.save((List<YieldAmountCsv>) getAllTableRowsFrom(YIELD_AMOUNT));
+        yieldNameCsvRepository.save((List<YieldNameCsv>) getAllTableRowsFrom(YIELD_NAME));
     }
 
     @Test
-    public void createNewYieldObjects() {
-        val map = createDatabaseObjects(
-                yieldAmountCsvRepository,
-                yieldNameRepository,
-                YieldAmountCsv::getYieldId,
-                YieldAmount::getYieldId,
-                GeneralTest::map);
+    public void createNewDatabaseObjects() throws IOException {
+        val yieldNameMap = createDatabaseObjects(
+            YIELD_NAME,
+            yieldNameCsvRepository,
+            yieldNameRepository,
+            YieldNameCsv::getYieldId,
+            YieldName::getYieldId,
+            GeneralTest::mapYieldName);
 
-        System.out.println();
+        val refuseNameMap = createDatabaseObjects(
+            REFUSE_NAME,
+            refuseNameCsvRepository,
+            refuseNameRepository,
+            RefuseNameCsv::getRefuseId,
+            RefuseName::getRefuseId,
+            GeneralTest::mapRefuseName);
+
+        val measureNameMap = createDatabaseObjects(
+            MEASURE_NAME,
+            measureNameCsvRepository,
+            measureNameRepository,
+            MeasureNameCsv::getMeasureId,
+            MeasureName::getMeasureId,
+            GeneralTest::mapMeasureName);
+
+        val nutrientNameMap = createDatabaseObjects(
+            NUTRIENT_NAME,
+            nutrientNameCsvRepository,
+            nutrientNameRepository,
+            NutrientNameCsv::getNutrientNameId,
+            NutrientName::getNutrientNameId,
+            GeneralTest::mapNutrientName);
+
+        val nutrientSourceMap = createDatabaseObjects(
+            NUTRIENT_SOURCE,
+            nutrientSourceCsvRepository,
+            nutrientSourceRepository,
+            NutrientSourceCsv::getNutrientSourceId,
+            NutrientSource::getNutrientSourceId,
+            GeneralTest::mapNutrientSource);
+
+        val foodSourceMap = createDatabaseObjects(
+            FOOD_SOURCE,
+            foodSourceCsvRepository,
+            foodSourceRepository,
+            FoodSourceCsv::getFoodSourceId,
+            FoodSource::getFoodSourceId,
+            GeneralTest::mapFoodSource);
+
+        val foodGroupMap = createDatabaseObjects(
+            FOOD_GROUP,
+            foodGroupCsvRepository,
+            foodGroupRepository,
+            FoodGroupCsv::getFoodGroupId,
+            FoodGroup::getFoodGroupId,
+            GeneralTest::mapFoodGroup);
+
+        //food name
+        foodRepository.deleteAll();
+        val foodCsvs = (List<FoodCsv>) getAllTableRowsFrom(FOOD_NAME);
+        val foodMap = new HashMap<Integer, String>();
+        for (val foodCsv : foodCsvs) {
+            val food = foodRepository.save(mapFood(
+                foodCsv,
+                foodGroupMap.get(foodCsv.getFoodGroupId()),
+                foodSourceMap.get(foodCsv.getFoodSourceId())));
+            foodMap.put(foodCsv.getFoodId(), food.getFoodId());
+        }
+
+        //yield amount
+        yieldAmountRepository.deleteAll();
+        val yieldAmountCsvs = (List<YieldAmountCsv>) getAllTableRowsFrom(YIELD_AMOUNT);
+        for (val yieldAmountCsv : yieldAmountCsvs) {
+            yieldAmountRepository.save(mapYieldAmount(
+                yieldAmountCsv,
+                foodMap.get(yieldAmountCsv.getFoodId()),
+                yieldNameMap.get(yieldAmountCsv.getYieldId())));
+        }
+
+        //refuse amount
+        refuseAmountRepository.deleteAll();
+        val refuseAmountCsvs = (List<RefuseAmountCsv>) getAllTableRowsFrom(REFUSE_AMOUNT);
+        for (val refuseAmountCsv : refuseAmountCsvs) {
+            refuseAmountRepository.save(mapRefuseAmount(
+                refuseAmountCsv,
+                foodMap.get(refuseAmountCsv.getFoodId()),
+                refuseNameMap.get(refuseAmountCsv.getRefuseId())));
+        }
+
+        //conversion factor
+        conversionFactorRepository.deleteAll();
+        val conversionFactorCsvs = (List<ConversionFactorCsv>) getAllTableRowsFrom(CONVERSION_FACTOR);
+        for (val conversionFactorCsv : conversionFactorCsvs) {
+            conversionFactorRepository.save(mapConversionFactor(
+                conversionFactorCsv,
+                foodMap.get(conversionFactorCsv.getFoodId()),
+                measureNameMap.get(conversionFactorCsv.getMeasureId())));
+        }
+
+        //nutrient amount
+        nutrientAmountRepository.deleteAll();
+        val nutrientAmountCsvs = (List<NutrientAmountCsv>) getAllTableRowsFrom(NUTRIENT_AMOUNT);
+        for (val nutrientAmountCsv : nutrientAmountCsvs) {
+            nutrientAmountRepository.save(mapNutrientAmount(
+                nutrientAmountCsv,
+                foodMap.get(nutrientAmountCsv.getFoodId()),
+                nutrientNameMap.get(nutrientAmountCsv.getNutrientNameId()),
+                nutrientSourceMap.get(nutrientAmountCsv.getNutrientSourceId())));
+        }
     }
 
-    public <SR extends MongoRepository<S, String>, S,
-            TR extends MongoRepository<T, String>, T> HashMap<Integer, String> createDatabaseObjects(
-            SR sourceRepo,
-            TR targetRepo,
-            Function<S, Integer> getSourceId,
-            Function<T, String> getTargetId,
-            Function<S, T> map) {
+    private <SR extends MongoRepository<S, String>, S, TR extends MongoRepository<T, String>, T> HashMap<Integer, String> createDatabaseObjects(
+        CsvFiles csvFile,
+        SR sourceRepo,
+        TR targetRepo,
+        Function<S, Integer> getSourceId,
+        Function<T, String> getTargetId,
+        Function<S, T> map) throws IOException {
 
-        val sourceObjects = sourceRepo.findAll();
+        sourceRepo.deleteAll();
+        val sourceObjects = (List<S>) getAllTableRowsFrom(csvFile);
         val csvIdToNewId = new HashMap<Integer, String>();
         for (val sourceObject : sourceObjects) {
             val targetObject = targetRepo.save(map.apply(sourceObject));
             csvIdToNewId.put(getSourceId.apply(sourceObject), getTargetId.apply(targetObject));
         }
+        System.out.println(String.format("source objects: %d", sourceObjects.size()));
+        System.out.println(String.format("target objects: %d", csvIdToNewId.size()));
         return csvIdToNewId;
     }
 
-    private static ConversionFactor map(ConversionFactorCsv csv) {
-        return null;
+    private static ConversionFactor mapConversionFactor(ConversionFactorCsv csv, String foodId, String measureId) {
+        val conversionFactor = new ConversionFactor();
+        conversionFactor.setFoodId(foodId);
+        conversionFactor.setMeasureId(measureId);
+        conversionFactor.setConversionFactorValue(csv.getConversionFactorValue());
+        conversionFactor.setConversionFactorDateOfEntry(csv.getConversionFactorDateOfEntry());
+        return conversionFactor;
     }
 
-    private static Food map(FoodCsv csv) {
-        return null;
+    private static Food mapFood(FoodCsv csv, String foodGroupId, String foodSourceId) {
+        val food = new Food();
+        food.setFoodCode(csv.getFoodCode());
+        food.setFoodGroupId(foodGroupId);
+        food.setFoodSourceId(foodSourceId);
+        food.setFoodDescription(csv.getFoodDescription());
+        food.setFoodDescriptionF(csv.getFoodDescriptionF());
+        food.setCountryCode(csv.getCountryCode());
+        food.setFoodDateOfEntry(csv.getFoodDateOfEntry());
+        food.setFoodDateOfPublication(csv.getFoodDateOfPublication());
+        food.setScientificName(csv.getScientificName());
+        return food;
     }
 
-    private static FoodGroup map(FoodGroupCsv csv) {
-        return null;
+    private static FoodGroup mapFoodGroup(FoodGroupCsv csv) {
+        val foodGroup = new FoodGroup();
+        foodGroup.setFoodGroupCode(csv.getFoodGroupCode());
+        foodGroup.setFoodGroupName(csv.getFoodGroupName());
+        foodGroup.setFoodGroupNameF(csv.getFoodGroupNameF());
+        return foodGroup;
     }
 
-    private static FoodSource map(FoodSourceCsv csv) {
-        return null;
+    private static FoodSource mapFoodSource(FoodSourceCsv csv) {
+        val foodSource = new FoodSource();
+        foodSource.setFoodSourceCode(csv.getFoodSourceCode());
+        foodSource.setFoodSourceDescription(csv.getFoodSourceDescription());
+        foodSource.setFoodSourceDescriptionF(csv.getFoodSourceDescriptionF());
+        return foodSource;
     }
 
-    private static MeasureName map(MeasureNameCsv csv) {
+    private static MeasureName mapMeasureName(MeasureNameCsv csv) {
         val measureName = new MeasureName();
         measureName.setMeasureDescription(csv.getMeasureDescription());
         measureName.setMeasureDescriptionF(csv.getMeasureDescriptionF());
         return measureName;
     }
 
-    private static NutrientAmount map(NutrientAmountCsv csv) {
-        return null;
+    private static NutrientAmount mapNutrientAmount(
+        NutrientAmountCsv csv,
+        String foodId,
+        String nutrientNameId,
+        String nutrientSourceId) {
+
+        val nutrientAmount = new NutrientAmount();
+        nutrientAmount.setFoodId(foodId);
+        nutrientAmount.setNutrientNameId(nutrientNameId);
+        nutrientAmount.setNutrientSourceId(nutrientSourceId);
+        nutrientAmount.setNutrientValue(csv.getNutrientValue());
+        nutrientAmount.setStandardError(csv.getStandardError());
+        nutrientAmount.setNumberOfObservations(csv.getNumberOfObservations());
+        nutrientAmount.setNutrientDateOfEntry(csv.getNutrientDateOfEntry());
+        return nutrientAmount;
     }
 
-    private static NutrientName map(NutrientNameCsv csv) {
+    private static NutrientName mapNutrientName(NutrientNameCsv csv) {
         val nutrientName = new NutrientName();
         nutrientName.setNutrientCode(csv.getNutrientCode());
         nutrientName.setNutrientSymbol(csv.getNutrientSymbol());
@@ -163,26 +338,40 @@ public class GeneralTest {
         return nutrientName;
     }
 
-    private static NutrientSource map(NutrientSourceCsv csv) {
-        return null;
+    private static NutrientSource mapNutrientSource(NutrientSourceCsv csv) {
+        val nutrientSource = new NutrientSource();
+        nutrientSource.setNutrientSourceCode(csv.getNutrientSourceCode());
+        nutrientSource.setNutrientSourceDescription(csv.getNutrientSourceDescription());
+        nutrientSource.setNutrientSourceDescriptionF(csv.getNutrientSourceDescriptionF());
+        return nutrientSource;
     }
 
-    private static RefuseAmount map(RefuseAmountCsv csv) {
-        return null;
+    private static RefuseAmount mapRefuseAmount(RefuseAmountCsv csv, String foodId, String refuseId) {
+        val refuseAmount = new RefuseAmount();
+        refuseAmount.setFoodId(foodId);
+        refuseAmount.setRefuseId(refuseId);
+        refuseAmount.setRefuseAmount(csv.getRefuseAmount());
+        refuseAmount.setRefuseDateOfEntry(csv.getRefuseDateOfEntry());
+        return refuseAmount;
     }
 
-    private static RefuseName map(RefuseNameCsv csv) {
+    private static RefuseName mapRefuseName(RefuseNameCsv csv) {
         val refuseName = new RefuseName();
         refuseName.setRefuseDescription(csv.getRefuseDescription());
         refuseName.setRefuseDescriptionF(csv.getRefuseDescriptionF());
         return refuseName;
     }
 
-    private static YieldAmount map(YieldAmountCsv csv) {
-        return null;
+    private static YieldAmount mapYieldAmount(YieldAmountCsv csv, String foodId, String yieldId) {
+        val yieldAmount = new YieldAmount();
+        yieldAmount.setFoodId(foodId);
+        yieldAmount.setYieldId(yieldId);
+        yieldAmount.setYieldAmount(csv.getYieldAmount());
+        yieldAmount.setYieldDateOfEntry(csv.getYieldDateOfEntry());
+        return yieldAmount;
     }
 
-    private static YieldName map(YieldNameCsv csv) {
+    private static YieldName mapYieldName(YieldNameCsv csv) {
         val yieldName = new YieldName();
         yieldName.setYieldDescription(csv.getYieldDescription());
         yieldName.setYieldDescriptionF(csv.getYieldDescriptionF());

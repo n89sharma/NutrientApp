@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Measure {
-    private String measureId;
+    private int measureId;
     private String measureName;
     private String measureNameF;
     private double conversionFactor;

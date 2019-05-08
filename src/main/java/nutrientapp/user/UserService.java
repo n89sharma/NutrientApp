@@ -1,8 +1,18 @@
 package nutrientapp.user;
 
 import lombok.val;
-import nutrientapp.domain.internal.*;
-import nutrientapp.domain.csvrepositories.*;
+import nutrientapp.domain.csvrepositories.ConversionFactorCsvRepository;
+import nutrientapp.domain.csvrepositories.FoodCsvRepository;
+import nutrientapp.domain.internal.BodyWeight;
+import nutrientapp.domain.internal.DailySummary;
+import nutrientapp.domain.internal.DailySummaryView;
+import nutrientapp.domain.internal.DailyTotals;
+import nutrientapp.domain.internal.Food;
+import nutrientapp.domain.internal.PortionIds;
+import nutrientapp.domain.internal.Recipe;
+import nutrientapp.domain.repositories.DailySummaryRepository;
+import nutrientapp.domain.repositories.RecipeRepository;
+import nutrientapp.domain.repositories.UserWeightRepository;
 import nutrientapp.fooditem.FoodItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,24 +27,24 @@ import static java.util.stream.Collectors.toList;
 public class UserService {
 
     private UserWeightRepository userWeightRepository;
-    private ConversionFactorRepository conversionFactorRepository;
-    private FoodRepository foodRepository;
+    private ConversionFactorCsvRepository conversionFactorCsvRepository;
+    private FoodCsvRepository foodCsvRepository;
     private DailySummaryRepository dailySummaryRepository;
     private RecipeRepository recipeRepository;
     private FoodItemService foodItemService;
 
     @Autowired
     public UserService(
-            UserWeightRepository userWeightRepository,
-            ConversionFactorRepository conversionFactorRepository,
-            FoodRepository foodRepository,
-            DailySummaryRepository dailySummaryRepository,
-            RecipeRepository recipeRepository,
-            FoodItemService foodItemService) {
+        UserWeightRepository userWeightRepository,
+        ConversionFactorCsvRepository conversionFactorCsvRepository,
+        FoodCsvRepository foodCsvRepository,
+        DailySummaryRepository dailySummaryRepository,
+        RecipeRepository recipeRepository,
+        FoodItemService foodItemService) {
 
         this.userWeightRepository = userWeightRepository;
-        this.conversionFactorRepository = conversionFactorRepository;
-        this.foodRepository = foodRepository;
+        this.conversionFactorCsvRepository = conversionFactorCsvRepository;
+        this.foodCsvRepository = foodCsvRepository;
         this.dailySummaryRepository = dailySummaryRepository;
         this.recipeRepository = recipeRepository;
         this.foodItemService = foodItemService;
@@ -67,8 +77,8 @@ public class UserService {
     }
 
     private boolean isFoodMeasureAndServingValid(PortionIds portionIds) {
-        val foodCsv = foodRepository.findByFoodId(portionIds.getFoodId());
-        val conversionFactorCsv = conversionFactorRepository.findByFoodIdAndMeasureId(
+        val foodCsv = foodCsvRepository.findByFoodId(portionIds.getFoodId());
+        val conversionFactorCsv = conversionFactorCsvRepository.findByFoodIdAndMeasureId(
                 portionIds.getFoodId(),
                 portionIds.getMeasureId());
         val serving = portionIds.getServing();

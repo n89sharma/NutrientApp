@@ -7,7 +7,7 @@ import net.minidev.json.annotate.JsonIgnore;
 @Data
 @AllArgsConstructor
 public class Food {
-    private String foodId;
+    private int foodId;
     private String foodDescription;
     private double calories;
 

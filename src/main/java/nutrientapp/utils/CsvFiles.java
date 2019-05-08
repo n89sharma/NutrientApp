@@ -18,7 +18,7 @@ import nutrientapp.domain.csvobjects.YieldAmountCsv;
 import nutrientapp.domain.csvobjects.YieldNameCsv;
 
 import java.io.File;
-import java.util.Collections;
+import java.io.IOException;
 import java.util.List;
 
 public enum CsvFiles {
@@ -55,22 +55,18 @@ public enum CsvFiles {
         this.clazz = clazz;
     }
 
-    public static <T> List<T> getAllTableRowsFrom(CsvFiles table) {
-        try {
-            return (List<T>) new CsvMapper()
-                    .readerFor(table.getClazz())
-                    .with(table.getCsvSchema())
-                    .readValues(getFile(table.getFileName()))
-                    .readAll();
-        } catch (Exception e) {
-            return Collections.emptyList();
-        }
+    public static List<?> getAllTableRowsFrom(CsvFiles table) throws IOException {
+        return new CsvMapper()
+            .readerFor(table.getClazz())
+            .with(table.getCsvSchema())
+            .readValues(getFile(table.getFileName()))
+            .readAll();
     }
 
     private static File getFile(String fileName) {
         return new File(FoodGroupCsv.class
-                .getClassLoader()
-                .getResource(fileName)
-                .getPath());
+            .getClassLoader()
+            .getResource(fileName)
+            .getPath());
     }
 }
