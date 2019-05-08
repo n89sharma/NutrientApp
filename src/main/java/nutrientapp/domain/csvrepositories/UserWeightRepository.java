@@ -1,6 +1,6 @@
-package nutrientapp.domain.repositories;
+package nutrientapp.domain.csvrepositories;
 
-import nutrientapp.user.BodyWeight;
+import nutrientapp.domain.internal.BodyWeight;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

@@ -7,6 +7,9 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 import java.util.Date;
 import java.util.List;
 
+import nutrientapp.domain.internal.BodyWeight;
+import nutrientapp.domain.internal.DailySummaryView;
+import nutrientapp.domain.internal.DailyTotals;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -15,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import nutrientapp.user.DailySummary;
+import nutrientapp.domain.internal.DailySummary;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")

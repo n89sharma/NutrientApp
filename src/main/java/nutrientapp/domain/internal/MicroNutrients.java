@@ -1,4 +1,4 @@
-package nutrientapp.nutrient;
+package nutrientapp.domain.internal;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,10 +1,9 @@
-package nutrientapp.user;
+package nutrientapp.domain.internal;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import org.springframework.data.annotation.Id;
@@ -25,13 +24,6 @@ public class DailySummary {
     private List<PortionIds> lunch = new ArrayList<>();
     private List<PortionIds> dinner = new ArrayList<>();
     private List<PortionIds> other = new ArrayList<>();
-
-    @Data
-    public static class PortionIds {
-        private int foodId;
-        private int measureId;
-        private double serving;
-    }
 }
 
 /**

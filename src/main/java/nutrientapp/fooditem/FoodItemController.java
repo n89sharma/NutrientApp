@@ -1,5 +1,8 @@
 package nutrientapp.fooditem;
 
+import nutrientapp.domain.internal.Food;
+import nutrientapp.domain.internal.FoodSummary;
+import nutrientapp.domain.internal.Measure;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;

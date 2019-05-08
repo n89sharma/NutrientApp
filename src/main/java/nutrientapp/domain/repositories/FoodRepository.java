@@ -1,8 +1,7 @@
 package nutrientapp.domain.repositories;
 
-import nutrientapp.domain.csvobjects.FoodCsv;
+import nutrientapp.domain.databaseobjects.Food;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface FoodRepository extends MongoRepository<FoodCsv, String> {
-    FoodCsv findByFoodId(int foodId);
+public interface FoodRepository extends MongoRepository<Food, String> {
 }

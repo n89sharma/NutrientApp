@@ -1,15 +1,13 @@
-package nutrientapp.fooditem;
+package nutrientapp.domain.internal;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import net.minidev.json.annotate.JsonIgnore;
-import nutrientapp.nutrient.MacroNutrients;
-import nutrientapp.nutrient.MicroNutrients;
 
 @Data
 @AllArgsConstructor
 public class Food {
-    private int foodId;
+    private String foodId;
     private String foodDescription;
     private double calories;
 

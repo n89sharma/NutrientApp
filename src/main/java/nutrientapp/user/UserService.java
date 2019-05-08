@@ -1,13 +1,9 @@
 package nutrientapp.user;
 
 import lombok.val;
-import nutrientapp.domain.repositories.ConversionFactorRepository;
-import nutrientapp.domain.repositories.DailySummaryRepository;
-import nutrientapp.domain.repositories.FoodRepository;
-import nutrientapp.domain.repositories.UserWeightRepository;
-import nutrientapp.fooditem.Food;
+import nutrientapp.domain.internal.*;
+import nutrientapp.domain.csvrepositories.*;
 import nutrientapp.fooditem.FoodItemService;
-import nutrientapp.user.DailySummary.PortionIds;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +20,7 @@ public class UserService {
     private ConversionFactorRepository conversionFactorRepository;
     private FoodRepository foodRepository;
     private DailySummaryRepository dailySummaryRepository;
+    private RecipeRepository recipeRepository;
     private FoodItemService foodItemService;
 
     @Autowired
@@ -32,12 +29,14 @@ public class UserService {
             ConversionFactorRepository conversionFactorRepository,
             FoodRepository foodRepository,
             DailySummaryRepository dailySummaryRepository,
+            RecipeRepository recipeRepository,
             FoodItemService foodItemService) {
 
         this.userWeightRepository = userWeightRepository;
         this.conversionFactorRepository = conversionFactorRepository;
         this.foodRepository = foodRepository;
         this.dailySummaryRepository = dailySummaryRepository;
+        this.recipeRepository = recipeRepository;
         this.foodItemService = foodItemService;
     }
 
@@ -147,10 +146,10 @@ public class UserService {
             val totalDinner = getTotalOfValue(dailySummary.getDinner(), Food::getCalories);
             val totalOther = getTotalOfValue(dailySummary.getOther(), Food::getCalories);
 
-            val caloriePercentFromBreakfast = totalBreakfast/ totalCalories;
-            val caloriePercentFromLunch = totalLunch/ totalCalories;
-            val caloriePercentFromDinner = totalDinner/ totalCalories;
-            val caloriePercentFromOtherMeal = totalOther/ totalCalories;
+            val caloriePercentFromBreakfast = totalBreakfast / totalCalories;
+            val caloriePercentFromLunch = totalLunch / totalCalories;
+            val caloriePercentFromDinner = totalDinner / totalCalories;
+            val caloriePercentFromOtherMeal = totalOther / totalCalories;
 
             dailyTotals.setMealDistribution(
                     caloriePercentFromBreakfast,
@@ -175,4 +174,7 @@ public class UserService {
                 .reduce(0.0, (a, b) -> a + b);
     }
 
+    public Recipe saveRecipe(Recipe recipe) {
+        return recipeRepository.save(recipe);
+    }
 }

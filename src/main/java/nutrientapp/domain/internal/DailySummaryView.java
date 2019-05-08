@@ -1,10 +1,8 @@
-package nutrientapp.user;
+package nutrientapp.domain.internal;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import net.minidev.json.annotate.JsonIgnore;
-import nutrientapp.fooditem.Food;
-import nutrientapp.fooditem.Measure;
 
 import java.util.ArrayList;
 import java.util.Collection;

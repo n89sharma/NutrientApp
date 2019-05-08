@@ -3,8 +3,9 @@ package nutrientapp.nutrient;
 import lombok.val;
 import nutrientapp.domain.csvobjects.NutrientAmountCsv;
 import nutrientapp.domain.csvobjects.NutrientNameCsv;
-import nutrientapp.domain.repositories.NutrientAmountRepository;
-import nutrientapp.domain.repositories.NutrientNameRepository;
+import nutrientapp.domain.internal.Nutrient;
+import nutrientapp.domain.csvrepositories.NutrientAmountRepository;
+import nutrientapp.domain.csvrepositories.NutrientNameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

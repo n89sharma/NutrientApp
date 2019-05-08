@@ -1,4 +1,4 @@
-package nutrientapp.fooditem;
+package nutrientapp.domain.internal;
 
 import lombok.Data;
 
