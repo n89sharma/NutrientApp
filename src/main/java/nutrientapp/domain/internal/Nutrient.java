@@ -1,4 +1,4 @@
-package nutrientapp.nutrient;
+package nutrientapp.domain.internal;
 
 import lombok.Data;
 import net.minidev.json.annotate.JsonIgnore;
@@ -6,7 +6,7 @@ import net.minidev.json.annotate.JsonIgnore;
 @Data
 public class Nutrient {
     //name
-    private int nutrientNameId;
+    private int nutrientCode;
     private String name;
     private String frenchName;
     private String symbol;
@@ -19,7 +19,7 @@ public class Nutrient {
 
     @JsonIgnore
     public void multiplyByFactor(double factor) {
-        this.amountValue*=factor;
+        this.amountValue *= factor;
     }
 
 }

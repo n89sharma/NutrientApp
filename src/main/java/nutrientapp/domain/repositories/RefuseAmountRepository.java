@@ -1,10 +1,7 @@
 package nutrientapp.domain.repositories;
 
-import nutrientapp.domain.csvobjects.RefuseAmountCsv;
+import nutrientapp.domain.databaseobjects.RefuseAmount;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import java.util.List;
-
-public interface RefuseAmountRepository extends MongoRepository<RefuseAmountCsv, String> {
-    List<RefuseAmountCsv> findByFoodId(int foodId);
+public interface RefuseAmountRepository extends MongoRepository<RefuseAmount, String> {
 }

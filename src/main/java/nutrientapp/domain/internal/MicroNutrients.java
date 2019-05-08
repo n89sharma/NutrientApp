@@ -1,4 +1,4 @@
-package nutrientapp.nutrient;
+package nutrientapp.domain.internal;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,7 +12,7 @@ public class MicroNutrients {
     private EssentialFats essentialFats;
 
     @JsonIgnore
-    public void multiplyByFactor(double factor){
+    public void multiplyByFactor(double factor) {
         this.minerals.multiplyByFactor(factor);
         this.vitamins.multiplyByFactor(factor);
         this.essentialFats.multiplyByFactor(factor);
@@ -28,7 +28,7 @@ public class MicroNutrients {
         private Nutrient zinc;
 
         @JsonIgnore
-        public void multiplyByFactor(double factor){
+        public void multiplyByFactor(double factor) {
             this.sodium.multiplyByFactor(factor);
             this.iron.multiplyByFactor(factor);
             this.calcium.multiplyByFactor(factor);
@@ -47,7 +47,7 @@ public class MicroNutrients {
         private Nutrient vitaminD;
 
         @JsonIgnore
-        public void multiplyByFactor(double factor){
+        public void multiplyByFactor(double factor) {
             this.vitaminA.multiplyByFactor(factor);
             this.vitaminB6.multiplyByFactor(factor);
             this.vitaminB12.multiplyByFactor(factor);
@@ -62,7 +62,7 @@ public class MicroNutrients {
         private Nutrient omega6;
 
         @JsonIgnore
-        public void multiplyByFactor(double factor){
+        public void multiplyByFactor(double factor) {
             this.omega3.multiplyByFactor(factor);
             this.omega6.multiplyByFactor(factor);
         }

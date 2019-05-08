@@ -1,16 +1,13 @@
-package nutrientapp.user;
+package nutrientapp.domain.internal;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
-import lombok.Data;
 
 @Data
 @Document(collection = "daily_summary")
@@ -25,26 +22,19 @@ public class DailySummary {
     private List<PortionIds> lunch = new ArrayList<>();
     private List<PortionIds> dinner = new ArrayList<>();
     private List<PortionIds> other = new ArrayList<>();
-
-    @Data
-    public static class PortionIds {
-        private int foodId;
-        private int measureId;
-        private double serving;
-    }
 }
 
 /**
  * {
- *    "userId": "n89sharma"
- *    "date": "2019-04-25T21:21:54.268Z"
- *    "breakfast": [
- *      {
- *        "foodId": 124,
- *        "measureId": 9000,
- *        "serving": 1.0
- *      }
- *    ]
- *
+ * "userId": "n89sharma"
+ * "date": "2019-04-25T21:21:54.268Z"
+ * "breakfast": [
+ * {
+ * "foodId": 124,
+ * "measureId": 9000,
+ * "serving": 1.0
+ * }
+ * ]
+ * <p>
  * }
  */

@@ -4,21 +4,10 @@ import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 import lombok.Getter;
 import lombok.Setter;
-import nutrientapp.domain.csvobjects.ConversionFactorCsv;
-import nutrientapp.domain.csvobjects.FoodCsv;
-import nutrientapp.domain.csvobjects.FoodGroupCsv;
-import nutrientapp.domain.csvobjects.FoodSourceCsv;
-import nutrientapp.domain.csvobjects.MeasureNameCsv;
-import nutrientapp.domain.csvobjects.NutrientAmountCsv;
-import nutrientapp.domain.csvobjects.NutrientNameCsv;
-import nutrientapp.domain.csvobjects.NutrientSourceCsv;
-import nutrientapp.domain.csvobjects.RefuseAmountCsv;
-import nutrientapp.domain.csvobjects.RefuseNameCsv;
-import nutrientapp.domain.csvobjects.YieldAmountCsv;
-import nutrientapp.domain.csvobjects.YieldNameCsv;
+import nutrientapp.domain.csvobjects.*;
 
 import java.io.File;
-import java.util.Collections;
+import java.io.IOException;
 import java.util.List;
 
 public enum CsvFiles {
@@ -55,16 +44,12 @@ public enum CsvFiles {
         this.clazz = clazz;
     }
 
-    public static <T> List<T> getAllTableRowsFrom(CsvFiles table) {
-        try {
-            return (List<T>) new CsvMapper()
-                    .readerFor(table.getClazz())
-                    .with(table.getCsvSchema())
-                    .readValues(getFile(table.getFileName()))
-                    .readAll();
-        } catch (Exception e) {
-            return Collections.emptyList();
-        }
+    public static List<?> getAllTableRowsFrom(CsvFiles table) throws IOException {
+        return new CsvMapper()
+                .readerFor(table.getClazz())
+                .with(table.getCsvSchema())
+                .readValues(getFile(table.getFileName()))
+                .readAll();
     }
 
     private static File getFile(String fileName) {

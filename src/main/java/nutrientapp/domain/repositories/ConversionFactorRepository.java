@@ -1,11 +1,12 @@
 package nutrientapp.domain.repositories;
 
-import nutrientapp.domain.csvobjects.ConversionFactorCsv;
+import nutrientapp.domain.databaseobjects.ConversionFactor;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;
 
-public interface ConversionFactorRepository extends MongoRepository<ConversionFactorCsv, String> {
-    List<ConversionFactorCsv> findByFoodId(int foodId);
-    ConversionFactorCsv findByFoodIdAndMeasureId(int foodId, int measureId);
+public interface ConversionFactorRepository extends MongoRepository<ConversionFactor, String> {
+    ConversionFactor findByFoodIdAndMeasureId(String foodId, String measureId);
+
+    List<ConversionFactor> findByFoodId(String foodId);
 }
