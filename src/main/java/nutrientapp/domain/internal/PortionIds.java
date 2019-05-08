@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class PortionIds {
-    private int foodId;
-    private int measureId;
+    private String foodId;
+    private String measureId;
     private double serving;
 }

@@ -1,11 +1,11 @@
 package nutrientapp.nutrient;
 
 import lombok.val;
-import nutrientapp.domain.csvobjects.NutrientAmountCsv;
-import nutrientapp.domain.csvobjects.NutrientNameCsv;
-import nutrientapp.domain.csvrepositories.NutrientAmountCsvRepository;
-import nutrientapp.domain.csvrepositories.NutrientNameCsvRepository;
+import nutrientapp.domain.databaseobjects.NutrientAmount;
+import nutrientapp.domain.databaseobjects.NutrientName;
 import nutrientapp.domain.internal.Nutrient;
+import nutrientapp.domain.repositories.NutrientAmountRepository;
+import nutrientapp.domain.repositories.NutrientNameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,33 +18,41 @@ import static java.util.stream.Collectors.toMap;
 
 @Service
 public class NutrientService {
-    private NutrientAmountCsvRepository nutrientAmountCsvRepository;
-    private NutrientNameCsvRepository nutrientNameCsvRepository;
-    private final Map<Integer, NutrientNameCsv> nutrientNames;
+    private NutrientAmountRepository nutrientAmountRepository;
+    private NutrientNameRepository nutrientNameRepository;
+    private final Map<String, NutrientName> nutrientNamesByNameId;
+    private final Map<Integer, NutrientName> nutrientNamesByNutrientCode;
 
     @Autowired
-    NutrientService(NutrientAmountCsvRepository nutrientAmountCsvRepository, NutrientNameCsvRepository nutrientNameCsvRepository) {
-        this.nutrientAmountCsvRepository = nutrientAmountCsvRepository;
-        this.nutrientNameCsvRepository = nutrientNameCsvRepository;
-        this.nutrientNames = nutrientNameCsvRepository
+    NutrientService(
+            NutrientAmountRepository nutrientAmountRepository,
+            NutrientNameRepository nutrientNameRepository) {
+
+        this.nutrientAmountRepository = nutrientAmountRepository;
+        this.nutrientNameRepository = nutrientNameRepository;
+        this.nutrientNamesByNameId = nutrientNameRepository
                 .findAll()
                 .stream()
-                .collect(toMap(NutrientNameCsv::getNutrientNameId, identity()));
+                .collect(toMap(NutrientName::getNutrientNameId, identity()));
+        this.nutrientNamesByNutrientCode = nutrientNameRepository
+                .findAll()
+                .stream()
+                .collect(toMap(NutrientName::getNutrientCode, identity()));
     }
 
-    public List<Nutrient> getNutrients(int foodId) {
+    public List<Nutrient> getNutrients(String foodId) {
         val nutrients = new ArrayList<Nutrient>();
-        val dbNutrientAmounts = nutrientAmountCsvRepository.findByFoodId(foodId);
+        val dbNutrientAmounts = nutrientAmountRepository.findByFoodId(foodId);
         for (val dbNutrientAmount : dbNutrientAmounts) {
-            val dbNutrientName = nutrientNames.get(dbNutrientAmount.getNutrientNameId());
+            val dbNutrientName = nutrientNamesByNameId.get(dbNutrientAmount.getNutrientNameId());
             nutrients.add(mapDbToDomain(dbNutrientAmount, dbNutrientName));
         }
         return nutrients;
     }
 
-    private Nutrient mapDbToDomain(NutrientAmountCsv dbNutrientAmount, NutrientNameCsv dbNutrientName) {
+    private Nutrient mapDbToDomain(NutrientAmount dbNutrientAmount, NutrientName dbNutrientName) {
         val nutrient = new Nutrient();
-        nutrient.setNutrientNameId(dbNutrientName.getNutrientNameId());
+        nutrient.setNutrientCode(dbNutrientName.getNutrientCode());
         nutrient.setName(dbNutrientName.getNutrientName());
         nutrient.setFrenchName(dbNutrientName.getNutrientNameF());
         nutrient.setSymbol(dbNutrientName.getNutrientSymbol());
@@ -56,10 +64,10 @@ public class NutrientService {
         return nutrient;
     }
 
-    public Nutrient getEmptyNutrient(int nutrientNameId) {
-        val dbNutrientName = nutrientNames.get(nutrientNameId);
+    public Nutrient getEmptyNutrient(int nutrientCode) {
+        val dbNutrientName = nutrientNamesByNutrientCode.get(nutrientCode);
         val nutrient = new Nutrient();
-        nutrient.setNutrientNameId(dbNutrientName.getNutrientNameId());
+        nutrient.setNutrientCode(dbNutrientName.getNutrientCode());
         nutrient.setName(dbNutrientName.getNutrientName());
         nutrient.setFrenchName(dbNutrientName.getNutrientNameF());
         nutrient.setSymbol(dbNutrientName.getNutrientSymbol());

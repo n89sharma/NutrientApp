@@ -1,6 +1,6 @@
 package nutrientapp.nutrient;
 
-public enum NutrientIds {
+public enum NutrientCodes {
     CALORIES(208),
     PROTEIN(203),
     CARBOHYDRATES(205),
@@ -27,13 +27,13 @@ public enum NutrientIds {
     OMEGA3(868),
     OMEGA6(869); //415
 
-    private int nutrientId;
+    private int nutrientCode;
 
-    NutrientIds(int nutrientId) {
-        this.nutrientId = nutrientId;
+    NutrientCodes(int nutrientCode) {
+        this.nutrientCode = nutrientCode;
     }
 
-    public int getId() {
-        return nutrientId;
+    public int getNutrientCode() {
+        return nutrientCode;
     }
 }

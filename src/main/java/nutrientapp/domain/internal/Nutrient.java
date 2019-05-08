@@ -6,7 +6,7 @@ import net.minidev.json.annotate.JsonIgnore;
 @Data
 public class Nutrient {
     //name
-    private int nutrientNameId;
+    private int nutrientCode;
     private String name;
     private String frenchName;
     private String symbol;

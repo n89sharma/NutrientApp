@@ -29,8 +29,8 @@ public class FoodItemController {
     @RequestMapping(value = "/food/{foodId}", method = GET)
     @ResponseBody
     public Food getFoodItem(
-        @PathVariable int foodId,
-        @RequestParam(required = false)Integer measureId,
+        @PathVariable String foodId,
+        @RequestParam(required = false) String measureId,
         @RequestParam(required = false) Double serving) {
 
         return measureId == null || serving == null
@@ -45,7 +45,7 @@ public class FoodItemController {
 
     @RequestMapping(value = "/food/{foodId}/measure", method = GET)
     @ResponseBody
-    public List<Measure> getMeasures(@PathVariable int foodId) {
+    public List<Measure> getMeasures(@PathVariable String foodId) {
         return foodItemService.getMeasures(foodId);
     }
 }
