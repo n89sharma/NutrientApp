@@ -1,9 +1,6 @@
 package nutrientapp.user;
 
-import nutrientapp.domain.internal.BodyWeight;
-import nutrientapp.domain.internal.DailySummary;
-import nutrientapp.domain.internal.DailySummaryView;
-import nutrientapp.domain.internal.DailyTotals;
+import nutrientapp.domain.internal.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
@@ -56,5 +53,11 @@ public class UserController {
             @PathVariable("date") @DateTimeFormat(pattern = "yyyyMMdd") Date date) {
 
         return userService.getDailyTotals(userId, date);
+    }
+
+    @RequestMapping(value = "/{userId}/recipe", method = POST)
+    @ResponseBody
+    public Recipe saveRecipe(@RequestBody Recipe recipe) {
+        return userService.saveRecipe(recipe);
     }
 }
