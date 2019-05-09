@@ -30,7 +30,7 @@ public class DailySummary {
  * "date": "2019-04-25T21:21:54.268Z"
  * "breakfast": [
  * {
- * "foodId": 124,
+ * "id": 124,
  * "measureId": 9000,
  * "serving": 1.0
  * }

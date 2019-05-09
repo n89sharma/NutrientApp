@@ -1,12 +1,12 @@
 package nutrientapp.domain.repositories;
 
-import nutrientapp.domain.databaseobjects.ConversionFactor;
+import nutrientapp.domain.databaseobjects.DbConversionFactor;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;
 
-public interface ConversionFactorRepository extends MongoRepository<ConversionFactor, String> {
-    ConversionFactor findByFoodIdAndMeasureId(String foodId, String measureId);
+public interface ConversionFactorRepository extends MongoRepository<DbConversionFactor, String> {
+    DbConversionFactor findByFoodIdAndMeasureId(String foodId, String measureId);
 
-    List<ConversionFactor> findByFoodId(String foodId);
+    List<DbConversionFactor> findByFoodId(String foodId);
 }

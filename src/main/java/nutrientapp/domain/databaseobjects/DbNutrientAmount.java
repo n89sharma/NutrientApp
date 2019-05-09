@@ -7,11 +7,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
 @Data
-@Document(collection = "refuse_amounts")
-public class RefuseAmount {
+@Document(collection = "nutrient_amounts")
+public class DbNutrientAmount {
     private String foodId;
-    private String refuseId;
-    private int refuseAmount;
+    private String nutrientNameId;
+    private String nutrientSourceId;
+    private double nutrientValue;
+    private double standardError;
+    private int numberOfObservations;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    private Date refuseDateOfEntry;
+    private Date nutrientDateOfEntry;
 }

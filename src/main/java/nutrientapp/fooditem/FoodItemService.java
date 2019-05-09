@@ -1,9 +1,15 @@
 package nutrientapp.fooditem;
 
 import lombok.val;
-import nutrientapp.domain.databaseobjects.ConversionFactor;
-import nutrientapp.domain.databaseobjects.MeasureName;
-import nutrientapp.domain.internal.*;
+import nutrientapp.domain.databaseobjects.DbConversionFactor;
+import nutrientapp.domain.databaseobjects.DbFood;
+import nutrientapp.domain.databaseobjects.DbMeasureName;
+import nutrientapp.domain.internal.Food;
+import nutrientapp.domain.internal.ItemSummary;
+import nutrientapp.domain.internal.MacroNutrients;
+import nutrientapp.domain.internal.Measure;
+import nutrientapp.domain.internal.MicroNutrients;
+import nutrientapp.domain.internal.Nutrient;
 import nutrientapp.domain.repositories.ConversionFactorRepository;
 import nutrientapp.domain.repositories.FoodRepository;
 import nutrientapp.domain.repositories.MeasureNameRepository;
@@ -17,6 +23,7 @@ import java.util.List;
 import java.util.Map;
 
 import static java.util.function.Function.identity;
+import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
 import static nutrientapp.nutrient.NutrientCodes.*;
 
@@ -29,10 +36,10 @@ public class FoodItemService {
 
     @Autowired
     public FoodItemService(
-            FoodRepository foodRepository,
-            ConversionFactorRepository conversionFactorRepository,
-            MeasureNameRepository measureNameRepository,
-            NutrientService nutrientService) {
+        FoodRepository foodRepository,
+        ConversionFactorRepository conversionFactorRepository,
+        MeasureNameRepository measureNameRepository,
+        NutrientService nutrientService) {
 
         this.conversionFactorRepository = conversionFactorRepository;
         this.foodRepository = foodRepository;
@@ -48,11 +55,11 @@ public class FoodItemService {
         return foodItem;
     }
 
-    Food getFoodItem(String foodId) {
+    public Food getFoodItem(String foodId) {
         val nutrients = nutrientService
-                .getNutrients(foodId)
-                .stream()
-                .collect(toMap(Nutrient::getNutrientCode, identity()));
+            .getNutrients(foodId)
+            .stream()
+            .collect(toMap(Nutrient::getNutrientCode, identity()));
 
         val minerals = new MicroNutrients.Minerals();
         minerals.setSodium(getNutrientOrEmpty(nutrients, SODIUM));
@@ -88,11 +95,11 @@ public class FoodItemService {
         val calorieNutrient = getNutrientOrEmpty(nutrients, CALORIES);
         val dbFood = foodRepository.findOne(foodId);
         return new Food(
-                dbFood.getFoodId(),
-                dbFood.getFoodDescription(),
-                calorieNutrient.getAmountValue(),
-                macroNutrients,
-                microNutrients);
+            dbFood.getFoodId(),
+            dbFood.getFoodDescription(),
+            calorieNutrient.getAmountValue(),
+            macroNutrients,
+            microNutrients);
     }
 
     private Nutrient getVitaminA(Map<Integer, Nutrient> nutrients) {
@@ -101,9 +108,9 @@ public class FoodItemService {
         val alphaCarotene = getNutrientOrEmpty(nutrients, ALPHA_CAROTENE);
         val betaCryptoxanthin = getNutrientOrEmpty(nutrients, BETA_CRYPTOXANTHIN);
         val retinolActivityEquivalent = retinol.getAmountValue() +
-                betaCarotene.getAmountValue() / 12 +
-                alphaCarotene.getAmountValue() / 24 +
-                betaCryptoxanthin.getAmountValue() / 24;
+            betaCarotene.getAmountValue() / 12 +
+            alphaCarotene.getAmountValue() / 24 +
+            betaCryptoxanthin.getAmountValue() / 24;
 
         val nutrient = new Nutrient();
         nutrient.setName("Vitamin A");
@@ -115,21 +122,22 @@ public class FoodItemService {
 
     private Nutrient getNutrientOrEmpty(Map<Integer, Nutrient> nutrients, NutrientCodes nutrientCode) {
         return nutrients.getOrDefault(
-                nutrientCode.getNutrientCode(),
-                nutrientService.getEmptyNutrient(nutrientCode.getNutrientCode()));
+            nutrientCode.getNutrientCode(),
+            nutrientService.getEmptyNutrient(nutrientCode.getNutrientCode()));
     }
 
-    public List<FoodSummary> getFoodItems() {
-        val foodSummaries = new ArrayList<FoodSummary>();
-        val foodItems = foodRepository.findAll();
-        for (val foodItem : foodItems) {
-            val foodSummary = new FoodSummary();
-            foodSummary.setFoodId(foodItem.getFoodId());
-            foodSummary.setFoodDescription(foodItem.getFoodDescription());
-            foodSummary.setFoodDescriptionF(foodItem.getFoodDescriptionF());
-            foodSummaries.add(foodSummary);
-        }
-        return foodSummaries;
+    public List<ItemSummary> getDefaultFoodItemSummaries() {
+        return foodRepository.findAll().stream()
+            .map(FoodItemService::mapFoodToItemSummary)
+            .collect(toList());
+    }
+
+    private static ItemSummary mapFoodToItemSummary(DbFood dbFood) {
+        return new ItemSummary(
+            dbFood.getFoodId(),
+            dbFood.getFoodDescription(),
+            dbFood.getFoodDescriptionF(),
+            ItemSummary.ItemType.FOOD);
     }
 
     public List<Measure> getMeasures(String foodId) {
@@ -150,12 +158,12 @@ public class FoodItemService {
         return mapMeasure(measureNameCsv, conversionFactorCsv);
     }
 
-    private Measure mapMeasure(MeasureName measureName, ConversionFactor conversionFactor) {
+    private Measure mapMeasure(DbMeasureName dbMeasureName, DbConversionFactor dbConversionFactor) {
         val measure = new Measure();
-        measure.setMeasureId(measureName.getMeasureId());
-        measure.setConversionFactor(conversionFactor.getConversionFactorValue());
-        measure.setMeasureName(measureName.getMeasureDescription());
-        measure.setMeasureNameF(measureName.getMeasureDescriptionF());
+        measure.setMeasureId(dbMeasureName.getMeasureId());
+        measure.setConversionFactor(dbConversionFactor.getConversionFactorValue());
+        measure.setMeasureName(dbMeasureName.getMeasureDescription());
+        measure.setMeasureNameF(dbMeasureName.getMeasureDescriptionF());
         return measure;
     }
 }

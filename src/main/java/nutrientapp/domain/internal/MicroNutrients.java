@@ -18,6 +18,13 @@ public class MicroNutrients {
         this.essentialFats.multiplyByFactor(factor);
     }
 
+    @JsonIgnore
+    public void add(MicroNutrients other) {
+        this.minerals.add(other.getMinerals());
+        this.vitamins.add(other.getVitamins());
+        this.essentialFats.add(other.getEssentialFats());
+    }
+
     @Data
     public static class Minerals {
         private Nutrient sodium;
@@ -35,6 +42,16 @@ public class MicroNutrients {
             this.magnesium.multiplyByFactor(factor);
             this.potassium.multiplyByFactor(factor);
             this.zinc.multiplyByFactor(factor);
+        }
+
+        @JsonIgnore
+        public void add(Minerals other) {
+            this.sodium.add(other.getSodium());
+            this.iron.add(other.getIron());
+            this.calcium.add(other.getCalcium());
+            this.magnesium.add(other.getMagnesium());
+            this.potassium.add(other.getPotassium());
+            this.zinc.add(other.getZinc());
         }
     }
 
@@ -54,6 +71,15 @@ public class MicroNutrients {
             this.vitaminC.multiplyByFactor(factor);
             this.vitaminD.multiplyByFactor(factor);
         }
+
+        @JsonIgnore
+        public void add(Vitamins other) {
+            this.vitaminA.add(other.getVitaminA());
+            this.vitaminB6.add(other.getVitaminB6());
+            this.vitaminB12.add(other.getVitaminB12());
+            this.vitaminC.add(other.getVitaminC());
+            this.vitaminD.add(other.getVitaminD());
+        }
     }
 
     @Data
@@ -65,6 +91,12 @@ public class MicroNutrients {
         public void multiplyByFactor(double factor) {
             this.omega3.multiplyByFactor(factor);
             this.omega6.multiplyByFactor(factor);
+        }
+
+        @JsonIgnore
+        public void add(EssentialFats other){
+            this.omega3.add(other.getOmega3());
+            this.omega6.add(other.getOmega6());
         }
     }
 }

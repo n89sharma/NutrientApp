@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Document(collection = "food_groups")
-public class FoodGroup {
+public class DbFoodGroup {
     @Id
     private String foodGroupId;
     private int foodGroupCode;

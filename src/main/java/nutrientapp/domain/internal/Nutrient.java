@@ -22,4 +22,11 @@ public class Nutrient {
         this.amountValue *= factor;
     }
 
+    @JsonIgnore
+    public void add(Nutrient other) {
+        if(other.nutrientCode != this.nutrientCode) {
+            throw new RuntimeException();
+        }
+        this.amountValue = this.amountValue + other.amountValue;
+    }
 }

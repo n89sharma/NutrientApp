@@ -14,5 +14,6 @@ public class Recipe {
     private String userId;
     private String name;
     private String description;
+    private String measure;
     private List<PortionIds> portionIds;
 }

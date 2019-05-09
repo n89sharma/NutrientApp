@@ -25,4 +25,16 @@ public class MacroNutrients {
         this.transFats.multiplyByFactor(factor);
         this.cholesterol.multiplyByFactor(factor);
     }
+
+    @JsonIgnore
+    public void add(MacroNutrients other) {
+        this.protein.add(other.getProtein());
+        this.carbohydrates.add(other.getCarbohydrates());
+        this.sugars.add(other.getSugars());
+        this.fibre.add(other.getFibre());
+        this.fats.add(other.getFats());
+        this.saturatedFats.add(other.getSaturatedFats());
+        this.transFats.add(other.getTransFats());
+        this.cholesterol.add(other.getCholesterol());
+    }
 }

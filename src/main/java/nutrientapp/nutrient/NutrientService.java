@@ -1,8 +1,8 @@
 package nutrientapp.nutrient;
 
 import lombok.val;
-import nutrientapp.domain.databaseobjects.NutrientAmount;
-import nutrientapp.domain.databaseobjects.NutrientName;
+import nutrientapp.domain.databaseobjects.DbNutrientAmount;
+import nutrientapp.domain.databaseobjects.DbNutrientName;
 import nutrientapp.domain.internal.Nutrient;
 import nutrientapp.domain.repositories.NutrientAmountRepository;
 import nutrientapp.domain.repositories.NutrientNameRepository;
@@ -18,8 +18,8 @@ import static java.util.stream.Collectors.toMap;
 
 @Service
 public class NutrientService {
-    private final Map<String, NutrientName> nutrientNamesByNameId;
-    private final Map<Integer, NutrientName> nutrientNamesByNutrientCode;
+    private final Map<String, DbNutrientName> nutrientNamesByNameId;
+    private final Map<Integer, DbNutrientName> nutrientNamesByNutrientCode;
     private NutrientAmountRepository nutrientAmountRepository;
     private NutrientNameRepository nutrientNameRepository;
 
@@ -33,11 +33,11 @@ public class NutrientService {
         this.nutrientNamesByNameId = nutrientNameRepository
                 .findAll()
                 .stream()
-                .collect(toMap(NutrientName::getNutrientNameId, identity()));
+                .collect(toMap(DbNutrientName::getNutrientNameId, identity()));
         this.nutrientNamesByNutrientCode = nutrientNameRepository
                 .findAll()
                 .stream()
-                .collect(toMap(NutrientName::getNutrientCode, identity()));
+                .collect(toMap(DbNutrientName::getNutrientCode, identity()));
     }
 
     public List<Nutrient> getNutrients(String foodId) {
@@ -50,7 +50,7 @@ public class NutrientService {
         return nutrients;
     }
 
-    private Nutrient mapDbToDomain(NutrientAmount dbNutrientAmount, NutrientName dbNutrientName) {
+    private Nutrient mapDbToDomain(DbNutrientAmount dbNutrientAmount, DbNutrientName dbNutrientName) {
         val nutrient = new Nutrient();
         nutrient.setNutrientCode(dbNutrientName.getNutrientCode());
         nutrient.setName(dbNutrientName.getNutrientName());

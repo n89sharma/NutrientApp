@@ -19,7 +19,7 @@ public class YieldAmountCsv {
     public static CsvSchema getCsvSchema() {
         return CsvSchema
                 .builder()
-                .addColumn("foodId", NUMBER)
+                .addColumn("id", NUMBER)
                 .addColumn("yieldId", NUMBER)
                 .addColumn("yieldAmount", NUMBER)
                 .addColumn("yieldDateOfEntry")

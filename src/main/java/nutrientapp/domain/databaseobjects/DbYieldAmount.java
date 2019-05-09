@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Data
 @Document(collection = "yield_amounts")
-public class YieldAmount {
+public class DbYieldAmount {
     private String foodId;
     private String yieldId;
     private int yieldAmount;

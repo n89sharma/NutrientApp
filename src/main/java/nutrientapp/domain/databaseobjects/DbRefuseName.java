@@ -5,10 +5,10 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document(collection = "measure_names")
-public class MeasureName {
+@Document(collection = "refuse_names")
+public class DbRefuseName {
     @Id
-    private String measureId;
-    private String measureDescription;
-    private String measureDescriptionF;
+    private String refuseId;
+    private String refuseDescription;
+    private String refuseDescriptionF;
 }

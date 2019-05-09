@@ -7,14 +7,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
 @Data
-@Document(collection = "nutrient_amounts")
-public class NutrientAmount {
+@Document(collection = "conversion_factors")
+public class DbConversionFactor {
     private String foodId;
-    private String nutrientNameId;
-    private String nutrientSourceId;
-    private double nutrientValue;
-    private double standardError;
-    private int numberOfObservations;
+    private String measureId;
+    private double conversionFactorValue;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    private Date nutrientDateOfEntry;
+    private Date conversionFactorDateOfEntry;
 }

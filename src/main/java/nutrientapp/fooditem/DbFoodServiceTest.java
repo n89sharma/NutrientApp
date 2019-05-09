@@ -10,13 +10,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = NutrientApp.class)
-public class FoodServiceTest {
+public class DbFoodServiceTest {
 
     @Autowired
     private FoodItemService foodItemService;
 
     @Test
     public void foodSummaryRequested_foodSummaryRetrieved() {
-        val foodItems = foodItemService.getFoodItems();
+        val foodItems = foodItemService.getDefaultFoodItemSummaries();
     }
 }

@@ -21,7 +21,7 @@ public class ConversionFactorCsv {
     public static CsvSchema getCsvSchema() {
         return CsvSchema
                 .builder()
-                .addColumn("foodId", NUMBER)
+                .addColumn("id", NUMBER)
                 .addColumn("measureId", NUMBER)
                 .addColumn("conversionFactorValue", NUMBER)
                 .addColumn("conversionFactorDateOfEntry")

@@ -1,7 +1,7 @@
 package nutrientapp.domain.repositories;
 
-import nutrientapp.domain.databaseobjects.NutrientName;
+import nutrientapp.domain.databaseobjects.DbNutrientName;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface NutrientNameRepository extends MongoRepository<NutrientName, String> {
+public interface NutrientNameRepository extends MongoRepository<DbNutrientName, String> {
 }

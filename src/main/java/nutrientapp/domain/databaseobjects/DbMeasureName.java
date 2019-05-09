@@ -5,10 +5,10 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document(collection = "yield_names")
-public class YieldName {
+@Document(collection = "measure_names")
+public class DbMeasureName {
     @Id
-    private String yieldId;
-    private String yieldDescription;
-    private String yieldDescriptionF;
+    private String measureId;
+    private String measureDescription;
+    private String measureDescriptionF;
 }

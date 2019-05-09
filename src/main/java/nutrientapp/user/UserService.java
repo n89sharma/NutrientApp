@@ -4,6 +4,7 @@ import lombok.val;
 import nutrientapp.domain.internal.*;
 import nutrientapp.domain.repositories.*;
 import nutrientapp.fooditem.FoodItemService;
+import nutrientapp.recipe.RecipeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,26 +19,29 @@ public class UserService {
 
     private UserWeightRepository userWeightRepository;
     private ConversionFactorRepository conversionFactorRepository;
-    private FoodRepository foodRepository;
     private DailySummaryRepository dailySummaryRepository;
-    private RecipeRepository recipeRepository;
     private FoodItemService foodItemService;
+    private RecipeService recipeService;
 
     @Autowired
     public UserService(
             UserWeightRepository userWeightRepository,
             ConversionFactorRepository conversionFactorRepository,
-            FoodRepository foodRepository,
             DailySummaryRepository dailySummaryRepository,
-            RecipeRepository recipeRepository,
-            FoodItemService foodItemService) {
+            FoodItemService foodItemService,
+            RecipeService recipeService) {
 
         this.userWeightRepository = userWeightRepository;
         this.conversionFactorRepository = conversionFactorRepository;
-        this.foodRepository = foodRepository;
         this.dailySummaryRepository = dailySummaryRepository;
-        this.recipeRepository = recipeRepository;
         this.foodItemService = foodItemService;
+        this.recipeService = recipeService;
+    }
+
+    public List<ItemSummary> getAllItemSummaries(String userId) {
+        val allSummaries = recipeService.getUserRecipeSummaries(userId);
+        allSummaries.addAll(foodItemService.getDefaultFoodItemSummaries());
+        return allSummaries;
     }
 
     public List<BodyWeight> saveWeightAtTime(BodyWeight weightAtTime) {
@@ -67,7 +71,7 @@ public class UserService {
     }
 
     private boolean isFoodMeasureAndServingValid(PortionIds portionIds) {
-        val food = foodRepository.findOne(portionIds.getFoodId());
+        val food = foodItemService.getFoodItem(portionIds.getFoodId());
         val conversionFactor = conversionFactorRepository.findByFoodIdAndMeasureId(
                 portionIds.getFoodId(),
                 portionIds.getMeasureId());
@@ -172,9 +176,5 @@ public class UserService {
                 .map(DailySummaryView.Portion::getFood)
                 .map(getValue)
                 .reduce(0.0, (a, b) -> a + b);
-    }
-
-    public Recipe saveRecipe(Recipe recipe) {
-        return recipeRepository.save(recipe);
     }
 }

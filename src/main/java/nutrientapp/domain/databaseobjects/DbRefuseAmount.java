@@ -7,11 +7,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
 @Data
-@Document(collection = "conversion_factors")
-public class ConversionFactor {
+@Document(collection = "refuse_amounts")
+public class DbRefuseAmount {
     private String foodId;
-    private String measureId;
-    private double conversionFactorValue;
+    private String refuseId;
+    private int refuseAmount;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    private Date conversionFactorDateOfEntry;
+    private Date refuseDateOfEntry;
 }

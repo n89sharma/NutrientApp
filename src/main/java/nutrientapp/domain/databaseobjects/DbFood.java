@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Data
 @Document(collection = "food_names")
-public class Food {
+public class DbFood {
     @Id
     private String foodId;
     private int foodCode;
