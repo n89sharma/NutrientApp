@@ -42,16 +42,17 @@ public class RecipeService {
     public Food getRecipeAsFoodItem(String recipeId, double serving) {
         val recipe = recipeRepository.findOne(recipeId);
         val portionIds = recipe.getPortionIds();
-        val firstPoriton = portionIds.remove(0);
+        val firstPortion = portionIds.remove(0);
         val firstFood = foodItemService.getFoodItem(
-            firstPoriton.getFoodId(),
-            firstPoriton.getMeasureId(),
-            firstPoriton.getServing());
+            firstPortion.getFoodId(),
+            firstPortion.getMeasureId(),
+            firstPortion.getServing());
         val recipeAsFood = portionIds
             .stream()
             .map(portionId -> foodItemService.getFoodItem(portionId.getFoodId(), portionId.getMeasureId(), portionId.getServing()))
             .reduce(firstFood, Food::add);
         recipeAsFood.multiplyByFactor(serving);
+        recipeAsFood.setFoodDescription(String.format("%s : %s", recipe.getName(), recipe.getDescription()));
         return recipeAsFood;
     }
 
