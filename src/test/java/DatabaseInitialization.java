@@ -117,21 +117,7 @@ public class GeneralTest {
     @Autowired
     nutrientapp.domain.repositories.YieldAmountRepository yieldAmountRepository;
 
-    @Test
-    public void saveAllCsvFilesInDatabase() throws IOException {
-        conversionFactorCsvRepository.save((List<ConversionFactorCsv>) getAllTableRowsFrom(CONVERSION_FACTOR));
-        foodGroupCsvRepository.save((List<FoodGroupCsv>) getAllTableRowsFrom(FOOD_GROUP));
-        foodCsvRepository.save((List<FoodCsv>) getAllTableRowsFrom(FOOD_NAME));
-        measureNameCsvRepository.save((List<MeasureNameCsv>) getAllTableRowsFrom(MEASURE_NAME));
-        nutrientAmountCsvRepository.save((List<NutrientAmountCsv>) getAllTableRowsFrom(NUTRIENT_AMOUNT));
-        nutrientNameCsvRepository.save((List<NutrientNameCsv>) getAllTableRowsFrom(NUTRIENT_NAME));
-        refuseAmountCsvRepository.save((List<RefuseAmountCsv>) getAllTableRowsFrom(REFUSE_AMOUNT));
-        refuseNameCsvRepository.save((List<RefuseNameCsv>) getAllTableRowsFrom(REFUSE_NAME));
-        yieldAmountCsvRepository.save((List<YieldAmountCsv>) getAllTableRowsFrom(YIELD_AMOUNT));
-        yieldNameCsvRepository.save((List<YieldNameCsv>) getAllTableRowsFrom(YIELD_NAME));
-    }
-
-    @Test
+    //@Test
     public void createNewDatabaseObjects() throws IOException {
         val yieldNameMap = createDatabaseObjects(
             YIELD_NAME,
