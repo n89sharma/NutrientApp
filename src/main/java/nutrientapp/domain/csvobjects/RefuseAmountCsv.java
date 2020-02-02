@@ -21,7 +21,7 @@ public class RefuseAmountCsv {
     public static CsvSchema getCsvSchema() {
         return CsvSchema
                 .builder()
-                .addColumn("id", NUMBER)
+                .addColumn("foodId", NUMBER)
                 .addColumn("refuseId", NUMBER)
                 .addColumn("refuseAmount", NUMBER)
                 .addColumn("refuseDateOfEntry")

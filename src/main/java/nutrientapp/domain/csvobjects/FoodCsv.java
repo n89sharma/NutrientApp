@@ -28,12 +28,12 @@ public class FoodCsv {
     public static CsvSchema getCsvSchema() {
         return CsvSchema
                 .builder()
-                .addColumn("id", NUMBER)
+                .addColumn("foodId", NUMBER)
                 .addColumn("foodCode", NUMBER)
                 .addColumn("foodGroupId", NUMBER)
                 .addColumn("foodSourceId", NUMBER)
-                .addColumn("description")
-                .addColumn("descriptionF")
+                .addColumn("foodDescription")
+                .addColumn("foodDescriptionF")
                 .addColumn("foodDateOfEntry")
                 .addColumn("foodDateOfPublication")
                 .addColumn("countryCode", NUMBER)
