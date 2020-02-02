@@ -63,9 +63,7 @@ import static nutrientapp.utils.CsvFiles.YIELD_AMOUNT;
 import static nutrientapp.utils.CsvFiles.YIELD_NAME;
 import static nutrientapp.utils.CsvFiles.getAllTableRowsFrom;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = {NutrientApp.class})
-public class GeneralTest {
+public class DatabaseInitialization {
 
     @Autowired
     ConversionFactorCsvRepository conversionFactorCsvRepository;
@@ -117,7 +115,6 @@ public class GeneralTest {
     @Autowired
     nutrientapp.domain.repositories.YieldAmountRepository yieldAmountRepository;
 
-    //@Test
     public void createNewDatabaseObjects() throws IOException {
         val yieldNameMap = createDatabaseObjects(
             YIELD_NAME,
@@ -125,7 +122,7 @@ public class GeneralTest {
             yieldNameRepository,
             YieldNameCsv::getYieldId,
             DbYieldName::getYieldId,
-            GeneralTest::mapYieldName);
+            DatabaseInitialization::mapYieldName);
 
         val refuseNameMap = createDatabaseObjects(
             REFUSE_NAME,
@@ -133,7 +130,7 @@ public class GeneralTest {
             refuseNameRepository,
             RefuseNameCsv::getRefuseId,
             DbRefuseName::getRefuseId,
-            GeneralTest::mapRefuseName);
+            DatabaseInitialization::mapRefuseName);
 
         val measureNameMap = createDatabaseObjects(
             MEASURE_NAME,
@@ -141,7 +138,7 @@ public class GeneralTest {
             measureNameRepository,
             MeasureNameCsv::getMeasureId,
             DbMeasureName::getMeasureId,
-            GeneralTest::mapMeasureName);
+            DatabaseInitialization::mapMeasureName);
 
         val nutrientNameMap = createDatabaseObjects(
             NUTRIENT_NAME,
@@ -149,7 +146,7 @@ public class GeneralTest {
             nutrientNameRepository,
             NutrientNameCsv::getNutrientNameId,
             DbNutrientName::getNutrientNameId,
-            GeneralTest::mapNutrientName);
+            DatabaseInitialization::mapNutrientName);
 
         val nutrientSourceMap = createDatabaseObjects(
             NUTRIENT_SOURCE,
@@ -157,7 +154,7 @@ public class GeneralTest {
             nutrientSourceRepository,
             NutrientSourceCsv::getNutrientSourceId,
             DbNutrientSource::getNutrientSourceId,
-            GeneralTest::mapNutrientSource);
+            DatabaseInitialization::mapNutrientSource);
 
         val foodSourceMap = createDatabaseObjects(
             FOOD_SOURCE,
@@ -165,7 +162,7 @@ public class GeneralTest {
             foodSourceRepository,
             FoodSourceCsv::getFoodSourceId,
             DbFoodSource::getFoodSourceId,
-            GeneralTest::mapFoodSource);
+            DatabaseInitialization::mapFoodSource);
 
         val foodGroupMap = createDatabaseObjects(
             FOOD_GROUP,
@@ -173,7 +170,7 @@ public class GeneralTest {
             foodGroupRepository,
             FoodGroupCsv::getFoodGroupId,
             DbFoodGroup::getFoodGroupId,
-            GeneralTest::mapFoodGroup);
+            DatabaseInitialization::mapFoodGroup);
 
         //food name
         foodRepository.deleteAll();
